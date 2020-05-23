@@ -14,13 +14,13 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 
-@font-face {
-  font-family: 'rr';
-  src: url(${RajdhaniLite}) format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: auto;
-}
+// @font-face {
+//   font-family: 'rr';
+//   src: url(${RajdhaniLite}) format('truetype');
+//   font-weight: 300;
+//   font-style: normal;
+//   font-display: auto;
+// }
 
 
 #root {
@@ -40,7 +40,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 500;
     padding: 0;
     margin: 0;
-    font-family: 'rr' !important;
+    // font-family: 'rr' !important;
     transition: all 0.25s linear;
   }
 

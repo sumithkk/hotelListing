@@ -7,6 +7,14 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from 'prop-types';
 import ArticleDetailModal from '../components/ArticleDetailModal';
 import { fetchArticles } from '../actions';
+import css from './work.css';
+import styled from 'styled-components';
+
+const Header = styled.div`
+  height: 50px;
+  width: 100%;
+  background: orange;
+`;
 
 const ArticleListPage = (props) => {
   const [modal, setModal] = useState(false);
@@ -77,8 +85,10 @@ const ArticleListPage = (props) => {
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
       <div className="row">
         <div className="section">
-          <h3>category</h3>
+          <h1 className={css.new}>category</h1>
         </div>
+        <Header />
+
         <div className="divider" />
         <div className="section">
           <div className="row">{renderArticles()}</div>
