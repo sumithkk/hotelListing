@@ -11,6 +11,7 @@ import { ServerStyleSheet } from 'styled-components';
 export default (req, store, context) => {
   const sheet = new ServerStyleSheet(); // <-- creating out stylesheet
   const styles = sheet.getStyleTags();
+  // console.log(context);
   const content = renderToString(
     sheet.collectStyles(
       <Provider store={store}>
@@ -28,17 +29,18 @@ export default (req, store, context) => {
                 ${helmet.meta.toString()}
                 ${helmet.link.toString()}
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <script src="https://kit.fontawesome.com/a68111132e.js" crossorigin="anonymous"></script>
                 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
                 <style>
                   body {
                     font-family: 'Rajdhani', sans-serif;
-
                   }
                 </style>
                 ${styles}
             </head>
             <body>
                 <div id="root">${content}</div>
+                <div class="cursor"></div>
                 <script>
                     window.__PRELOADED_STATE__ = ${serialize(store.getState()).replace(
                       /</g,

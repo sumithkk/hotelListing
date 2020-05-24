@@ -3,8 +3,8 @@ const path = require('path');
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
-const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const baseConfig = require('./webpack.base');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
@@ -31,23 +31,36 @@ const config = {
           },
         ],
       },
+      // {
+      //   test: /\.css$/,
+      //   use: [
+      //     ExtractCssChunks.loader,
+      //     {
+      //       loader: 'css-loader',
+      //       options: {
+      //         modules: true,
+      //         // localIdentName: '[hash:base64:5]',
+      //       },
+      //     },
+      //     {
+      //       loader: 'postcss-loader',
+      //       options: {
+      //         ident: 'postcss',
+      //       },
+      //     },
+      //   ],
+      // },
       {
         test: /\.css$/,
         use: [
-          ExtractCssChunks.loader,
+          'style-loader',
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              // localIdentName: '[hash:base64:5]',
+              importLoaders: 1,
             },
           },
-          {
-            loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-            },
-          },
+          'postcss-loader',
         ],
       },
       {

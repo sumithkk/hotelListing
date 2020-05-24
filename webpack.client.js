@@ -1,6 +1,7 @@
 const path = require('path');
 const merge = require('webpack-merge');
 const baseConfig = require('./webpack.base');
+const webpack = require('webpack');
 
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
@@ -16,6 +17,11 @@ const config = {
     chunkFilename: '[name].js',
     path: path.resolve(__dirname, 'public'),
   },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: 'all',
+  //   },
+  // },
 
   module: {
     rules: [
@@ -36,15 +42,38 @@ const config = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: [
-          {
-            loader: 'babel-loader',
-          },
-        ],
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            '@babel/preset-env',
+            '@babel/react',
+            {
+              plugins: ['@babel/plugin-proposal-class-properties'],
+            },
+          ],
+        },
       },
       {
-        test: /\.css$/i,
-        use: ['css-loader', 'postcss-loader'],
+        test: /\.css$/,
+        use: [
+          ExtractCssChunks.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              // localIdentName: '[name]__[local]--[hash:base64:5]',
+              importLoaders: 1,
+              sourceMap: true,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true,
+              ident: 'postcss',
+            },
+          },
+        ],
       },
       {
         test: /\.(jpg|svg|png|gif|woff|woff2|eot|ttf|otf)$/,

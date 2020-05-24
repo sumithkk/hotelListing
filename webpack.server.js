@@ -1,13 +1,15 @@
 const path = require('path');
 const merge = require('webpack-merge');
 const webpackNodeExternals = require('webpack-node-externals');
+const webpack = require('webpack');
 const baseConfig = require('./webpack.base.js');
+// const externals = require('./node-externals');
 
 const config = {
   // Inform webpack that we're building a bundle
   // for nodeJS, rather than for the browser
   target: 'node',
-
+  // externals,
   mode: 'production',
 
   module: {
@@ -15,15 +17,35 @@ const config = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: [
-          {
-            loader: 'babel-loader',
-          },
-        ],
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            '@babel/preset-env',
+            '@babel/react',
+            {
+              plugins: ['@babel/plugin-proposal-class-properties'],
+            },
+          ],
+        },
       },
       {
-        test: /\.css$/i,
-        use: ['css-loader', 'postcss-loader'],
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              // localIdentName: "[name]__[local]--[hash:base64:5]",
+              onlyLocals: true,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+            },
+          },
+        ],
       },
       {
         test: /\.(jpg|png|gif|woff|woff2|eot|ttf|svg|otf)$/,
@@ -52,6 +74,12 @@ const config = {
       },
     ],
   },
+
+  // plugins: [
+  //   new webpack.optimize.LimitChunkCountPlugin({
+  //     maxChunks: 1,
+  //   }),
+  // ],
 
   // Tell webpack the root file of our
   // server application

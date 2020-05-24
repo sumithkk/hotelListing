@@ -1,0 +1,4600 @@
+{
+  "data": [
+    {
+      "location_id": "7814306",
+      "name": "Ambur Biriyani",
+      "latitude": "12.96175",
+      "longitude": "77.58764",
+      "num_reviews": "17",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.2376880645751953",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "869",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#777 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.12049348002950533",
+      "distance_string": "0.1 km",
+      "bearing": "southwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7814306-Reviews-Ambur_Biriyani-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7814306-Ambur_Biriyani-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "750548327",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=750548327#review750548327",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "hygenic & tasty food",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 89514 02535",
+      "address_obj": {
+        "street1": "3rd Cross",
+        "street2": "Puttaiah Compound",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560094"
+      },
+      "address": "3rd Cross Puttaiah Compound, Bengaluru 560094 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10751",
+          "name": "Halal"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10751",
+          "name": "Halal"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "20105583",
+      "name": "Arogyaz",
+      "latitude": "12.96333",
+      "longitude": "77.58958",
+      "num_reviews": "2",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.8349621295928955",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "7721",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#7,163 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.15381600442281088",
+      "distance_string": "0.2 km",
+      "bearing": "northeast",
+      "rating": "3.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d20105583-Reviews-Arogyaz-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d20105583-Arogyaz-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "744530279",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=744530279#review744530279",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Lunch @ Arogyaz",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4286 2264",
+      "address_obj": {
+        "street1": "8, Ground Floor, HCG Tower 4, P Kalinga Rao Road, Sampangi Rama Nagara, Richmond Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "8, Ground Floor, HCG Tower 4, P Kalinga Rao Road, Sampangi Rama Nagara, Richmond Road, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7009948",
+      "name": "Bangalore Belly",
+      "latitude": "12.96248",
+      "longitude": "77.59023",
+      "num_reviews": "41",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2019",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2019_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2019"
+        }
+      ],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.403468608856201",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "461",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#425 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.1928026373306323",
+      "distance_string": "0.2 km",
+      "bearing": "east",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7009948-Reviews-Bangalore_Belly-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7009948-Bangalore_Belly-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "739242678",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=739242678#review739242678",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Great place",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 90086 10077",
+      "address_obj": {
+        "street1": "Lalbagh Road, Near Passport OfficeCity, Shanti Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": null
+      },
+      "address": "Lalbagh Road, Near Passport OfficeCity, Shanti Nagar, Bengaluru India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "8135821",
+      "name": "Mayuri",
+      "latitude": "12.96491",
+      "longitude": "77.58945",
+      "num_reviews": "10",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/e2/84/a1/photo5jpg.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/e2/84/a1/photo5jpg.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1280",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/e2/84/a1/photo5jpg.jpg",
+            "height": "960"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/e2/84/a1/photo5jpg.jpg",
+            "height": "413"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/17/e2/84/a1/photo5jpg.jpg",
+            "height": "188"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2019-06-11T09:12:50-0400",
+        "caption": "",
+        "id": "400721057",
+        "helpful_votes": "0",
+        "published_date": "2019-06-11T09:12:50-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.062649965286255",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "3030",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#2,722 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.2905582833230216",
+      "distance_string": "0.3 km",
+      "bearing": "north",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d8135821-Reviews-Mayuri-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d8135821-Mayuri-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "680721148",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=680721148#review680721148",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Good Hyderabadi Dum Biriyani ",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 2670 4284",
+      "address_obj": {
+        "street1": "20, J.C. Road, City Market Area",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": null
+      },
+      "address": "20, J.C. Road, City Market Area, Bengaluru India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "5379",
+          "name": "Chinese"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "297628",
+      "ad_position": "inline1",
+      "ad_size": "8X8",
+      "doubleclick_zone": "",
+      "detail": "0",
+      "page_type": "restaurants",
+      "mob_ptype": "app_restaurants"
+    },
+    {
+      "location_id": "7926559",
+      "name": "Cocoa Sweet",
+      "latitude": "12.96491",
+      "longitude": "77.58945",
+      "num_reviews": "0",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "distance": "0.2905582833230216",
+      "distance_string": "0.3 km",
+      "bearing": "north",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7926559-Reviews-Cocoa_Sweet-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7926559-Cocoa_Sweet-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 98806 04886",
+      "address_obj": {
+        "street1": "Jc Road, Near Esi Hospital, Jayanagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": null
+      },
+      "address": "Jc Road, Near Esi Hospital, Jayanagar, Bengaluru India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10646",
+          "name": "Fast Food"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5910925",
+      "name": "Sindhur",
+      "latitude": "12.96503",
+      "longitude": "77.58959",
+      "num_reviews": "0",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/44/93/72/vt-sindhur-restaurant.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/0e/44/93/72/vt-sindhur-restaurant.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1152",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/44/93/72/vt-sindhur-restaurant.jpg",
+            "height": "768"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/0e/44/93/72/vt-sindhur-restaurant.jpg",
+            "height": "683"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/44/93/72/vt-sindhur-restaurant.jpg",
+            "height": "367"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2017-01-27T05:07:11-0500",
+        "caption": "VT SINDHUR RESTAURANT",
+        "id": "239375218",
+        "helpful_votes": "0",
+        "published_date": "2017-01-27T05:07:11-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "distance": "0.30895301951634935",
+      "distance_string": "0.3 km",
+      "bearing": "northeast",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5910925-Reviews-Sindhur-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5910925-Sindhur-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "22129881",
+      "address_obj": {
+        "street1": "7 Devanga Sanga Road",
+        "street2": "Hotel Vt Paradise, Shanti Nagar, 10th Main, Shanthi Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "7 Devanga Sanga Road Hotel Vt Paradise, Shanti Nagar, 10th Main, Shanthi Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7924777",
+      "name": "Hotel Shalimar Restaurant",
+      "latitude": "12.9645",
+      "longitude": "77.58578",
+      "num_reviews": "0",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "distance": "0.367018679085521",
+      "distance_string": "0.4 km",
+      "bearing": "northwest",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7924777-Reviews-Hotel_Shalimar_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7924777-Hotel_Shalimar_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 72044 60859",
+      "address_obj": {
+        "street1": "127, N R Road, City Market Road, Near Jamia Masjid, Chikpete",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "127, N R Road, City Market Road, Near Jamia Masjid, Chikpete, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5069094",
+      "name": "Formula III Bar",
+      "latitude": "12.96529",
+      "longitude": "77.59137",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.012261152267456",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6818",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#6,294 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.4443228108081929",
+      "distance_string": "0.4 km",
+      "bearing": "northeast",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5069094-Reviews-Formula_III_Bar-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5069094-Formula_III_Bar-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 80 2333 1321",
+      "address_obj": {
+        "street1": "Jayamahal Palace",
+        "street2": "Jayamahal, RT Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560005"
+      },
+      "address": "Jayamahal Palace Jayamahal, RT Nagar, Bengaluru 560005 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10640",
+          "name": "Bar"
+        },
+        {
+          "key": "10670",
+          "name": "Pub"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7924893",
+      "name": "Bake Zone",
+      "latitude": "12.96394",
+      "longitude": "77.59241",
+      "num_reviews": "0",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "distance": "0.45821237705398626",
+      "distance_string": "0.5 km",
+      "bearing": "east",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7924893-Reviews-Bake_Zone-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7924893-Bake_Zone-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 72067 23663",
+      "address_obj": {
+        "street1": "15/9, 1, 4th Main, Sindhi Hospital Road, Near Sindhi Hospital, Sampangirama Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "15/9, 1, 4th Main, Sindhi Hospital Road, Near Sindhi Hospital, Sampangirama Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5903558",
+      "name": "Kamat Minerva",
+      "latitude": "12.96177",
+      "longitude": "77.58426",
+      "num_reviews": "23",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.1514832973480225",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "1413",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#1,259 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.4620035882553886",
+      "distance_string": "0.5 km",
+      "bearing": "west",
+      "rating": "3.5",
+      "is_closed": false,
+      "open_now_text": "Closed today",
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5903558-Reviews-Kamat_Minerva-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5903558-Kamat_Minerva-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "749434763",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=749434763#review749434763",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Once upon a time Joint",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 2670 3813",
+      "website": "http://www.kamatyatri.in/",
+      "address_obj": {
+        "street1": "152 Jayachamaraja Wodeyar Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "152 Jayachamaraja Wodeyar Road, Bengaluru 560002 India",
+      "hours": {
+        "week_ranges": [
+          [],
+          [
+            {
+              "open_time": 360,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 360,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 360,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 360,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 360,
+              "close_time": 1380
+            }
+          ],
+          []
+        ],
+        "timezone": "Asia/Kolkata"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        },
+        {
+          "key": "10697",
+          "name": "Vegan Options"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        },
+        {
+          "key": "10697",
+          "name": "Vegan Options"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "297628",
+      "ad_position": "inline2",
+      "ad_size": "8X8",
+      "doubleclick_zone": "",
+      "detail": "0",
+      "page_type": "restaurants",
+      "mob_ptype": "app_restaurants"
+    },
+    {
+      "location_id": "7924759",
+      "name": "New Raaj Bhavan Sweets",
+      "latitude": "12.9636",
+      "longitude": "77.58429",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0161631107330322",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6332",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#5,850 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.46855674680810794",
+      "distance_string": "0.5 km",
+      "bearing": "west",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7924759-Reviews-New_Raaj_Bhavan_Sweets-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7924759-New_Raaj_Bhavan_Sweets-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 80 6565 2255",
+      "address_obj": {
+        "street1": "124, N.R Road, Near Jamia Masjid, Chikpete",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "124, N.R Road, Near Jamia Masjid, Chikpete, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7393082",
+      "name": "Naidu Military Hotel Restaurant",
+      "latitude": "12.96225",
+      "longitude": "77.59333",
+      "num_reviews": "137",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/09/6a/0c/ed/naidu-military-hotel.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/09/6a/0c/ed/naidu-military-hotel.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/6a/0c/ed/naidu-military-hotel.jpg",
+            "height": "411"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/6a/0c/ed/naidu-military-hotel.jpg",
+            "height": "411"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/09/6a/0c/ed/naidu-military-hotel.jpg",
+            "height": "187"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2015-11-03T13:24:45-0500",
+        "caption": "biryani",
+        "id": "157945069",
+        "helpful_votes": "3",
+        "published_date": "2015-11-03T13:24:45-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [
+        {
+          "award_type": "CERTIFICATE_OF_EXCELLENCE",
+          "year": "2017",
+          "images": {
+            "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+            "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2017_en_US_large-0-5.jpg"
+          },
+          "categories": [],
+          "display_name": "Certificate of Excellence 2017"
+        }
+      ],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.7149658203125",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "218",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#205 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.5294016809813117",
+      "distance_string": "0.5 km",
+      "bearing": "east",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7393082-Reviews-Naidu_Military_Hotel_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7393082-Naidu_Military_Hotel_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "683997490",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=683997490#review683997490",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Good meat food",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 2211 2727",
+      "address_obj": {
+        "street1": "9/3 Lal Bagh Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "9/3 Lal Bagh Road, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10751",
+          "name": "Halal"
+        },
+        {
+          "key": "10992",
+          "name": "Gluten Free Options"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10751",
+          "name": "Halal"
+        },
+        {
+          "key": "10992",
+          "name": "Gluten Free Options"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5922111",
+      "name": "Biriyani Bazar",
+      "latitude": "12.9646",
+      "longitude": "77.58406",
+      "num_reviews": "2",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0328993797302246",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "4602",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#4,195 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.5315935002627094",
+      "distance_string": "0.5 km",
+      "bearing": "northwest",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5922111-Reviews-Biriyani_Bazar-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5922111-Biriyani_Bazar-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "650015842",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=650015842#review650015842",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Variety of yum biriyanis",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "22114466",
+      "address_obj": {
+        "street1": "13'th Cross Road",
+        "street2": "",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "13'th Cross Road, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5908573",
+      "name": "Ramanashree Hotel Restaurant",
+      "latitude": "12.96739",
+      "longitude": "77.58859",
+      "num_reviews": "21",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/07/38/9d/80/my-lunch.jpg",
+            "height": "140"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/38/9d/80/my-lunch.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2592",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/38/9d/80/my-lunch.jpg",
+            "height": "1456"
+          },
+          "large": {
+            "width": "1024",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/07/38/9d/80/my-lunch.jpg",
+            "height": "575"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/38/9d/80/my-lunch.jpg",
+            "height": "309"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2015-01-19T11:46:28-0500",
+        "caption": "My lunch",
+        "id": "121150848",
+        "helpful_votes": "0",
+        "published_date": "2015-01-21T14:25:58-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.222869634628296",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "937",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#834 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.5461833170344027",
+      "distance_string": "0.5 km",
+      "bearing": "north",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5908573-Reviews-Ramanashree_Hotel_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5908573-Ramanashree_Hotel_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "592934708",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=592934708#review592934708",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Good and calm place to stay",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "41350000",
+      "website": "http://www.ramanashree.com/",
+      "email": "reserve@ramanashree.com",
+      "address_obj": {
+        "street1": "16/1 Raja Ram Mohan Roy Road",
+        "street2": "Ramanashree Hotel, Opposite To Mallya Hospital",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560025"
+      },
+      "address": "16/1 Raja Ram Mohan Roy Road Ramanashree Hotel, Opposite To Mallya Hospital, Bengaluru 560025 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "1223110",
+      "name": "Kamat Restaurant",
+      "latitude": "12.96055",
+      "longitude": "77.58363",
+      "num_reviews": "174",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/e5/30/a6/kamat-jc-road.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/e5/30/a6/kamat-jc-road.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "678",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/e5/30/a6/kamat-jc-road.jpg",
+            "height": "418"
+          },
+          "large": {
+            "width": "678",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/e5/30/a6/kamat-jc-road.jpg",
+            "height": "418"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/e5/30/a6/kamat-jc-road.jpg",
+            "height": "339"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2016-09-09T09:54:29-0400",
+        "caption": "Kamat JC road",
+        "id": "216346790",
+        "helpful_votes": "1",
+        "published_date": "2016-09-09T09:54:29-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.440852403640747",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "413",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#381 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.5655325358914524",
+      "distance_string": "0.6 km",
+      "bearing": "west",
+      "rating": "3.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d1223110-Reviews-Kamat_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d1223110-Kamat_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "447492627",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=447492627#review447492627",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Awesome hotel, still go here",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 2222 4802",
+      "website": "http://www.kamatrestaurant.com/",
+      "address_obj": {
+        "street1": "Jayachamaraja Wodeyar Road",
+        "street2": "J.C. Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "Jayachamaraja Wodeyar Road J.C. Road, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5906759",
+      "name": "New Select Restaurant",
+      "latitude": "12.96342",
+      "longitude": "77.58299",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/0a/cb/87/b9/photo0jpg.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/0a/cb/87/b9/photo0jpg.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "2048",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0a/cb/87/b9/photo0jpg.jpg",
+            "height": "1536"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/cb/87/b9/photo0jpg.jpg",
+            "height": "413"
+          },
+          "medium": {
+            "width": "250",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-f/0a/cb/87/b9/photo0jpg.jpg",
+            "height": "188"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2016-04-03T12:10:35-0400",
+        "caption": "",
+        "id": "181110713",
+        "helpful_votes": "0",
+        "published_date": "2016-04-03T12:10:35-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.027134656906128",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "5009",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#4,565 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.601551513106427",
+      "distance_string": "0.6 km",
+      "bearing": "west",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5906759-Reviews-New_Select_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5906759-New_Select_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "41130919",
+      "address_obj": {
+        "street1": "32 Mysore Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "32 Mysore Road, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "297628",
+      "ad_position": "inline3",
+      "ad_size": "8X8",
+      "doubleclick_zone": "",
+      "detail": "0",
+      "page_type": "restaurants",
+      "mob_ptype": "app_restaurants"
+    },
+    {
+      "location_id": "8401986",
+      "name": "City Food Restaurant",
+      "latitude": "12.96397",
+      "longitude": "77.583",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.015856981277466",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6365",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#5,882 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6143188634584834",
+      "distance_string": "0.6 km",
+      "bearing": "west",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d8401986-Reviews-City_Food_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d8401986-City_Food_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "441042578",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=441042578#review441042578",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Nice taste",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4160 2288",
+      "address_obj": {
+        "street1": "Silver Jubilee Park Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "Silver Jubilee Park Road, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10641",
+          "name": "Pizza"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7925291",
+      "name": "Sri Mithra Sandwichwallas",
+      "latitude": "12.96661",
+      "longitude": "77.58462",
+      "num_reviews": "3",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0341172218322754",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "4519",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#4,116 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6197280994511565",
+      "distance_string": "0.6 km",
+      "bearing": "northwest",
+      "rating": "3.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7925291-Reviews-Sri_Mithra_Sandwichwallas-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7925291-Sri_Mithra_Sandwichwallas-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "550151553",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=550151553#review550151553",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Tasty",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 98860 99951",
+      "address_obj": {
+        "street1": "28 Eat Street",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560004"
+      },
+      "address": "28 Eat Street, Bengaluru 560004 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10646",
+          "name": "Fast Food"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5068842",
+      "name": "Black & Red",
+      "latitude": "12.96039",
+      "longitude": "77.59377",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.014928102493286",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6515",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#6,024 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.622070207884103",
+      "distance_string": "0.6 km",
+      "bearing": "east",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5068842-Reviews-Black_Red-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5068842-Black_Red-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "383830558",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=383830558#review383830558",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "GOOD EXPERIENCE",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4345 2222",
+      "address_obj": {
+        "street1": "120 125 K. H. Road",
+        "street2": "VKL Resorts India, Shanti Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "120 125 K. H. Road VKL Resorts India, Shanti Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10640",
+          "name": "Bar"
+        },
+        {
+          "key": "10670",
+          "name": "Pub"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5906642",
+      "name": "New Mazda Cafe",
+      "latitude": "12.96393",
+      "longitude": "77.58285",
+      "num_reviews": "0",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "distance": "0.6291183633062409",
+      "distance_string": "0.6 km",
+      "bearing": "west",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5906642-Reviews-New_Mazda_Cafe-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5906642-New_Mazda_Cafe-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "26704983",
+      "address_obj": {
+        "street1": "81 Mysore Road",
+        "street2": "1st Floor, Kalasipalyam",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560002"
+      },
+      "address": "81 Mysore Road 1st Floor, Kalasipalyam, Bengaluru 560002 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "1179354",
+      "name": "Mustard Restaurant",
+      "latitude": "12.95971",
+      "longitude": "77.59353",
+      "num_reviews": "7",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/07/e3/99/93/mustard-restaurant.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/e3/99/93/mustard-restaurant.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "640",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/e3/99/93/mustard-restaurant.jpg",
+            "height": "640"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/07/e3/99/93/mustard-restaurant.jpg",
+            "height": "550"
+          },
+          "medium": {
+            "width": "450",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/e3/99/93/mustard-restaurant.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": false,
+        "uploaded_date": "2015-05-15T06:10:52-0400",
+        "caption": "Main course",
+        "id": "132356499",
+        "helpful_votes": "0",
+        "published_date": "2015-05-15T07:32:24-0400",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "2.948976993560791",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "7526",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#6,976 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6309788140845427",
+      "distance_string": "0.6 km",
+      "bearing": "southeast",
+      "rating": "3.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "price": "$5 - $15",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d1179354-Reviews-Mustard_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d1179354-Mustard_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "270114207",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=270114207#review270114207",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Excellent",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4131 6751",
+      "email": "anithavasan@hotmail.com",
+      "address_obj": {
+        "street1": "114 Kengal Hanumanthaiah Road",
+        "street2": "Hotel Grand Pavilion",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "114 Kengal Hanumanthaiah Road Hotel Grand Pavilion, Bengaluru 560027 India",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 930
+            },
+            {
+              "open_time": 1110,
+              "close_time": 1380
+            }
+          ]
+        ],
+        "timezone": "Asia/Kolkata"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "3254876",
+      "name": "Ranoosh",
+      "latitude": "12.9607",
+      "longitude": "77.59406",
+      "num_reviews": "4",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0369393825531006",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "4299",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#3,906 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6397970208370166",
+      "distance_string": "0.6 km",
+      "bearing": "east",
+      "rating": "4.0",
+      "is_closed": false,
+      "open_now_text": "Closed Now",
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "Oppostie to Shanti Nagar Bus stand.",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d3254876-Reviews-Ranoosh-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d3254876-Ranoosh-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "383839595",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=383839595#review383839595",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "nice family restaurant",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "address_obj": {
+        "street1": "Double Road",
+        "street2": "Shanti Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": null
+      },
+      "address": "Double Road Shanti Nagar, Bengaluru India",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ],
+          [
+            {
+              "open_time": 750,
+              "close_time": 930
+            },
+            {
+              "open_time": 1170,
+              "close_time": 1410
+            }
+          ]
+        ],
+        "timezone": "Asia/Kolkata"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10626",
+          "name": "Lebanese"
+        },
+        {
+          "key": "10649",
+          "name": "Mediterranean"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7010175",
+      "name": "Red Onion",
+      "latitude": "12.961255",
+      "longitude": "77.59425",
+      "num_reviews": "17",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/09/6f/ba/a7/red-onion.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/09/6f/ba/a7/red-onion.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "1600",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/09/6f/ba/a7/red-onion.jpg",
+            "height": "1600"
+          },
+          "large": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-p/09/6f/ba/a7/red-onion.jpg",
+            "height": "550"
+          },
+          "medium": {
+            "width": "450",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/6f/ba/a7/red-onion.jpg",
+            "height": "450"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2015-11-05T15:33:42-0500",
+        "caption": "Red Onion",
+        "id": "158317223",
+        "helpful_votes": "0",
+        "published_date": "2015-11-05T15:33:42-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.090625762939453",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "2251",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#2,009 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6435931430548634",
+      "distance_string": "0.6 km",
+      "bearing": "east",
+      "rating": "3.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7010175-Reviews-Red_Onion-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7010175-Red_Onion-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "649425944",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=649425944#review649425944",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Must try if you love Momos",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4091 8141",
+      "address_obj": {
+        "street1": "Ch - 6 Kengal Hanumanthaiah Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "Ch - 6 Kengal Hanumanthaiah Road, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10346",
+          "name": "Indian"
+        },
+        {
+          "key": "10659",
+          "name": "Asian"
+        },
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "dietary_restrictions": [
+        {
+          "key": "10665",
+          "name": "Vegetarian Friendly"
+        }
+      ],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "5906379",
+      "name": "Nagashree's",
+      "latitude": "12.96011",
+      "longitude": "77.59391",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.014928102493286",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6513",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#6,023 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6479930460162943",
+      "distance_string": "0.6 km",
+      "bearing": "southeast",
+      "rating": "4.0",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d5906379-Reviews-Nagashree_s-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d5906379-Nagashree_s-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "383831215",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=383831215#review383831215",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "EXCELLENT SERVICE",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 93413 24184",
+      "address_obj": {
+        "street1": "13 K H Road",
+        "street2": "Shanti Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "13 K H Road Shanti Nagar, Bengaluru 560027 India",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ],
+          [
+            {
+              "open_time": 660,
+              "close_time": 1380
+            }
+          ]
+        ],
+        "timezone": "Asia/Kolkata"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7937981",
+      "name": "The Panda House",
+      "latitude": "12.95963",
+      "longitude": "77.58321",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.0366945266723633",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "4317",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#3,924 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6512187765086928",
+      "distance_string": "0.7 km",
+      "bearing": "southwest",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7937981-Reviews-The_Panda_House-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7937981-The_Panda_House-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "611303086",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=611303086#review611303086",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Cubbon Park near !!",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 2670 1494",
+      "address_obj": {
+        "street1": "Hotel Pai Viceroy, 6, 1st Cross, Near Car Craft, J C Road",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "Hotel Pai Viceroy, 6, 1st Cross, Near Car Craft, J C Road, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "8945316",
+      "name": "Courtyard Cafe",
+      "latitude": "12.958756",
+      "longitude": "77.59311",
+      "num_reviews": "8",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "photo": {
+        "images": {
+          "small": {
+            "width": "150",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-l/16/52/08/ff/the-courtyard-kh-road.jpg",
+            "height": "150"
+          },
+          "thumbnail": {
+            "width": "50",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-t/16/52/08/ff/the-courtyard-kh-road.jpg",
+            "height": "50"
+          },
+          "original": {
+            "width": "919",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/16/52/08/ff/the-courtyard-kh-road.jpg",
+            "height": "600"
+          },
+          "large": {
+            "width": "919",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-o/16/52/08/ff/the-courtyard-kh-road.jpg",
+            "height": "600"
+          },
+          "medium": {
+            "width": "550",
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/52/08/ff/the-courtyard-kh-road.jpg",
+            "height": "359"
+          }
+        },
+        "is_blessed": true,
+        "uploaded_date": "2019-02-02T00:27:24-0500",
+        "caption": "The Courtyard, KH Road, Bangalore\nBistro, Bnb, Studio, Events, Performances.",
+        "id": "374475007",
+        "helpful_votes": "0",
+        "published_date": "2019-02-02T00:27:24-0500",
+        "user": {
+          "user_id": null,
+          "member_id": "0",
+          "type": "user"
+        }
+      },
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.144083023071289",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "1483",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#1,320 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6533968039508924",
+      "distance_string": "0.7 km",
+      "bearing": "southeast",
+      "rating": "4.5",
+      "is_closed": false,
+      "open_now_text": "Open Now",
+      "is_long_closed": false,
+      "price_level": "$$ - $$$",
+      "price": "$200 - $350",
+      "neighborhood_info": [
+        {
+          "location_id": "13087462",
+          "name": "Cubbon Park"
+        }
+      ],
+      "description": "We are not some fancy place with a 'courtyard' theme - We are an actual courtyard turned into a cafe. We're located right on the main road but pretty well hidden. We're spacious, open, calm and laid back. Music, if at all is mostly retro, some blues and jazz. We're more than just good food and beverage; It's possible to sit back and enjoy a conversation or just be.",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d8945316-Reviews-Courtyard_Cafe-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d8945316-Courtyard_Cafe-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "648428904",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=648428904#review648428904",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Great food at Great place ",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 80 4012 4484",
+      "email": "courtyardcafeandstore@gmail.com",
+      "address_obj": {
+        "street1": "105 Old No 68",
+        "street2": "Opp. Corporation Bank, Shanti Nagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "105 Old No 68 Opp. Corporation Bank, Shanti Nagar, Bengaluru 560027 India",
+      "hours": {
+        "week_ranges": [
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ],
+          [
+            {
+              "open_time": 600,
+              "close_time": 1320
+            }
+          ]
+        ],
+        "timezone": "Asia/Kolkata"
+      },
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "5110",
+          "name": "Mexican"
+        },
+        {
+          "key": "9908",
+          "name": "American"
+        },
+        {
+          "key": "4617",
+          "name": "Italian"
+        }
+      ],
+      "dietary_restrictions": [],
+      "booking": {
+        "provider": "dineout",
+        "url": "https://www.tripadvisor.com/Commerce?p=Restaurants_DineOut&src=153888122&geo=8945316&from=api&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=35164&bucket=913357&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=170151235&managed=false&capped=false&gosox=5PQ6vW2Y5yqetdFTf4sOhn9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyPXSXW4L-aMsF8YqP7mt_jXdvSt08x2sMScD7ss70WbI&cs=111779ca084864627d880b790f31f4363"
+      },
+      "reserve_info": {
+        "id": "8945316",
+        "provider": "dineout",
+        "provider_img": "https://static.tacdn.com/img2/eateries/dineout_07.19.2019.png",
+        "url": "https://www.tripadvisor.com/Commerce?p=Restaurants_DineOut&src=153888122&geo=8945316&from=api&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=35164&bucket=913357&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=170151235&managed=false&capped=false&gosox=5PQ6vW2Y5yqetdFTf4sOhn9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyPXSXW4L-aMsF8YqP7mt_jXdvSt08x2sMScD7ss70WbI&cs=111779ca084864627d880b790f31f4363",
+        "booking_partner_id": null,
+        "racable": false,
+        "api_bookable": false,
+        "timeslots": null,
+        "bestoffer": null,
+        "timeslot_offers": null,
+        "button_text": "Reserve",
+        "disclaimer_text": null,
+        "banner_text": null
+      },
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7926396",
+      "name": "Ashwini Tiffin Center and Condiments",
+      "latitude": "12.95921",
+      "longitude": "77.59358",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.014928102493286",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "6517",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#6,026 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6648164685554013",
+      "distance_string": "0.7 km",
+      "bearing": "southeast",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7926396-Reviews-Ashwini_Tiffin_Center_and_Condiments-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7926396-Ashwini_Tiffin_Center_and_Condiments-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "383839749",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=383839749#review383839749",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "GOOD TIFFIN SERVICE",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 99802 82681",
+      "address_obj": {
+        "street1": "Bmtc Bus Stand Complex, Double Road, Shanthi Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "Bmtc Bus Stand Complex, Double Road, Shanthi Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "10643",
+          "name": "Seafood"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "8367297",
+      "name": "Sri Manjunatha Upahara Kendra",
+      "latitude": "12.96181",
+      "longitude": "77.59457",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.040631055831909",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "4067",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#3,689 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6670435201117989",
+      "distance_string": "0.7 km",
+      "bearing": "east",
+      "rating": "5.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d8367297-Reviews-Sri_Manjunatha_Upahara_Kendra-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d8367297-Sri_Manjunatha_Upahara_Kendra-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "683998906",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "5",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=683998906#review683998906",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Tasty food",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 98454 19399",
+      "address_obj": {
+        "street1": "126, 1st Cross, Raj Ram Mohan Rai Section, K.H Road, Double Road, Near Hdfc Bank, Shanthi Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "126, 1st Cross, Raj Ram Mohan Rai Section, K.H Road, Double Road, Near Hdfc Bank, Shanthi Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7926213",
+      "name": "Hotel Revoli Since - 1964 Restaurant",
+      "latitude": "12.96181",
+      "longitude": "77.59457",
+      "num_reviews": "3",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.05377197265625",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "3381",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#3,044 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6670435201117989",
+      "distance_string": "0.7 km",
+      "bearing": "east",
+      "rating": "4.5",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7926213-Reviews-Hotel_Revoli_Since_1964_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7926213-Hotel_Revoli_Since_1964_Restaurant-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [
+        {
+          "id": "399436386",
+          "lang": null,
+          "location_id": "0",
+          "published_date": "2020-05-23T09:13:55-04:00",
+          "published_platform": "Desktop",
+          "rating": "4",
+          "type": "review",
+          "helpful_votes": "0",
+          "url": "https://www.tripadvisor.com/ShowUserReviews?src=399436386#review399436386",
+          "travel_date": null,
+          "text": null,
+          "user": null,
+          "title": "Good italian food",
+          "owner_response": null,
+          "subratings": [],
+          "machine_translated": false,
+          "machine_translatable": false
+        }
+      ],
+      "phone": "+91 98866 57465",
+      "address_obj": {
+        "street1": "88 K H Road, Opposite Shanthi Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "88 K H Road, Opposite Shanthi Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    },
+    {
+      "location_id": "7924746",
+      "name": "Angels & Kings",
+      "latitude": "12.96181",
+      "longitude": "77.59457",
+      "num_reviews": "1",
+      "timezone": "Asia/Kolkata",
+      "location_string": "Bengaluru, Bangalore District, Karnataka",
+      "awards": [],
+      "doubleclick_zone": "as.india.karnataka.bangalore",
+      "preferred_map_engine": "default",
+      "raw_ranking": "3.018629789352417",
+      "ranking_geo": "Bengaluru",
+      "ranking_geo_id": "297628",
+      "ranking_position": "5972",
+      "ranking_denominator": "7863",
+      "ranking_category": "restaurant",
+      "ranking": "#5,500 of 10,965 Restaurants in Bengaluru",
+      "distance": "0.6670435201117989",
+      "distance_string": "0.7 km",
+      "bearing": "east",
+      "rating": "4.0",
+      "is_closed": false,
+      "is_long_closed": false,
+      "price_level": "",
+      "description": "",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7924746-Reviews-Angels_Kings-Bengaluru_Bangalore_District_Karnataka.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7924746-Angels_Kings-Bengaluru_Bangalore_District_Karnataka.html",
+      "ancestors": [
+        {
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "name": "Bengaluru",
+          "abbrv": null,
+          "location_id": "297628"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "district",
+              "name": "District"
+            }
+          ],
+          "name": "Bangalore District",
+          "abbrv": null,
+          "location_id": "12392950"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "state",
+              "name": "State"
+            }
+          ],
+          "name": "Karnataka",
+          "abbrv": null,
+          "location_id": "297627"
+        },
+        {
+          "subcategory": [
+            {
+              "key": "country",
+              "name": "Country"
+            }
+          ],
+          "name": "India",
+          "abbrv": null,
+          "location_id": "293860"
+        }
+      ],
+      "category": {
+        "key": "restaurant",
+        "name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "key": "sit_down",
+          "name": "Sit down"
+        }
+      ],
+      "parent_display_name": "Bengaluru",
+      "is_jfy_enabled": false,
+      "nearest_metro_station": [],
+      "reviews": [null],
+      "phone": "+91 99868 68242",
+      "address_obj": {
+        "street1": "120-125, K.H Road, Opposite Canara Bank, Shanthi Nagar",
+        "street2": null,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalcode": "560027"
+      },
+      "address": "120-125, K.H Road, Opposite Canara Bank, Shanthi Nagar, Bengaluru 560027 India",
+      "is_candidate_for_contact_info_suppression": false,
+      "cuisine": [
+        {
+          "key": "5379",
+          "name": "Chinese"
+        }
+      ],
+      "dietary_restrictions": [],
+      "establishment_types": [
+        {
+          "key": "10591",
+          "name": "Restaurants"
+        }
+      ]
+    }
+  ],
+  "paging": {
+    "results": "30",
+    "total_results": "507"
+  }
+}

@@ -25,8 +25,30 @@ export const GlobalStyles = createGlobalStyle`
 
 #root {
   // width: 100%;
-  max-width: 1400px;
+  max-width: 100%;
+  padding: 0 50px;
   margin: 0 auto;
+}
+
+body{
+  cursor: none;
+}
+
+#cursor {
+  border-left: .1em solid $font;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    padding:0;
+  }
 }
 
   body {
@@ -76,7 +98,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
   }
   .underline {
-    border-bottom: 2px solid orange;
+    border-bottom: 1px solid orange;
   }
   /* Homepage Half Face */
   .face {
@@ -123,7 +145,7 @@ export const GlobalStyles = createGlobalStyle`
     outline: 0;
   }
   button.send {
-    border: 2px solid orange;
+    border: 1px solid orange;
     color: orange;
     padding: 15px 80px;
     background: transparent;
@@ -366,6 +388,19 @@ export const GlobalStyles = createGlobalStyle`
       display: inline;
     }
   }
+
+  @media (min-width: 1920px) and (max-width: 2560px)  {
+    .card {
+      width: 100% !important;
+    }
+    .work-card {
+      width: 50% !important;
+    }
+    .section {
+      padding: 100px 30px !important;
+    }
+}
+
   @media only screen and (min-width: 1140px) {
     .mobileNav {
       display: none;
@@ -412,7 +447,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     .face .coder {
       text-align: left;
-      right: -150px;
+      right: -200px;
     }
     .face .coder .description {
       right: 0px;
@@ -422,7 +457,7 @@ export const GlobalStyles = createGlobalStyle`
       background-position: 0px -751px;
     }
     .face .designer {
-      left: -150px;
+      left: -200px;
     }
     .face .designer .description {
       left: 0px;
@@ -478,12 +513,28 @@ export const GlobalStyles = createGlobalStyle`
     }
     .section h1 {
       margin-bottom: 40px;
+      text-align: left !important;
+      font-size: 2.5rem !important
     }
     .aboutTech {
       margin: 45px 0 45px 0;
     }
     .bar {
       margin-bottom: 20px !important;
+    }
+    .card, .iconWrap {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+    .myName {
+      transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      transform-style: preserve-3d;
+      opacity: 0;
+    }
+    .animated .myName {
+      transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
     }
   }
   
@@ -492,7 +543,7 @@ export const GlobalStyles = createGlobalStyle`
     border: none;
     font-size: 2rem;
     font-weight: bold;
-    margin: 10px auto;
+    align-self: flex-start;
   }
   .myName small {
     color: #666;
@@ -501,7 +552,7 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     min-height: 500px;
     padding: 20px 30px;
-    border-top: 2px solid orange;
+    border-top: 1px solid orange;
     display: flex;
     align-items: center;
     /* flex-direction: column; */
@@ -516,7 +567,7 @@ export const GlobalStyles = createGlobalStyle`
     z-index: 10;
   }
   .iconWrap {
-    width: 275px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -531,13 +582,13 @@ export const GlobalStyles = createGlobalStyle`
   }
   .aboutMe {
     text-align: center;
-    width: 40%;
+    width: 50%;
   }
   .technology {
-    width: 60%;
+    width: 50%;
   }
   .section {
-    border-top: 2px solid orange;
+    border-top: 1px solid orange;
     padding: 50px 30px;
     padding-bottom: 50px;
     width: 100%;
@@ -555,9 +606,12 @@ export const GlobalStyles = createGlobalStyle`
     justify-content: space-between;
     position: relative;
   }
+  .work-card {
+    width: 50%;
+  }
   .card {
-    height: 400px;
-    min-width: 50%;
+    // height: 400px;
+    // min-width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -579,12 +633,13 @@ export const GlobalStyles = createGlobalStyle`
     left: 0;
     height: 137px;
     margin: auto;
-    width: 65%;
+    width: 45%;
     z-index: 2;
     display: flex;
     justify-content: center;
     padding: 20px;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   .inputBox {
     padding: 15px !important;
@@ -644,7 +699,7 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 0 4%;
+    padding-left: 4%;
     margin: 0 auto;
   }
   .contact input,
@@ -703,8 +758,9 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 60%;
-    margin: 0 auto;
+    // flex-basis: 60%;
+    // margin: 0 auto;
+    width: 100%;
   }
   
   /* bar styles */
@@ -714,8 +770,6 @@ export const GlobalStyles = createGlobalStyle`
     justify-content: center;
   }
   .bars-wrap {
-    margin: 0 auto;
-    max-width: 90%;
     width: calc(100% - 15px);
   }
   .bar.fill {
@@ -1474,5 +1528,149 @@ export const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-  
+  .hotelImageBg {
+    transition: 1s all ease;
+    .phone .cls-8, .phone .cls-9, .phone .cls-10 {
+      transform: translate(-20px -20px);
+      transition: 1.2s all ease;
+    }
+    &.hovered {
+      .phone .cls-8, .phone .cls-9, .phone .cls-10 {
+        // transform: translate(20px 20px);
+        transform: rotate(6deg) !important;
+        transform-origin: top !important;
+      }
+    }
+  }
+
+  .sectionTitle {
+    // position: absolute;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #000;
+    opacity: .1;
+    line-height: .7;
+    // z-index: 1;
+}
+.skillSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.coderSkills {
+  .fab {
+    font-size: 4rem;
+    margin-right: 25px;
+  }
+}
+
+
+/* Float Shadow */
+.hvr-float-shadow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+//Cursor
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid orange;
+  border-radius: 50%;
+  opacity: .5;
+  top: -1px;
+  left: -1px;
+  animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.7);
+  }
+}
+
+@keyframes cursorAnim2 {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.4);
+  }
+}
+
+@keyframes cursorAnim3 {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(3);
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnim3 .5s forwards;
+  border: 1px solid red;
+}
+a:hover {
+  cursor: none;
+}
+
 `;

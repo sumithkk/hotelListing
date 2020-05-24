@@ -16,6 +16,11 @@ const Header = styled.div`
   background: orange;
 `;
 
+const List = styled.div`
+  border: 1px solid #dedede;
+  margin: 20px;
+`;
+
 const ArticleListPage = (props) => {
   const [modal, setModal] = useState(false);
   const [currentArticle, setCurrentArticle] = useState({});
@@ -30,24 +35,23 @@ const ArticleListPage = (props) => {
   };
 
   const renderArticles = () => {
-    return <div>Article listing</div>;
-    // return props.articles.map((article) => (
-    //   <div className="col s12 m6 l6 xl4" key={article.title}>
-    //     <div className="card large">
-    //       <div className="card-image">
-    //         <LazyLoadImage alt={article.title} src={article.urlToImage} />
-    //       </div>
-    //       <div className="card-content">
-    //         <span className="card-title">{article.title}</span>
-    //       </div>
-    //       <div className="card-action">
-    //         <a href="javascript:void(0)" onClick={() => readArticle(article)}>
-    //           Read More
-    //         </a>
-    //       </div>
-    //     </div>
-    //   </div>
-    // ));
+    return props.articles.map((res) => (
+      <List key={res.location_id} className="resList">
+        <div>{res.photo && <img src={res.photo.images.medium.url} />}</div>
+        <div>{res.name}</div>
+        <div>{res.location_string}</div>
+        <div>{res.rating}</div>
+        <div>{res.address}</div>
+        {/* <div>
+          Cuisine : {res.cuisine.length !== 0 && res.cuisine.map((c) => <div>{c.name}</div>)}
+        </div> */}
+        {/* <div>
+    Reviews: {res.reviews.length !== 0 && res.reviews.map((r) => <div>{r.title} - {r.rating} - {}</div>)}
+        </div> */}
+        <div>{res.ranking}</div>
+        <div>{res.name}</div>
+      </List>
+    ));
   };
 
   const { articles, location, match } = props;
@@ -71,14 +75,14 @@ const ArticleListPage = (props) => {
 
   const { fetchArticles: loadArticles } = props;
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  //   if (match.params.id) {
-  //     loadArticles(match.params.id);
-  //   } else {
-  //     loadArticles();
-  //   }
-  // }, [loadArticles, match.params.id]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (match.params.id) {
+      loadArticles(match.params.id);
+    } else {
+      loadArticles();
+    }
+  }, [loadArticles, match.params.id]);
   return (
     <div>
       {head()}
@@ -125,9 +129,6 @@ ArticleListPage.defaultProps = {
 };
 
 export default {
-  component: connect(
-    mapStateToProps
-    // { fetchArticles }
-  )(ArticleListPage),
-  // loadData
+  component: connect(mapStateToProps, { fetchArticles })(ArticleListPage),
+  loadData,
 };

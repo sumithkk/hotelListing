@@ -1,0 +1,4908 @@
+{
+    "data": [
+       {
+          "location_id": "15617700",
+          "name": "Amrut Distilleries Private Limited",
+          "latitude": "12.96739",
+          "longitude": "77.58859",
+          "num_reviews": "4",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/bb/3e/42/amrut-distilleries-private.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/bb/3e/42/amrut-distilleries-private.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1280",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/bb/3e/42/amrut-distilleries-private.jpg",
+                   "height": "1280"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-p/15/bb/3e/42/amrut-distilleries-private.jpg",
+                   "height": "550"
+                },
+                "medium": {
+                   "width": "450",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/bb/3e/42/amrut-distilleries-private.jpg",
+                   "height": "450"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-12-15T03:56:28-0500",
+             "caption": "Amrut Distilleries Private Limited",
+             "id": "364592706",
+             "helpful_votes": "1",
+             "published_date": "2018-12-15T03:56:28-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.777662754058838",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "249",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#249 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#249 of 348 things to do in Bengaluru",
+          "ranking": "#249 of 348 things to do in Bengaluru",
+          "distance": "0.5461833170344027",
+          "distance_string": "0.5 km",
+          "bearing": "north",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "13087462",
+                "name": "Cubbon Park"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d15617700-Reviews-Amrut_Distilleries_Private_Limited-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d15617700-Amrut_Distilleries_Private_Limited-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "36",
+                "name": "Food & Drink"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "641718867",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=641718867#review641718867",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "best food",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 2223 6311",
+          "website": "http://www.amrutdistilleries.com/distillery.php",
+          "email": "info@amrutdistilleries.com",
+          "address_obj": {
+             "street1": "Raja Rammohan Roy Road",
+             "street2": "N.R. Jagdale Group, 7th Floor, JNR City Center",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "Raja Rammohan Roy Road N.R. Jagdale Group, 7th Floor, JNR City Center, Bengaluru 560027 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "176",
+                "name": "Distilleries"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "6496202",
+          "name": "Radha Art Gallery",
+          "latitude": "12.95921",
+          "longitude": "77.59358",
+          "num_reviews": "2",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.744765043258667",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "313",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#313 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#313 of 348 things to do in Bengaluru",
+          "ranking": "#313 of 348 things to do in Bengaluru",
+          "distance": "0.6648164685554013",
+          "distance_string": "0.7 km",
+          "bearing": "southeast",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6496202-Reviews-Radha_Art_Gallery-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6496202-Radha_Art_Gallery-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             },
+             {
+                "key": "49",
+                "name": "Museums"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "462194869",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=462194869#review462194869",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Latest classics in art work",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "100, KH Road, Shanthi Nagar, Shanthala Nagar",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "100, KH Road, Shanthi Nagar, Shanthala Nagar, Bengaluru 560027 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "1",
+                "name": "Art Galleries"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "19274830",
+          "name": "Sir Mark Cubbon Statue",
+          "latitude": "12.96875",
+          "longitude": "77.58924",
+          "num_reviews": "2",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/19/fc/8c/08/statue-of-sir-mark-cubbon.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/19/fc/8c/08/statue-of-sir-mark-cubbon.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "604",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/19/fc/8c/08/statue-of-sir-mark-cubbon.jpg",
+                   "height": "1074"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-p/19/fc/8c/08/statue-of-sir-mark-cubbon.jpg",
+                   "height": "978"
+                },
+                "medium": {
+                   "width": "253",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/19/fc/8c/08/statue-of-sir-mark-cubbon.jpg",
+                   "height": "450"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2019-11-10T07:50:26-0500",
+             "caption": "Statue of Sir Mark Cubbon",
+             "id": "435981320",
+             "helpful_votes": "0",
+             "published_date": "2019-11-10T07:50:26-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "3.024179220199585",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "90",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#90 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#90 of 348 things to do in Bengaluru",
+          "ranking": "#90 of 348 things to do in Bengaluru",
+          "distance": "0.7025238119046531",
+          "distance_string": "0.7 km",
+          "bearing": "north",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "13087462",
+                "name": "Cubbon Park"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d19274830-Reviews-Sir_Mark_Cubbon_Statue-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d19274830-Sir_Mark_Cubbon_Statue-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "747779987",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=747779987#review747779987",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "An statue of Englishmen ",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "Ambedkar Veedhi",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560001"
+          },
+          "address": "Ambedkar Veedhi, Bengaluru 560001 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "26",
+                "name": "Monuments & Statues"
+             }
+          ],
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFull-Day-Private-Tour-of-Bangalore%2Fd5310-46765P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39f73f5a7038e8964&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=19274830&clt=TD&from=api&nt=true"
+          },
+          "offer_group": {
+             "lowest_price": "$1.13",
+             "offer_list": [
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFull-Day-Private-Tour-of-Bangalore%2Fd5310-46765P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39f73f5a7038e8964&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=19274830&clt=TD&from=api&nt=true",
+                   "price": "$112.83",
+                   "rounded_up_price": "$113",
+                   "offer_type": "",
+                   "title": "Bangalore Through the Ages - Full-Day Tour of the City with Lunch",
+                   "product_code": "46765P3",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/70/1e.jpg",
+                   "description": null,
+                   "primary_category": "Bus & Minivan Tours"
+                }
+             ],
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": false
+          },
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "Gift & Specialty Shops",
+          "latitude": "12.96787",
+          "longitude": "77.59299",
+          "num_reviews": "267",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/5e/f0/66/getlstd-property-photo.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/5e/f0/66/getlstd-property-photo.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1280",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/5e/f0/66/getlstd-property-photo.jpg",
+                   "height": "853"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/15/5e/f0/66/getlstd-property-photo.jpg",
+                   "height": "683"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/5e/f0/66/getlstd-property-photo.jpg",
+                   "height": "367"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-11-14T01:51:49-0500",
+             "caption": "getlstd_property_photo",
+             "id": "358543462",
+             "helpful_votes": "0",
+             "published_date": "2018-11-14T01:51:49-0500",
+             "user": null
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "0.7751320387066696",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "No. 4, 3rd Floor, Rajaram Mohan Roy Road, Richmond Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "144",
+                "name": "Gift & Specialty Shops"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$46.16",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": false
+          },
+          "rollup_count": 65
+       },
+       {
+          "location_id": "6496207",
+          "name": "Swasti Contemporary Art Gallery",
+          "latitude": "12.96351",
+          "longitude": "77.59599",
+          "num_reviews": "9",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.857837200164795",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "145",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#145 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#145 of 348 things to do in Bengaluru",
+          "ranking": "#145 of 348 things to do in Bengaluru",
+          "distance": "0.8254682883253228",
+          "distance_string": "0.8 km",
+          "bearing": "east",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6496207-Reviews-Swasti_Contemporary_Art_Gallery-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6496207-Swasti_Contemporary_Art_Gallery-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             },
+             {
+                "key": "49",
+                "name": "Museums"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "540344852",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=540344852#review540344852",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "a must visit for art lovers",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "Hcg Towers 8 Sampangi Ram Nagar Kalinga Rao Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "Hcg Towers 8 Sampangi Ram Nagar Kalinga Rao Road, Bengaluru 560027 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "1",
+                "name": "Art Galleries"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "4401088",
+          "name": "Kempegowda Tower",
+          "latitude": "12.96342",
+          "longitude": "77.59624",
+          "num_reviews": "21",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/11/c6/0c/a0/kempegowda-tower.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/11/c6/0c/a0/kempegowda-tower.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/11/c6/0c/a0/kempegowda-tower.jpg",
+                   "height": "1500"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/11/c6/0c/a0/kempegowda-tower.jpg",
+                   "height": "413"
+                },
+                "medium": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/11/c6/0c/a0/kempegowda-tower.jpg",
+                   "height": "188"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2018-01-14T13:26:56-0500",
+             "caption": "Kempegowda Tower",
+             "id": "298192032",
+             "helpful_votes": "0",
+             "published_date": "2018-01-14T13:26:56-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.8149383068084717",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "177",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#177 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#177 of 348 things to do in Bengaluru",
+          "ranking": "#177 of 348 things to do in Bengaluru",
+          "distance": "0.850422187724882",
+          "distance_string": "0.9 km",
+          "bearing": "east",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "20484099",
+                "name": "Richmond Town"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d4401088-Reviews-Kempegowda_Tower-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d4401088-Kempegowda_Tower-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "557166849",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=557166849#review557166849",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Kempegowda tower..",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "Lalbagh Gardens",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "Lalbagh Gardens, Bengaluru India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "39",
+                "name": "Observation Decks & Towers"
+             },
+             {
+                "key": "163",
+                "name": "Points of Interest & Landmarks"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "297628",
+          "ad_position": "inline1",
+          "ad_size": "8X8",
+          "doubleclick_zone": "",
+          "detail": "0",
+          "page_type": "attractions",
+          "mob_ptype": "app_attractions"
+       },
+       {
+          "location_id": "0",
+          "name": "Spas",
+          "latitude": "12.95657",
+          "longitude": "77.58343",
+          "num_reviews": "488",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/d5/5c/73/getlstd-property-photo.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/0b/d5/5c/73/getlstd-property-photo.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/0b/d5/5c/73/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "large": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/0b/d5/5c/73/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/d5/5c/73/getlstd-property-photo.jpg",
+                   "height": "366"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2016-07-03T09:59:34-0400",
+             "caption": "getlstd_property_photo",
+             "id": "198532211",
+             "helpful_votes": "0",
+             "published_date": "2016-07-03T09:59:34-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "0.8548058657467248",
+          "distance_string": null,
+          "bearing": "southwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "40",
+                "name": "Spas & Wellness"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "19 H Siddaiah Road",
+             "street2": "Off JC Road, Springs Hotel & Spa",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560002"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "127",
+                "name": "Spas"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": false,
+          "rollup_count": 48
+       },
+       {
+          "location_id": "0",
+          "name": "Movie Theaters",
+          "latitude": "12.96499",
+          "longitude": "77.596",
+          "num_reviews": "598",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/04/ae/94/7d/urvashi-cinema.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/04/ae/94/7d/urvashi-cinema.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/04/ae/94/7d/urvashi-cinema.jpg",
+                   "height": "259"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/04/ae/94/7d/urvashi-cinema.jpg",
+                   "height": "259"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/04/ae/94/7d/urvashi-cinema.jpg",
+                   "height": "259"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2013-10-16T02:21:24-0400",
+             "caption": "Urvashi Theater",
+             "id": "78550141",
+             "helpful_votes": "18",
+             "published_date": "2013-10-17T17:15:40-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "0.8645656557680955",
+          "distance_string": null,
+          "bearing": "east",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "56",
+                "name": "Fun & Games"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "Raja Ram Mohan Roy Road, Sampangirama Nagar",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "97",
+                "name": "Movie Theaters"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": false,
+          "rollup_count": 13
+       },
+       {
+          "location_id": "6104982",
+          "name": "Maradar Handicrafts",
+          "latitude": "12.96648",
+          "longitude": "77.57978",
+          "num_reviews": "3",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.7650341987609863",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "285",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#285 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#285 of 348 things to do in Bengaluru",
+          "ranking": "#285 of 348 things to do in Bengaluru",
+          "distance": "1.040646407643237",
+          "distance_string": "1 km",
+          "bearing": "northwest",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6104982-Reviews-Maradar_Handicrafts-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6104982-Maradar_Handicrafts-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "742172178",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=742172178#review742172178",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Handicraft design ",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 2223 2502",
+          "address_obj": {
+             "street1": "6/3, Rajanna Lane, City Market",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560002"
+          },
+          "address": "6/3, Rajanna Lane, City Market, Bengaluru 560002 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "137",
+                "name": "Antique Stores"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "6104972",
+          "name": "Sunnys Objects D Art",
+          "latitude": "12.962",
+          "longitude": "77.59886",
+          "num_reviews": "2",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.7656052112579346",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "283",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#283 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#283 of 348 things to do in Bengaluru",
+          "ranking": "#283 of 348 things to do in Bengaluru",
+          "distance": "1.1299655045611727",
+          "distance_string": "1.1 km",
+          "bearing": "east",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "20484099",
+                "name": "Richmond Town"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6104972-Reviews-Sunnys_Objects_D_Art-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6104972-Sunnys_Objects_D_Art-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "747780290",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=747780290#review747780290",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Object D Art",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 2212 7243",
+          "address_obj": {
+             "street1": "#10/2, O Shaughnessy Road, Langford Town",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "#10/2, O Shaughnessy Road, Langford Town, Bengaluru 560027 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "137",
+                "name": "Antique Stores"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "Sightseeing Tours",
+          "latitude": "12.971599",
+          "longitude": "77.59457",
+          "num_reviews": "332",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "large": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "366"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2017-07-30T15:11:02-0400",
+             "caption": "getlstd_property_photo",
+             "id": "269792417",
+             "helpful_votes": "1",
+             "published_date": "2017-07-30T15:11:02-0400",
+             "user": null
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2117138717532137",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560047"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "139",
+                "name": "Sightseeing Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$29.95",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": false
+          },
+          "rollup_count": 7
+       },
+       {
+          "location_id": "0",
+          "name": "Nature & Wildlife Tours",
+          "latitude": "12.971599",
+          "longitude": "77.59457",
+          "num_reviews": "108",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "large": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "366"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2017-07-30T15:11:02-0400",
+             "caption": "getlstd_property_photo",
+             "id": "269792417",
+             "helpful_votes": "1",
+             "published_date": "2017-07-30T15:11:02-0400",
+             "user": null
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2117138717532137",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "61",
+                "name": "Outdoor Activities"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560047"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "220",
+                "name": "Nature & Wildlife Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$16.00",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 9
+       },
+       {
+          "location_id": "0",
+          "name": "Multi-day Tours",
+          "latitude": "12.971599",
+          "longitude": "77.59457",
+          "num_reviews": "203",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "large": {
+                   "width": "960",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "640"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/14/b4/a1/getlstd-property-photo.jpg",
+                   "height": "366"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2017-07-30T15:11:02-0400",
+             "caption": "getlstd_property_photo",
+             "id": "269792417",
+             "helpful_votes": "1",
+             "published_date": "2017-07-30T15:11:02-0400",
+             "user": null
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2117138717532137",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560047"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "288",
+                "name": "Multi-day Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$92.00",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 18
+       },
+       {
+          "location_id": "0",
+          "name": "Golf Courses",
+          "latitude": "12.96849",
+          "longitude": "77.57907",
+          "num_reviews": "111",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/a6/5f/a9/first-tee.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/0e/a6/5f/a9/first-tee.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1536",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/a6/5f/a9/first-tee.jpg",
+                   "height": "2048"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-p/0e/a6/5f/a9/first-tee.jpg",
+                   "height": "733"
+                },
+                "medium": {
+                   "width": "338",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/a6/5f/a9/first-tee.jpg",
+                   "height": "450"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2017-03-12T21:05:28-0400",
+             "caption": "First Tee",
+             "id": "245784489",
+             "helpful_votes": "0",
+             "published_date": "2017-03-12T21:05:28-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2176148842973178",
+          "distance_string": null,
+          "bearing": "northwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "61",
+                "name": "Outdoor Activities"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "1 Golf Avenue, Kodihalli",
+             "street2": "",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "60",
+                "name": "Golf Courses"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": false,
+          "rollup_count": 5
+       },
+       {
+          "location_id": "297628",
+          "ad_position": "inline2",
+          "ad_size": "8X8",
+          "doubleclick_zone": "",
+          "detail": "0",
+          "page_type": "attractions",
+          "mob_ptype": "app_attractions"
+       },
+       {
+          "location_id": "3705030",
+          "name": "Seshadari Iyer Memorial",
+          "latitude": "12.97355",
+          "longitude": "77.58778",
+          "num_reviews": "9",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/11/45/82/4e/img-20171112-142256-largejpg.jpg",
+                   "height": "141"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/11/45/82/4e/img-20171112-142256-largejpg.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2048",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/11/45/82/4e/img-20171112-142256-largejpg.jpg",
+                   "height": "1152"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/11/45/82/4e/img-20171112-142256-largejpg.jpg",
+                   "height": "576"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/11/45/82/4e/img-20171112-142256-largejpg.jpg",
+                   "height": "309"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2017-11-14T11:02:49-0500",
+             "caption": "",
+             "id": "289768014",
+             "helpful_votes": "0",
+             "published_date": "2017-11-14T11:02:49-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.882713794708252",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "131",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#131 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#131 of 348 things to do in Bengaluru",
+          "ranking": "#131 of 348 things to do in Bengaluru",
+          "distance": "1.233684281227098",
+          "distance_string": "1.2 km",
+          "bearing": "north",
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "13087462",
+                "name": "Cubbon Park"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d3705030-Reviews-Seshadari_Iyer_Memorial-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d3705030-Seshadari_Iyer_Memorial-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "736299231",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=736299231#review736299231",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Beautiful building!",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "website": "http://www.bangaloretourism.org/bangalore-Seshadari-Iyer-Memorial.php",
+          "address_obj": {
+             "street1": "Cubban Park",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "Cubban Park, Bengaluru India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "26",
+                "name": "Monuments & Statues"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "City Tours",
+          "latitude": "12.95524",
+          "longitude": "77.57983",
+          "num_reviews": "409",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "1325"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "678"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "364"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-05-25T06:20:18-0400",
+             "caption": "Flower market with guests",
+             "id": "319720143",
+             "helpful_votes": "0",
+             "published_date": "2018-05-25T06:20:18-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2352735470497012",
+          "distance_string": null,
+          "bearing": "southwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "224",
+                "name": "City Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$13.67",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 10
+       },
+       {
+          "location_id": "0",
+          "name": "Walking Tours",
+          "latitude": "12.95524",
+          "longitude": "77.57983",
+          "num_reviews": "513",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "1325"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "678"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "364"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-05-25T06:20:18-0400",
+             "caption": "Flower market with guests",
+             "id": "319720143",
+             "helpful_votes": "0",
+             "published_date": "2018-05-25T06:20:18-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2352735470497012",
+          "distance_string": null,
+          "bearing": "southwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "183",
+                "name": "Walking Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$4.78",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 9
+       },
+       {
+          "location_id": "0",
+          "name": "Cultural Tours",
+          "latitude": "12.95524",
+          "longitude": "77.57983",
+          "num_reviews": "710",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "1325"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "678"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "364"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-05-25T06:20:18-0400",
+             "caption": "Flower market with guests",
+             "id": "319720143",
+             "helpful_votes": "0",
+             "published_date": "2018-05-25T06:20:18-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2352735470497012",
+          "distance_string": null,
+          "bearing": "southwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "225",
+                "name": "Cultural Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$11.16",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 9
+       },
+       {
+          "location_id": "0",
+          "name": "Private Tours",
+          "latitude": "12.95524",
+          "longitude": "77.57983",
+          "num_reviews": "784",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "1325"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "678"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/0e/8a/cf/flower-market-with-guests.jpg",
+                   "height": "364"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-05-25T06:20:18-0400",
+             "caption": "Flower market with guests",
+             "id": "319720143",
+             "helpful_votes": "0",
+             "published_date": "2018-05-25T06:20:18-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.2352735470497012",
+          "distance_string": null,
+          "bearing": "southwest",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560027"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "235",
+                "name": "Private Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$12.30",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 17
+       },
+       {
+          "location_id": "6104969",
+          "name": "Rare Antiques",
+          "latitude": "12.970491",
+          "longitude": "77.58008",
+          "num_reviews": "2",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.765403985977173",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "284",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#284 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#284 of 348 things to do in Bengaluru",
+          "ranking": "#284 of 348 things to do in Bengaluru",
+          "distance": "1.272638896070558",
+          "distance_string": "1.3 km",
+          "bearing": "northwest",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6104969-Reviews-Rare_Antiques-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6104969-Rare_Antiques-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "443688191",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=443688191#review443688191",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Number one antique shop",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 4153 7097",
+          "address_obj": {
+             "street1": "#64, 1st Floor, Balaji Silk Complex, Avenue Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "#64, 1st Floor, Balaji Silk Complex, Avenue Road, Bengaluru India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "137",
+                "name": "Antique Stores"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "3807223",
+          "name": "UB City",
+          "latitude": "12.971629",
+          "longitude": "77.595795",
+          "num_reviews": "2789",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/08/e0/d9/9f/ub-city.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/08/e0/d9/9f/ub-city.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1600",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/e0/d9/9f/ub-city.jpg",
+                   "height": "646"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/08/e0/d9/9f/ub-city.jpg",
+                   "height": "413"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/e0/d9/9f/ub-city.jpg",
+                   "height": "222"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2015-09-09T03:59:00-0400",
+             "caption": "UB City",
+             "id": "148953503",
+             "helpful_votes": "60",
+             "published_date": "2015-09-09T03:59:00-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2019",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2019_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2019"
+             },
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2018",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2018_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2018"
+             },
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2017",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2017_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2017"
+             },
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2016",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2016_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2016"
+             },
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2015",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2015_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2015"
+             }
+          ],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "3.8869059085845947",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "17",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#17 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#17 of 348 things to do in Bengaluru",
+          "ranking": "#17 of 348 things to do in Bengaluru",
+          "distance": "1.2920903142212932",
+          "distance_string": "1.3 km",
+          "bearing": "northeast",
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "20484099",
+                "name": "Richmond Town"
+             }
+          ],
+          "description": "With the opening of The Collection, UB City in Bangalore, a shopping trip to Europe, which is something that most Indian luxuriates were required to do to prime up their lifestyle, has become irrelevant. The luxury retail market in India, has suddenly taken a radical turn for the better. The city's most famous landmark, UB City - built jointly by Dr. Vijay Mallya & the Prestige Group has seized the opulence of the Indian market in a significant way.",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d3807223-Reviews-UB_City-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d3807223-UB_City-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "383998355",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=383998355#review383998355",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Luxury Mall in Bangalore",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 97316 00994",
+          "website": "http://www.ubcitybangalore.in",
+          "address_obj": {
+             "street1": "24 Vittal Mallya Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560001"
+          },
+          "address": "24 Vittal Mallya Road, Bengaluru 560001 India",
+          "hours": {
+             "week_ranges": [
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ],
+                [
+                   {
+                      "open_time": 630,
+                      "close_time": 1410
+                   }
+                ]
+             ],
+             "timezone": "Asia/Kolkata"
+          },
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "143",
+                "name": "Shopping Malls"
+             }
+          ],
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFree-Walking-Tour-Bangalore%2Fd5310-73045P126%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=44a607f94f7735699&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=3807223&clt=TD&from=api&nt=true"
+          },
+          "offer_group": {
+             "lowest_price": "$0.12",
+             "offer_list": [
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFree-Walking-Tour-Bangalore%2Fd5310-73045P126%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=44a607f94f7735699&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=3807223&clt=TD&from=api&nt=true",
+                   "price": "$11.16",
+                   "rounded_up_price": "$12",
+                   "offer_type": "",
+                   "title": "Bangalore Walking Tour ",
+                   "product_code": "73045P126",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/db/89/31.jpg",
+                   "description": null,
+                   "primary_category": "Cultural Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFashion-tour-in-Bangalore%2Fd5310-139208P16%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=3bec8f5f03e8b26c6&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=3807223&clt=TD&from=api&nt=true",
+                   "price": "$205.13",
+                   "rounded_up_price": "$206",
+                   "offer_type": "",
+                   "title": "Shopping in Bangalore with a personal stylist",
+                   "product_code": "139208P16",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/83/81/eb.jpg",
+                   "description": null,
+                   "primary_category": "Shopping Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FGirlfriends-shopping-trip-to-Bangalore%2Fd5310-139208P555%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=8eb2d20ad95a62a3f&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=3807223&clt=TD&from=api&nt=true",
+                   "price": "$200.00",
+                   "rounded_up_price": "$200",
+                   "offer_type": "",
+                   "title": "Girlfriend’s shopping trip to Bangalore",
+                   "product_code": "139208P555",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/7a/5f/b0.jpg",
+                   "description": null,
+                   "primary_category": "Shopping Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FA-gift-for-your-wife-trip-to-Bangalore%2Fd5310-139208P132%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=80dfad8ec2e7f6039&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=3807223&clt=TD&from=api&nt=true",
+                   "price": "$205.13",
+                   "rounded_up_price": "$206",
+                   "offer_type": "",
+                   "title": "A gift for your wife trip to Bangalore",
+                   "product_code": "139208P132",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/fa/6c/22.jpg",
+                   "description": null,
+                   "primary_category": "Shopping Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBirthday-celebration-trip-to-Bangalore%2Fd5310-139208P335%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=24fcc8098e3a5b236&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=3807223&clt=TD&from=api&nt=true",
+                   "price": "$200.00",
+                   "rounded_up_price": "$200",
+                   "offer_type": "",
+                   "title": "Birthday celebration trip to Bangalore",
+                   "product_code": "139208P335",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/0a/2d/97/3a.jpg",
+                   "description": null,
+                   "primary_category": "Shopping Tours"
+                }
+             ],
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "17779370",
+          "name": "Bangalore Fort",
+          "latitude": "12.96323",
+          "longitude": "77.57641",
+          "num_reviews": "4",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/19/f1/63/b7/photo7jpg.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/19/f1/63/b7/photo7jpg.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1280",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/f1/63/b7/photo7jpg.jpg",
+                   "height": "1280"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-p/19/f1/63/b7/photo7jpg.jpg",
+                   "height": "550"
+                },
+                "medium": {
+                   "width": "450",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/19/f1/63/b7/photo7jpg.jpg",
+                   "height": "450"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2019-11-05T23:43:09-0500",
+             "caption": "",
+             "id": "435250103",
+             "helpful_votes": "0",
+             "published_date": "2019-11-05T23:43:09-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.788066864013672",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "218",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#218 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#218 of 348 things to do in Bengaluru",
+          "ranking": "#218 of 348 things to do in Bengaluru",
+          "distance": "1.3092162974137052",
+          "distance_string": "1.3 km",
+          "bearing": "west",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d17779370-Reviews-Bangalore_Fort-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d17779370-Bangalore_Fort-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "720533207",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=720533207#review720533207",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "One must  not miss",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "Krishna Rajendra Rd",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560002"
+          },
+          "address": "Krishna Rajendra Rd, Bengaluru 560002 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "17",
+                "name": "Historic Sites"
+             },
+             {
+                "key": "4",
+                "name": "Battlefields"
+             }
+          ],
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFull-Day-Private-Tour-of-Bangalore%2Fd5310-46765P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39f73f5a7038e8964&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=17779370&clt=TD&from=api&nt=true"
+          },
+          "offer_group": {
+             "lowest_price": "$12.44",
+             "offer_list": [
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFull-Day-Private-Tour-of-Bangalore%2Fd5310-46765P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39f73f5a7038e8964&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=17779370&clt=TD&from=api&nt=true",
+                   "price": "$112.83",
+                   "rounded_up_price": "$113",
+                   "offer_type": "",
+                   "title": "Bangalore Through the Ages - Full-Day Tour of the City with Lunch",
+                   "product_code": "46765P3",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/70/1e.jpg",
+                   "description": null,
+                   "primary_category": "Bus & Minivan Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBangalore-City-Tour%2Fd5310-135633P150%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=e70261c0a8fa35d33&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=17779370&clt=TD&from=api&nt=true",
+                   "price": "$100.52",
+                   "rounded_up_price": "$101",
+                   "offer_type": "",
+                   "title": "Bangalore City Tour",
+                   "product_code": "135633P150",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/eb/eb/de.jpg",
+                   "description": null,
+                   "primary_category": "Day Trips"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FPrivate-Tour-Palaces-of-Bangalore%2Fd5310-5832BLRHDPAL%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=b41e5c63241af1e67&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=17779370&clt=TD&from=api&nt=true",
+                   "price": "$96.00",
+                   "rounded_up_price": "$96",
+                   "offer_type": "",
+                   "title": "Private Tour: Palaces of Bangalore",
+                   "product_code": "5832BLRHDPAL",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/71/ad/10.jpg",
+                   "description": null,
+                   "primary_category": "Private Sightseeing Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBengaluru-by-Tuk-tuk%2Fd5310-25838P10%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=ef3d318a821bc4ea8&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=17779370&clt=TD&from=api&nt=true",
+                   "price": "$93.00",
+                   "rounded_up_price": "$93",
+                   "offer_type": "",
+                   "title": "Bengaluru by Tuk Tuk!",
+                   "product_code": "25838P10",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/47/af.jpg",
+                   "description": null,
+                   "primary_category": "Tuk Tuk Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBengaluru-through-its-Markets-The-Pete-Walk%2Fd5310-25838P11%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a4ffb20f703465e6a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=17779370&clt=TD&from=api&nt=true",
+                   "price": "$56.42",
+                   "rounded_up_price": "$57",
+                   "offer_type": "",
+                   "title": "Bengaluru \"Pete\" City Market Half-Day Walking Tour",
+                   "product_code": "25838P11",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/47/b3.jpg",
+                   "description": null,
+                   "primary_category": "Cultural Tours"
+                }
+             ],
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "297628",
+          "ad_position": "inline3",
+          "ad_size": "8X8",
+          "doubleclick_zone": "",
+          "detail": "0",
+          "page_type": "attractions",
+          "mob_ptype": "app_attractions"
+       },
+       {
+          "location_id": "6501289",
+          "name": "Gallery Time And Space",
+          "latitude": "12.97044",
+          "longitude": "77.59765",
+          "num_reviews": "4",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.8066353797912598",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "186",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#186 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#186 of 348 things to do in Bengaluru",
+          "ranking": "#186 of 348 things to do in Bengaluru",
+          "distance": "1.3334731672584619",
+          "distance_string": "1.3 km",
+          "bearing": "northeast",
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "neighborhood_info": [
+             {
+                "location_id": "20484099",
+                "name": "Richmond Town"
+             }
+          ],
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6501289-Reviews-Gallery_Time_And_Space-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6501289-Gallery_Time_And_Space-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "728093529",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=728093529#review728093529",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Sculptors  crafted very well",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "55, Lavelle Road",
+             "street2": "Near Java City",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "55, Lavelle Road Near Java City, Bengaluru India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "163",
+                "name": "Points of Interest & Landmarks"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "Bike Tours",
+          "latitude": "12.9711",
+          "longitude": "77.59735",
+          "num_reviews": "185",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/05/51/b1/38/art-of-bicycle-trips.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/05/51/b1/38/art-of-bicycle-trips.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/05/51/b1/38/art-of-bicycle-trips.jpg",
+                   "height": "1333"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/05/51/b1/38/art-of-bicycle-trips.jpg",
+                   "height": "682"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/51/b1/38/art-of-bicycle-trips.jpg",
+                   "height": "366"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2014-01-30T01:07:31-0500",
+             "caption": "Ride through Fisherman village",
+             "id": "89239864",
+             "helpful_votes": "0",
+             "published_date": "2014-01-30T01:07:31-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.3602551814324415",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "61",
+                "name": "Outdoor Activities"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": null,
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "214",
+                "name": "Bike Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$70.00",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 7
+       },
+       {
+          "location_id": "2587596",
+          "name": "KR Market",
+          "latitude": "12.9659",
+          "longitude": "77.576385",
+          "num_reviews": "159",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/82/c9/b8/a-view-of-the-main-flower.jpg",
+                   "height": "141"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/82/c9/b8/a-view-of-the-main-flower.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/82/c9/b8/a-view-of-the-main-flower.jpg",
+                   "height": "1125"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/10/82/c9/b8/a-view-of-the-main-flower.jpg",
+                   "height": "576"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/82/c9/b8/a-view-of-the-main-flower.jpg",
+                   "height": "309"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2017-09-01T14:20:50-0400",
+             "caption": "A view of the main flower market area",
+             "id": "277006776",
+             "helpful_votes": "13",
+             "published_date": "2017-09-01T14:20:50-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [
+             {
+                "award_type": "CERTIFICATE_OF_EXCELLENCE",
+                "year": "2018",
+                "images": {
+                   "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
+                   "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2018_en_US_large-0-5.jpg"
+                },
+                "categories": [],
+                "display_name": "Certificate of Excellence 2018"
+             }
+          ],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "3.4067130088806152",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "45",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#45 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#45 of 348 things to do in Bengaluru",
+          "ranking": "#45 of 348 things to do in Bengaluru",
+          "distance": "1.3631499963418081",
+          "distance_string": "1.4 km",
+          "bearing": "west",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "KR Market is a busy, vibrant and crowded market in the heart of the city. Go early in the morning to watch fresh vegetables and flowers arrive for the day. A photographer’s delight, this market whips up a frenzy especially before important religious festivals.",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d2587596-Reviews-KR_Market-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d2587596-KR_Market-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "538963539",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=538963539#review538963539",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Busy busy busy market.  ",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 72043 77723",
+          "address_obj": {
+             "street1": "Near Avenue Road-Mysore Road junction",
+             "street2": "",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560002"
+          },
+          "address": "Near Avenue Road-Mysore Road junction, Bengaluru 560002 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "142",
+                "name": "Flea & Street Markets"
+             }
+          ],
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FGuided-Local-Shopping-Experience-Including-Breakfast%2Fd5310-35687P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=25b11465de25b1f52&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=TOP&slot=1&cnt=1&geo=2587596&clt=TD&from=api&nt=true"
+          },
+          "offer_group": {
+             "lowest_price": "$19.24",
+             "offer_list": [
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FGuided-Local-Shopping-Experience-Including-Breakfast%2Fd5310-35687P5%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=25b11465de25b1f52&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=2587596&clt=TD&from=api&nt=true",
+                   "price": "$60.26",
+                   "rounded_up_price": "$61",
+                   "offer_type": "",
+                   "title": "Shopping Experience: Guided Tour of Bengaluru's KR Market Including Breakfast",
+                   "product_code": "35687P5",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/71/0f/0b.jpg",
+                   "description": null,
+                   "primary_category": "Shopping Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBangalore-Photography-Tour-Pete-Market-Tour-Bangalore-Half-Day-Tour%2Fd5310-144293P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=ec982c07c016a40da&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=2&cnt=1&geo=2587596&clt=TD&from=api&nt=true",
+                   "price": "$52.31",
+                   "rounded_up_price": "$53",
+                   "offer_type": "",
+                   "title": "Bangalore Photography Tour: Pete Market Tour: Bangalore Half Day Tour ",
+                   "product_code": "144293P3",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/07/82/80/0d.jpg",
+                   "description": null,
+                   "primary_category": "Historical & Heritage Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FFull-Day-Private-Tour-of-Bangalore%2Fd5310-46765P3%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=39f73f5a7038e8964&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=3&cnt=1&geo=2587596&clt=TD&from=api&nt=true",
+                   "price": "$112.83",
+                   "rounded_up_price": "$113",
+                   "offer_type": "",
+                   "title": "Bangalore Through the Ages - Full-Day Tour of the City with Lunch",
+                   "product_code": "46765P3",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6c/70/1e.jpg",
+                   "description": null,
+                   "primary_category": "Bus & Minivan Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBengaluru-through-its-Markets-The-Pete-Walk%2Fd5310-25838P11%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=a4ffb20f703465e6a&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=4&cnt=1&geo=2587596&clt=TD&from=api&nt=true",
+                   "price": "$56.42",
+                   "rounded_up_price": "$57",
+                   "offer_type": "",
+                   "title": "Bengaluru \"Pete\" City Market Half-Day Walking Tour",
+                   "product_code": "25838P11",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/70/47/b3.jpg",
+                   "description": null,
+                   "primary_category": "Cultural Tours"
+                },
+                {
+                   "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FBangalore%2FBest-of-Bangalore-Private-Tour%2Fd5310-21342P8%3Feap%3Dtripadvisor-main-11383%26aid%3Dtripen1&partnerKey=1&urlKey=93279e3b251902d5b&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=5&cnt=1&geo=2587596&clt=TD&from=api&nt=true",
+                   "price": "$81.03",
+                   "rounded_up_price": "$82",
+                   "offer_type": "",
+                   "title": "Best of Bangalore Private Tour",
+                   "product_code": "21342P8",
+                   "partner": "Viator",
+                   "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6f/58/32.jpg",
+                   "description": null,
+                   "primary_category": "Private Sightseeing Tours"
+                }
+             ],
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "Paint & Pottery Studios",
+          "latitude": "12.97116",
+          "longitude": "77.59769",
+          "num_reviews": "7",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/0e/e7/2b/c5/his-works-are-juxtaposed.jpg",
+                   "height": "141"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/0e/e7/2b/c5/his-works-are-juxtaposed.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "1280",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/e7/2b/c5/his-works-are-juxtaposed.jpg",
+                   "height": "720"
+                },
+                "large": {
+                   "width": "1024",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-w/0e/e7/2b/c5/his-works-are-juxtaposed.jpg",
+                   "height": "576"
+                },
+                "medium": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/e7/2b/c5/his-works-are-juxtaposed.jpg",
+                   "height": "309"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2017-04-08T04:42:48-0400",
+             "caption": "His works are juxtaposed in photo - painting form",
+             "id": "250031045",
+             "helpful_votes": "1",
+             "published_date": "2017-04-08T04:42:48-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.390950228340942",
+          "distance_string": null,
+          "bearing": "northeast",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "56",
+                "name": "Fun & Games"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "Vittal Mallya Road",
+             "street2": "Shop No-801, 8th Floor, UB City Mall",
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560001"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "272",
+                "name": "Paint & Pottery Studios"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$4.91",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": false
+          },
+          "rollup_count": 5
+       },
+       {
+          "location_id": "15218616",
+          "name": "Sri Gali Anjaneya Swamy Temple",
+          "latitude": "12.9649",
+          "longitude": "77.57574",
+          "num_reviews": "6",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/03/44/bf/the-main-road-outside.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/03/44/bf/the-main-road-outside.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/03/44/bf/the-main-road-outside.jpg",
+                   "height": "413"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/03/44/bf/the-main-road-outside.jpg",
+                   "height": "413"
+                },
+                "medium": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/15/03/44/bf/the-main-road-outside.jpg",
+                   "height": "188"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-10-12T01:38:26-0400",
+             "caption": " The main Road outside the temple",
+             "id": "352535743",
+             "helpful_votes": "20",
+             "published_date": "2018-10-12T01:38:26-0400",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.772338390350342",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "259",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#259 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#259 of 348 things to do in Bengaluru",
+          "ranking": "#259 of 348 things to do in Bengaluru",
+          "distance": "1.4053517023217212",
+          "distance_string": "1.4 km",
+          "bearing": "west",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d15218616-Reviews-Sri_Gali_Anjaneya_Swamy_Temple-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d15218616-Sri_Gali_Anjaneya_Swamy_Temple-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "724316760",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=724316760#review724316760",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "VEERA Anjaneya",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 2674 3032",
+          "website": "https://www.facebook.com/narendrasadhu171/",
+          "address_obj": {
+             "street1": "Mysore Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560092"
+          },
+          "address": "Mysore Road, Bengaluru 560092 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "10",
+                "name": "Sacred & Religious Sites"
+             },
+             {
+                "key": "163",
+                "name": "Points of Interest & Landmarks"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "4400997",
+          "name": "KSHA Hockey Stadium",
+          "latitude": "12.96029",
+          "longitude": "77.60132",
+          "num_reviews": "10",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/11/b0/37/3d/ksha-hockey-stadium.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/11/b0/37/3d/ksha-hockey-stadium.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/11/b0/37/3d/ksha-hockey-stadium.jpg",
+                   "height": "1500"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/11/b0/37/3d/ksha-hockey-stadium.jpg",
+                   "height": "413"
+                },
+                "medium": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/11/b0/37/3d/ksha-hockey-stadium.jpg",
+                   "height": "188"
+                }
+             },
+             "is_blessed": false,
+             "uploaded_date": "2018-01-05T11:38:02-0500",
+             "caption": "KSHA Hockey Stadium",
+             "id": "296761149",
+             "helpful_votes": "1",
+             "published_date": "2018-01-05T11:38:02-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.8388092517852783",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "156",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#156 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#156 of 348 things to do in Bengaluru",
+          "ranking": "#156 of 348 things to do in Bengaluru",
+          "distance": "1.4163460340873797",
+          "distance_string": "1.4 km",
+          "bearing": "east",
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d4400997-Reviews-KSHA_Hockey_Stadium-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d4400997-KSHA_Hockey_Stadium-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "47",
+                "name": "Sights & Landmarks"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "632882791",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "5",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=632882791#review632882791",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Hockey stadium",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "phone": "+91 80 2227 7373",
+          "website": "http://www.karnatakahockey.com",
+          "address_obj": {
+             "street1": "Nanjappa Circle, Shanthinagar, Brigade Road",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": null
+          },
+          "address": "Nanjappa Circle, Shanthinagar, Brigade Road, Bengaluru India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "120",
+                "name": "Arenas & Stadiums"
+             }
+          ],
+          "shopping_type": "none"
+       },
+       {
+          "location_id": "0",
+          "name": "Historical & Heritage Tours",
+          "latitude": "12.964481",
+          "longitude": "77.60141",
+          "num_reviews": "505",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "photo": {
+             "images": {
+                "small": {
+                   "width": "150",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/08/7b/0f/old-bangalore-walking.jpg",
+                   "height": "150"
+                },
+                "thumbnail": {
+                   "width": "50",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/08/7b/0f/old-bangalore-walking.jpg",
+                   "height": "50"
+                },
+                "original": {
+                   "width": "2000",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/08/7b/0f/old-bangalore-walking.jpg",
+                   "height": "1500"
+                },
+                "large": {
+                   "width": "550",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/08/7b/0f/old-bangalore-walking.jpg",
+                   "height": "413"
+                },
+                "medium": {
+                   "width": "250",
+                   "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/08/7b/0f/old-bangalore-walking.jpg",
+                   "height": "188"
+                }
+             },
+             "is_blessed": true,
+             "uploaded_date": "2018-02-12T11:04:45-0500",
+             "caption": "Old Bangalore Walking Tour - At the Bangalore flower market © InfiniteEscapes.com | Adventure Tr",
+             "id": "302545679",
+             "helpful_votes": "2",
+             "published_date": "2018-02-12T11:04:45-0500",
+             "user": {
+                "user_id": null,
+                "member_id": "0",
+                "type": "user"
+             }
+          },
+          "awards": [],
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "distance": "1.4225185681695818",
+          "distance_string": null,
+          "bearing": "east",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attractions",
+          "write_review": "https://www.tripadvisor.com",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "rollup",
+             "name": "Rollup"
+          },
+          "subcategory": [
+             {
+                "key": "42",
+                "name": "Tours"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+             "street1": "Richmond Town, Bangalore",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560025"
+          },
+          "address": "",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "228",
+                "name": "Historical & Heritage Tours"
+             }
+          ],
+          "rollup_category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "rollup_contains_bookable": true,
+          "booking": {
+             "provider": "Viator",
+             "url": "https://www.tripadvisor.com"
+          },
+          "offer_group": {
+             "lowest_price": "$11.16",
+             "has_see_all_url": true,
+             "is_eligible_for_ap_list": true
+          },
+          "rollup_count": 8
+       },
+       {
+          "location_id": "6496461",
+          "name": "Mallapa New Market",
+          "latitude": "12.9696",
+          "longitude": "77.57741",
+          "num_reviews": "3",
+          "timezone": "Asia/Kolkata",
+          "location_string": "Bengaluru, Bangalore District, Karnataka",
+          "awards": [],
+          "location_subtype": "none",
+          "doubleclick_zone": "as.india.karnataka.bangalore",
+          "preferred_map_engine": "default",
+          "raw_ranking": "2.763763666152954",
+          "ranking_geo": "Bengaluru",
+          "ranking_geo_id": "297628",
+          "ranking_position": "288",
+          "ranking_denominator": "348",
+          "ranking_category": "attraction",
+          "ranking_subcategory": "#288 of 348 things to do in Bengaluru",
+          "subcategory_ranking": "#288 of 348 things to do in Bengaluru",
+          "ranking": "#288 of 348 things to do in Bengaluru",
+          "distance": "1.436217255572631",
+          "distance_string": "1.4 km",
+          "bearing": "northwest",
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "https://www.tripadvisor.com/Attraction_Review-g297628-d6496461-Reviews-Mallapa_New_Market-Bengaluru_Bangalore_District_Karnataka.html",
+          "write_review": "https://www.tripadvisor.com/UserReview-g297628-d6496461-Mallapa_New_Market-Bengaluru_Bangalore_District_Karnataka.html",
+          "ancestors": [
+             {
+                "subcategory": [
+                   {
+                      "key": "city",
+                      "name": "City"
+                   }
+                ],
+                "name": "Bengaluru",
+                "abbrv": null,
+                "location_id": "297628"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "district",
+                      "name": "District"
+                   }
+                ],
+                "name": "Bangalore District",
+                "abbrv": null,
+                "location_id": "12392950"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "state",
+                      "name": "State"
+                   }
+                ],
+                "name": "Karnataka",
+                "abbrv": null,
+                "location_id": "297627"
+             },
+             {
+                "subcategory": [
+                   {
+                      "key": "country",
+                      "name": "Country"
+                   }
+                ],
+                "name": "India",
+                "abbrv": null,
+                "location_id": "293860"
+             }
+          ],
+          "category": {
+             "key": "attraction",
+             "name": "Attraction"
+          },
+          "subcategory": [
+             {
+                "key": "26",
+                "name": "Shopping"
+             }
+          ],
+          "parent_display_name": "Bengaluru",
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "reviews": [
+             {
+                "id": "676274488",
+                "lang": null,
+                "location_id": "0",
+                "published_date": "2020-05-23T09:22:39-04:00",
+                "published_platform": "Desktop",
+                "rating": "4",
+                "type": "review",
+                "helpful_votes": "0",
+                "url": "https://www.tripadvisor.com/ShowUserReviews?src=676274488#review676274488",
+                "travel_date": null,
+                "text": null,
+                "user": null,
+                "title": "Large collection of  goods",
+                "owner_response": null,
+                "subratings": [],
+                "machine_translated": false,
+                "machine_translatable": false
+             }
+          ],
+          "address_obj": {
+             "street1": "663, AM Lane, Huriupete, Chickpete",
+             "street2": null,
+             "city": "Bengaluru",
+             "state": "Karnataka",
+             "country": "India",
+             "postalcode": "560053"
+          },
+          "address": "663, AM Lane, Huriupete, Chickpete, Bengaluru 560053 India",
+          "is_candidate_for_contact_info_suppression": false,
+          "subtype": [
+             {
+                "key": "143",
+                "name": "Shopping Malls"
+             }
+          ],
+          "shopping_type": "none"
+       }
+    ],
+    "paging": {
+       "results": "30",
+       "total_results": "220"
+    }
+ }

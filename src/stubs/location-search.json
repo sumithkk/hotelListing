@@ -1,0 +1,4385 @@
+{
+    "data": [
+       {
+          "result_type": "geos",
+          "result_object": {
+             "location_id": "297628",
+             "name": "Bengaluru",
+             "latitude": "12.962484",
+             "longitude": "77.588455",
+             "num_reviews": "384034",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/d2/2f/7a/palace-from-the-outside.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/d2/2f/7a/palace-from-the-outside.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/7a/palace-from-the-outside.jpg",
+                      "height": "1155"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg",
+                      "height": "318"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0c/d2/2f/7a/palace-from-the-outside.jpg",
+                      "height": "144"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2016-09-03T15:49:04-0400",
+                "caption": "Palace from the outside. View from the garden",
+                "id": "215101306",
+                "helpful_votes": "87",
+                "published_date": "2016-09-03T15:49:04-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "doubleclick_zone": "as.india.karnataka.bangalore",
+             "preferred_map_engine": "default",
+             "geo_type": "narrow",
+             "category_counts": {
+                "attractions": {
+                   "activities": "524",
+                   "attractions": "261",
+                   "nightlife": "22",
+                   "shopping": "218",
+                   "total": "1025"
+                },
+                "restaurants": {
+                   "total": "11747"
+                },
+                "accommodations": {
+                   "hotels": "1275",
+                   "bbs_inns": "715",
+                   "others": "1025",
+                   "total": "3015"
+                },
+                "neighborhoods": "17",
+                "airports": "0"
+             },
+             "map_image_url": "https://media-cdn.tripadvisor.com/media/mobile/offline/maps/static/en/297628.png?t=1511311757",
+             "nearby_attractions": [],
+             "description": "",
+             "is_localized_description": true,
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "geographic",
+                "name": "Geographic"
+             },
+             "subcategory": [
+                {
+                   "key": "city",
+                   "name": "City"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "geo_description": "Known as both the \"Garden City\" and \"The Silicon Valley of India,\" Bangalore (officially \"Bengaluru\") is a techie’s paradise, boasting the highest concentration of IT companies in the country. When you’re done geeking out, there are plenty of gardens, museums, natural features, palaces and temples to fill your dance card. Visit Vidhana Soudha, Cubbon Park and the Ulsoor Lake of Bangalore, well known for its beautiful locales and boating facilities. Bangalore is also a major center of Indian classical music and dance, and of vivid, cutting-edge nightlife.",
+             "has_restaurant_coverpage": false,
+             "has_attraction_coverpage": false,
+             "has_curated_shopping_list": false
+          },
+          "scope": "local",
+          "is_top_result": true
+       },
+       {
+          "result_type": "geos",
+          "result_object": {
+             "location_id": "12392950",
+             "name": "Bangalore District",
+             "latitude": "12.960652",
+             "longitude": "77.604836",
+             "num_reviews": "386159",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/d2/2f/0d/palace-from-the-outside.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/d2/2f/0d/palace-from-the-outside.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/0d/palace-from-the-outside.jpg",
+                      "height": "1215"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/0d/palace-from-the-outside.jpg",
+                      "height": "334"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0c/d2/2f/0d/palace-from-the-outside.jpg",
+                      "height": "152"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2016-09-03T15:48:44-0400",
+                "caption": "Palace from the outside",
+                "id": "215101197",
+                "helpful_votes": "0",
+                "published_date": "2016-09-03T15:48:44-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "doubleclick_zone": "as.india.karnataka",
+             "preferred_map_engine": "default",
+             "geo_type": "narrow",
+             "category_counts": {
+                "attractions": {
+                   "activities": "537",
+                   "attractions": "266",
+                   "nightlife": "23",
+                   "shopping": "221",
+                   "total": "1047"
+                },
+                "restaurants": {
+                   "total": "11897"
+                },
+                "accommodations": {
+                   "hotels": "1320",
+                   "bbs_inns": "740",
+                   "others": "1061",
+                   "total": "3121"
+                },
+                "neighborhoods": "0",
+                "airports": "0"
+             },
+             "nearby_attractions": [],
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "geographic",
+                "name": "Geographic"
+             },
+             "subcategory": [
+                {
+                   "key": "district",
+                   "name": "District"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "has_restaurant_coverpage": false,
+             "has_attraction_coverpage": false,
+             "has_curated_shopping_list": false
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "2069428",
+             "name": "Bangalore Palace",
+             "latitude": "12.99882",
+             "longitude": "77.59216",
+             "num_reviews": "1655",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/16/79/25/8e/20190120-104931-largejpg.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/16/79/25/8e/20190120-104931-largejpg.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1008",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/16/79/25/8e/20190120-104931-largejpg.jpg",
+                      "height": "756"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/79/25/8e/20190120-104931-largejpg.jpg",
+                      "height": "412"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/16/79/25/8e/20190120-104931-largejpg.jpg",
+                      "height": "188"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2019-02-15T07:48:26-0500",
+                "caption": "",
+                "id": "377038222",
+                "helpful_votes": "1",
+                "published_date": "2019-02-15T07:48:26-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "none",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "3.5",
+             "is_closed": false,
+             "open_now_text": "Closed Now",
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "47",
+                   "name": "Sights & Landmarks"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Vasanth Nagar",
+                "street2": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560052"
+             },
+             "address": "Vasanth Nagar, Bengaluru 560052 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "fee": "YES",
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 590 reviews"
+          },
+          "review_snippet": {
+             "snippet": "If you are planning to come in bangalore visit here",
+             "spans": [
+                {
+                   "start_index": 31,
+                   "end_index": 40
+                }
+             ],
+             "review_id": "753126098"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "9702903",
+             "name": "Taj Bangalore",
+             "latitude": "13.197167",
+             "longitude": "77.710655",
+             "num_reviews": "1166",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Devanhalli, Bangalore Rural District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0d/49/f0/b9/photo0jpg.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0d/49/f0/b9/photo0jpg.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2048",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0d/49/f0/b9/photo0jpg.jpg",
+                      "height": "1536"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0d/49/f0/b9/photo0jpg.jpg",
+                      "height": "413"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0d/49/f0/b9/photo0jpg.jpg",
+                      "height": "188"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2016-10-13T12:33:47-0400",
+                "caption": "",
+                "id": "222949561",
+                "helpful_votes": "0",
+                "published_date": "2016-10-13T12:33:47-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Devanhalli",
+                   "abbrv": null,
+                   "location_id": "2546117"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore Rural District",
+                   "abbrv": null,
+                   "location_id": "12392962"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Opposite Kempegowda International Airport",
+                "street2": null,
+                "city": "Devanhalli",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560300"
+             },
+             "address": "Opposite Kempegowda International Airport, Devanhalli 560300 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 412 reviews"
+          },
+          "review_snippet": {
+             "snippet": "We needed to be in Northern Bangalore and the location is perfect.",
+             "spans": [
+                {
+                   "start_index": 28,
+                   "end_index": 37
+                }
+             ],
+             "review_id": "747950382"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "4750559",
+             "name": "Hilton Bangalore Embassy GolfLinks",
+             "latitude": "12.948435",
+             "longitude": "77.645546",
+             "num_reviews": "2303",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/12/5a/54/exterior.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/12/5a/54/exterior.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1500",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/12/5a/54/exterior.jpg",
+                      "height": "1014"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/12/5a/54/exterior.jpg",
+                      "height": "372"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/12/5a/54/exterior.jpg",
+                      "height": "169"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2019-11-18T20:40:15-0500",
+                "caption": "Exterior",
+                "id": "437410388",
+                "helpful_votes": "0",
+                "published_date": "2019-11-18T20:40:15-0500",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "5.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Intermediate Ring Road, Domlur",
+                "street2": "Embassy Golf Links Business Park",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560071"
+             },
+             "address": "Intermediate Ring Road, Domlur Embassy Golf Links Business Park, Bengaluru 560071 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 634 reviews"
+          },
+          "review_snippet": {
+             "snippet": "My go to hotel when I visit Bangalore.",
+             "spans": [
+                {
+                   "start_index": 28,
+                   "end_index": 38
+                }
+             ],
+             "review_id": "743832359"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "325162",
+             "name": "ISKCON Temple Bangalore",
+             "latitude": "12.983932",
+             "longitude": "77.57959",
+             "num_reviews": "4783",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/60/6a/53/night-view.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0b/60/6a/53/night-view.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1024",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/0b/60/6a/53/night-view.jpg",
+                      "height": "682"
+                   },
+                   "large": {
+                      "width": "1024",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0b/60/6a/53/night-view.jpg",
+                      "height": "682"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/60/6a/53/night-view.jpg",
+                      "height": "366"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2016-05-24T06:29:48-0400",
+                "caption": "Night view",
+                "id": "190868051",
+                "helpful_votes": "112",
+                "published_date": "2016-05-24T06:29:48-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "none",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "open_now_text": "Open Now",
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "47",
+                   "name": "Sights & Landmarks"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Chord Road",
+                "street2": "Hare Krishna Hill",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560010"
+             },
+             "address": "Chord Road Hare Krishna Hill, Bengaluru 560010 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "fee": "YES",
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 1,270 reviews"
+          },
+          "review_snippet": {
+             "snippet": "One of the famous tourist place in bangalore.",
+             "spans": [
+                {
+                   "start_index": 35,
+                   "end_index": 45
+                }
+             ],
+             "review_id": "752789819"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "5121805",
+             "name": "The Windflower Prakruthi Bangalore",
+             "latitude": "13.203414",
+             "longitude": "77.6093",
+             "num_reviews": "448",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/07/55/82/1a/the-windflower-prakruthi.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/55/82/1a/the-windflower-prakruthi.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/55/82/1a/the-windflower-prakruthi.jpg",
+                      "height": "1286"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/55/82/1a/the-windflower-prakruthi.jpg",
+                      "height": "354"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/07/55/82/1a/the-windflower-prakruthi.jpg",
+                      "height": "161"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2015-02-13T01:10:53-0500",
+                "caption": "Entrance",
+                "id": "123044378",
+                "helpful_votes": "18",
+                "published_date": "2015-02-13T01:10:53-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Kundana Hobli Plot No 12a Hegganahalli Village",
+                "street2": "Devanahalli Taluk",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560052"
+             },
+             "address": "Kundana Hobli Plot No 12a Hegganahalli Village Devanahalli Taluk, Bengaluru 560052 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 105 reviews"
+          },
+          "review_snippet": {
+             "snippet": "down in few items --  Location -- Atleast couple of hours from the main Bangalore",
+             "spans": [
+                {
+                   "start_index": 72,
+                   "end_index": 81
+                }
+             ],
+             "review_id": "748843073"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "301635",
+             "name": "The Park Bangalore",
+             "latitude": "12.974002",
+             "longitude": "77.61985",
+             "num_reviews": "1880",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/f5/04/6c/terrace-suite--v17458905.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/f5/04/6c/terrace-suite--v17458905.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2600",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/f5/04/6c/terrace-suite--v17458905.jpg",
+                      "height": "1733"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/f5/04/6c/terrace-suite--v17458905.jpg",
+                      "height": "450"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/f5/04/6c/terrace-suite--v17458905.jpg",
+                      "height": "205"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2017-08-17T16:19:49-0400",
+                "caption": "The Terrace Suite at The Park Bangalore",
+                "id": "284492908",
+                "helpful_votes": "2",
+                "published_date": "2017-10-13T11:33:41-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "14/7 Mahatma Gandhi Road",
+                "street2": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560042"
+             },
+             "address": "14/7 Mahatma Gandhi Road, Bengaluru 560042 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 614 reviews"
+          },
+          "review_snippet": {
+             "snippet": "stay in The Park Bangalore 👍👍",
+             "spans": [
+                {
+                   "start_index": 17,
+                   "end_index": 26
+                }
+             ],
+             "review_id": "750247993"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "4586370",
+             "name": "The Ritz-Carlton, Bangalore",
+             "latitude": "12.967779",
+             "longitude": "77.60169",
+             "num_reviews": "1958",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/4f/89/42/guest-room.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/4f/89/42/guest-room.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "4000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/4f/89/42/guest-room.jpg",
+                      "height": "2667"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/4f/89/42/guest-room.jpg",
+                      "height": "367"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1b/4f/89/42/guest-room.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2020-05-08T00:24:29-0400",
+                "caption": "Guest room",
+                "id": "458197314",
+                "helpful_votes": "0",
+                "published_date": "2020-05-08T00:24:29-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "99 Residency Road",
+                "street2": "Bangalore, Karnataka",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560025"
+             },
+             "address": "99 Residency Road Bangalore, Karnataka, Bengaluru 560025 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 812 reviews"
+          },
+          "review_snippet": {
+             "snippet": "My wife and I enjoy having brunch at hotels around the city of Bangalore.",
+             "spans": [
+                {
+                   "start_index": 63,
+                   "end_index": 73
+                }
+             ],
+             "review_id": "741264897"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "1074849",
+             "name": "The Paul Bangalore",
+             "latitude": "12.953732",
+             "longitude": "77.63944",
+             "num_reviews": "1356",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/05/e5/1c/c8/living-room-in-suites.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/05/e5/1c/c8/living-room-in-suites.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "3543",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/05/e5/1c/c8/living-room-in-suites.jpg",
+                      "height": "2653"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/e5/1c/c8/living-room-in-suites.jpg",
+                      "height": "411"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/05/e5/1c/c8/living-room-in-suites.jpg",
+                      "height": "187"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2014-05-21T02:55:55-0400",
+                "caption": "Living room in suites",
+                "id": "98901192",
+                "helpful_votes": "6",
+                "published_date": "2014-05-21T02:55:55-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "139/28 Domlur Layout Road",
+                "street2": "Off Intermediate Ring Road",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560071"
+             },
+             "address": "139/28 Domlur Layout Road Off Intermediate Ring Road, Bengaluru 560071 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 448 reviews"
+          },
+          "review_snippet": {
+             "snippet": "One of Best hotel in Bangalore.",
+             "spans": [
+                {
+                   "start_index": 21,
+                   "end_index": 31
+                }
+             ],
+             "review_id": "742791198"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "622550",
+             "name": "Hyatt Centric MG Road Bangalore",
+             "latitude": "12.973202",
+             "longitude": "77.62181",
+             "num_reviews": "529",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/16/67/47/77/hyatt-centric-mg-road.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/16/67/47/77/hyatt-centric-mg-road.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1500",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/16/67/47/77/hyatt-centric-mg-road.jpg",
+                      "height": "987"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/16/67/47/77/hyatt-centric-mg-road.jpg",
+                      "height": "362"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/16/67/47/77/hyatt-centric-mg-road.jpg",
+                      "height": "165"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2019-02-09T04:14:00-0500",
+                "caption": "",
+                "id": "375867255",
+                "helpful_votes": "0",
+                "published_date": "2019-02-09T04:14:00-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "1/1 Swami Vivekananda Road",
+                "street2": "Next to MG Road, Ulsoor",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560008"
+             },
+             "address": "1/1 Swami Vivekananda Road Next to MG Road, Ulsoor, Bengaluru 560008 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 118 reviews"
+          },
+          "review_snippet": {
+             "snippet": "wide range of hotel staff but the staff at the Hyatt Centric MG Road Bangalore",
+             "spans": [
+                {
+                   "start_index": 69,
+                   "end_index": 78
+                }
+             ],
+             "review_id": "746974507"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "4172562",
+             "name": "DoubleTree Suites By Hilton Bangalore",
+             "latitude": "12.919333",
+             "longitude": "77.66504",
+             "num_reviews": "1849",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/f7/8d/51/exterior.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/f7/8d/51/exterior.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1499",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/f7/8d/51/exterior.jpg",
+                      "height": "999"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/f7/8d/51/exterior.jpg",
+                      "height": "367"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/f7/8d/51/exterior.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2020-02-21T21:36:20-0500",
+                "caption": "Exterior",
+                "id": "452431185",
+                "helpful_votes": "0",
+                "published_date": "2020-02-21T21:36:20-0500",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "ORR-Sarjapur Road Jct",
+                "street2": "Iblur Gate",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560102"
+             },
+             "address": "ORR-Sarjapur Road Jct Iblur Gate, Bengaluru 560102 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 364 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Love this well maintained Doubletree hotel in the outer ring of Bangalore.",
+             "spans": [
+                {
+                   "start_index": 64,
+                   "end_index": 74
+                }
+             ],
+             "review_id": "747326223"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "6496419",
+             "name": "Bangalore Central Mall",
+             "latitude": "12.97059",
+             "longitude": "77.60412",
+             "num_reviews": "176",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/08/3d/44/c9/bangalore-central-mall.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/08/3d/44/c9/bangalore-central-mall.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "750",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/3d/44/c9/bangalore-central-mall.jpg",
+                      "height": "499"
+                   },
+                   "large": {
+                      "width": "750",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/3d/44/c9/bangalore-central-mall.jpg",
+                      "height": "499"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/3d/44/c9/bangalore-central-mall.jpg",
+                      "height": "365"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2015-06-30T02:33:07-0400",
+                "caption": "entrance at 6 pm",
+                "id": "138233033",
+                "helpful_votes": "29",
+                "published_date": "2015-07-01T12:26:36-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "none",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "open_now_text": "Open Now",
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "26",
+                   "name": "Shopping"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "45/1,45/2, 45th Cross, J.P.Nagar, 2nd Phase",
+                "street2": "Near Ragigudda Temple,",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560078"
+             },
+             "address": "45/1,45/2, 45th Cross, J.P.Nagar, 2nd Phase Near Ragigudda Temple,, Bengaluru 560078 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 47 reviews"
+          },
+          "review_snippet": {
+             "snippet": "It's one of the huge Central shopping store in Bangalore..",
+             "spans": [
+                {
+                   "start_index": 47,
+                   "end_index": 58
+                }
+             ],
+             "review_id": "707087363"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "2076455",
+             "name": "Sheraton Grand Bangalore Hotel at Brigade Gateway",
+             "latitude": "13.012572",
+             "longitude": "77.55509",
+             "num_reviews": "2324",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/56/ee/00/lounge.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/56/ee/00/lounge.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "4000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/56/ee/00/lounge.jpg",
+                      "height": "2667"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/56/ee/00/lounge.jpg",
+                      "height": "367"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1b/56/ee/00/lounge.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2020-05-22T00:19:18-0400",
+                "caption": "Bar/Lounge",
+                "id": "458681856",
+                "helpful_votes": "0",
+                "published_date": "2020-05-22T00:19:18-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "5.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "26 / 1, Dr. Rajkumar Road | Rajajinagar-Malleswaram, Bengaluru",
+                "street2": "Rajajinagar-Malleswaram",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560055"
+             },
+             "address": "26 / 1, Dr. Rajkumar Road | Rajajinagar-Malleswaram, Bengaluru Rajajinagar-Malleswaram, Bengaluru 560055 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 799 reviews"
+          },
+          "review_snippet": {
+             "snippet": "at Sheraton Grand Bangalore.",
+             "spans": [
+                {
+                   "start_index": 18,
+                   "end_index": 28
+                }
+             ],
+             "review_id": "735006940"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "304212",
+             "name": "The Oberoi, Bengaluru",
+             "latitude": "12.973455",
+             "longitude": "77.618195",
+             "num_reviews": "3194",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/4e/9b/9e/lobby.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/4e/9b/9e/lobby.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "5970",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/4e/9b/9e/lobby.jpg",
+                      "height": "3552"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/4e/9b/9e/lobby.jpg",
+                      "height": "327"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1b/4e/9b/9e/lobby.jpg",
+                      "height": "149"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2020-05-06T00:41:40-0400",
+                "caption": "Lobby",
+                "id": "458136478",
+                "helpful_votes": "0",
+                "published_date": "2020-05-06T00:41:40-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "5.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "37 - 39 Mahatma Gandhi Road",
+                "street2": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560001"
+             },
+             "address": "37 - 39 Mahatma Gandhi Road, Bengaluru 560001 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 1,246 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Would definitely recommend to anyone visiting Bangalore.",
+             "spans": [
+                {
+                   "start_index": 46,
+                   "end_index": 56
+                }
+             ],
+             "review_id": "749361302"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "678031",
+             "name": "Ginger Bangalore (Whitefield)",
+             "latitude": "12.97679",
+             "longitude": "77.71848",
+             "num_reviews": "691",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/07/51/c9/ad/ginger-bangalore.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/51/c9/ad/ginger-bangalore.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "804",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/51/c9/ad/ginger-bangalore.jpg",
+                      "height": "536"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/51/c9/ad/ginger-bangalore.jpg",
+                      "height": "366"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/07/51/c9/ad/ginger-bangalore.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2015-02-10T00:54:20-0500",
+                "caption": "Twin Room",
+                "id": "122800557",
+                "helpful_votes": "2",
+                "published_date": "2015-02-10T00:54:20-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "No - 128 Epip Zone Phase 2",
+                "street2": null,
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560066"
+             },
+             "address": "No - 128 Epip Zone Phase 2, Bengaluru 560066 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 140 reviews"
+          },
+          "review_snippet": {
+             "snippet": "a clean & calm bangalore I have visited Ginger Bangalore during our journey",
+             "spans": [
+                {
+                   "start_index": 15,
+                   "end_index": 24
+                },
+                {
+                   "start_index": 47,
+                   "end_index": 56
+                }
+             ],
+             "review_id": "746631518"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "455923",
+             "name": "Hotel Royal Orchid Regenta Bangalore",
+             "latitude": "12.957615",
+             "longitude": "77.644135",
+             "num_reviews": "1595",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0f/1c/63/8f/hotel-royal-orchid-facade.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0f/1c/63/8f/hotel-royal-orchid-facade.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0f/1c/63/8f/hotel-royal-orchid-facade.jpg",
+                      "height": "1500"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/1c/63/8f/hotel-royal-orchid-facade.jpg",
+                      "height": "413"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0f/1c/63/8f/hotel-royal-orchid-facade.jpg",
+                      "height": "188"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2017-04-28T03:48:17-0400",
+                "caption": "Hotel Royal Orchid Facade",
+                "id": "253518735",
+                "helpful_votes": "7",
+                "published_date": "2017-04-28T03:48:17-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "#1 Golf Avenue",
+                "street2": "Adjoining KGA Golf Course, HAL Airport Road",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560008"
+             },
+             "address": "#1 Golf Avenue Adjoining KGA Golf Course, HAL Airport Road, Bengaluru 560008 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 370 reviews"
+          },
+          "review_snippet": {
+             "snippet": "One of the most wonderful and beautiful locations of Bangalore.",
+             "spans": [
+                {
+                   "start_index": 53,
+                   "end_index": 63
+                }
+             ],
+             "review_id": "734518692"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "4508843",
+             "name": "Ramada Encore by Wyndham Bangalore Domlur",
+             "latitude": "12.95548",
+             "longitude": "77.64114",
+             "num_reviews": "786",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/6d/79/5b/welcome-to-the-ramada.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/6d/79/5b/welcome-to-the-ramada.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1500",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/6d/79/5b/welcome-to-the-ramada.jpg",
+                      "height": "1000"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/6d/79/5b/welcome-to-the-ramada.jpg",
+                      "height": "367"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/13/6d/79/5b/welcome-to-the-ramada.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2018-06-23T00:29:21-0400",
+                "caption": "Welcome to the Ramada Encore Bangalore Domlur",
+                "id": "325941595",
+                "helpful_votes": "3",
+                "published_date": "2018-06-23T00:29:21-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "282 To 285",
+                "street2": null,
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560071"
+             },
+             "address": "282 To 285, Bengaluru 560071 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 177 reviews"
+          },
+          "review_snippet": {
+             "snippet": "I would recommend anyone visiting Bangalore to stay here.",
+             "spans": [
+                {
+                   "start_index": 34,
+                   "end_index": 43
+                }
+             ],
+             "review_id": "742332383"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "1144162",
+             "name": "Oakwood Premier Prestige Bangalore",
+             "latitude": "12.972168",
+             "longitude": "77.59646",
+             "num_reviews": "664",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0f/15/0e/c5/oakwood-premier-prestige.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0f/15/0e/c5/oakwood-premier-prestige.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1024",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0f/15/0e/c5/oakwood-premier-prestige.jpg",
+                      "height": "683"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/15/0e/c5/oakwood-premier-prestige.jpg",
+                      "height": "366"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0f/15/0e/c5/oakwood-premier-prestige.jpg",
+                      "height": "167"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2017-04-25T06:17:50-0400",
+                "caption": "",
+                "id": "253038277",
+                "helpful_votes": "1",
+                "published_date": "2017-04-25T06:17:50-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "24 Vittal Mallya Road",
+                "street2": null,
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560001"
+             },
+             "address": "24 Vittal Mallya Road, Bengaluru 560001 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 190 reviews"
+          },
+          "review_snippet": {
+             "snippet": "I had a fantastic room looking out at Bangalore city.",
+             "spans": [
+                {
+                   "start_index": 38,
+                   "end_index": 47
+                }
+             ],
+             "review_id": "751565169"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "624563",
+             "name": "Hotel Bangalore Gate",
+             "latitude": "12.973615",
+             "longitude": "77.57915",
+             "num_reviews": "172",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/01/c7/ee/90/premium-room-with-twin.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/01/c7/ee/90/premium-room-with-twin.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "448",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/01/c7/ee/90/premium-room-with-twin.jpg",
+                      "height": "298"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/01/c7/ee/90/premium-room-with-twin.jpg",
+                      "height": "365"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/01/c7/ee/90/premium-room-with-twin.jpg",
+                      "height": "165"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2011-03-06T08:41:55-0500",
+                "caption": "Premium Room with twin beds",
+                "id": "29879952",
+                "helpful_votes": "4",
+                "published_date": "2011-03-06T08:42:19-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "9 & 12 Gajanana Towers |opp Menaka Theatre I",
+                "street2": "Kempe Gowda Road",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560009"
+             },
+             "address": "9 & 12 Gajanana Towers |opp Menaka Theatre I Kempe Gowda Road, Bengaluru 560009 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 73 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Recently we had a family function at Bangalore Gate and we could not have",
+             "spans": [
+                {
+                   "start_index": 37,
+                   "end_index": 46
+                }
+             ],
+             "review_id": "665146816"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "1231127",
+             "name": "Grand Mercure Bangalore",
+             "latitude": "12.928933",
+             "longitude": "77.62778",
+             "num_reviews": "845",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/19/a8/24/89/exterior-view.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/19/a8/24/89/exterior-view.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1500",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/19/a8/24/89/exterior-view.jpg",
+                      "height": "1125"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/19/a8/24/89/exterior-view.jpg",
+                      "height": "412"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/19/a8/24/89/exterior-view.jpg",
+                      "height": "188"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2019-10-16T21:06:36-0400",
+                "caption": "Exterior view",
+                "id": "430449801",
+                "helpful_votes": "0",
+                "published_date": "2019-10-16T21:06:36-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "12th Main",
+                "street2": "Koramangala",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560034"
+             },
+             "address": "12th Main Koramangala, Bengaluru 560034 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 228 reviews"
+          },
+          "review_snippet": {
+             "snippet": "They made my stay at Bangalore worthwhile!!",
+             "spans": [
+                {
+                   "start_index": 21,
+                   "end_index": 30
+                }
+             ],
+             "review_id": "746226992"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "301623",
+             "name": "Le Meridien Bangalore",
+             "latitude": "12.990217",
+             "longitude": "77.58619",
+             "num_reviews": "2368",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/11/20/9b/5e/deluxe-room-with-pool-view--v1746.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/11/20/9b/5e/deluxe-room-with-pool-view--v1746.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2600",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/11/20/9b/5e/deluxe-room-with-pool-view--v1746.jpg",
+                      "height": "1733"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/11/20/9b/5e/deluxe-room-with-pool-view--v1746.jpg",
+                      "height": "450"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/11/20/9b/5e/deluxe-room-with-pool-view--v1746.jpg",
+                      "height": "205"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2017-08-25T12:41:54-0400",
+                "caption": "The Deluxe Room with Pool View at the Le Meridien Bangalore",
+                "id": "287349598",
+                "helpful_votes": "3",
+                "published_date": "2017-10-30T12:27:01-0400",
+                "user": null
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "No 28 Sankey Road",
+                "street2": "P.B. No. 174",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560052"
+             },
+             "address": "No 28 Sankey Road P.B. No. 174, Bengaluru 560052 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 648 reviews"
+          },
+          "review_snippet": {
+             "snippet": "This is one of my top pick in Bangalore due to its location, value for",
+             "spans": [
+                {
+                   "start_index": 30,
+                   "end_index": 39
+                }
+             ],
+             "review_id": "726534682"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "9725494",
+             "name": "Tulip Inn Bangalore",
+             "latitude": "12.999216",
+             "longitude": "77.58364",
+             "num_reviews": "143",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0d/0a/0d/bd/hotel-lobby.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0d/0a/0d/bd/hotel-lobby.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0d/0a/0d/bd/hotel-lobby.jpg",
+                      "height": "1203"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0d/0a/0d/bd/hotel-lobby.jpg",
+                      "height": "331"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0d/0a/0d/bd/hotel-lobby.jpg",
+                      "height": "150"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2016-09-21T08:44:27-0400",
+                "caption": "Hotel Lobby ",
+                "id": "218762685",
+                "helpful_votes": "3",
+                "published_date": "2016-09-21T08:44:27-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "R.V Layout",
+                "street2": "Plot 104/1, Kumara Park West Extension",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560020"
+             },
+             "address": "R.V Layout Plot 104/1, Kumara Park West Extension, Bengaluru 560020 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 35 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Central location of Bangalore is easily accessible.",
+             "spans": [
+                {
+                   "start_index": 20,
+                   "end_index": 29
+                }
+             ],
+             "review_id": "733657418"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "1149498",
+             "name": "juSTa Indiranagar, Bangalore",
+             "latitude": "12.971258",
+             "longitude": "77.64068",
+             "num_reviews": "354",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/18/c3/0a/a6/justa-indiranagar-bangalore.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/18/c3/0a/a6/justa-indiranagar-bangalore.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1280",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/c3/0a/a6/justa-indiranagar-bangalore.jpg",
+                      "height": "960"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/18/c3/0a/a6/justa-indiranagar-bangalore.jpg",
+                      "height": "413"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/18/c3/0a/a6/justa-indiranagar-bangalore.jpg",
+                      "height": "188"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2019-08-13T07:40:47-0400",
+                "caption": "",
+                "id": "415435430",
+                "helpful_votes": "0",
+                "published_date": "2019-08-13T11:29:28-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "No 796 12th Main Road",
+                "street2": "HAL 2nd Stage, Indiranagar",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560008"
+             },
+             "address": "No 796 12th Main Road HAL 2nd Stage, Indiranagar, Bengaluru 560008 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 103 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Hi there I stayed 15 days in JustA Indiranagar Bangalore and happy to share",
+             "spans": [
+                {
+                   "start_index": 47,
+                   "end_index": 56
+                }
+             ],
+             "review_id": "698474665"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "1144170",
+             "name": "Olde Bangalore Hotel & Resort",
+             "latitude": "13.19128",
+             "longitude": "77.62189",
+             "num_reviews": "277",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/02/31/38/cd/olde-bangalore-hotel.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/02/31/38/cd/olde-bangalore-hotel.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/31/38/cd/olde-bangalore-hotel.jpg",
+                      "height": "366"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/31/38/cd/olde-bangalore-hotel.jpg",
+                      "height": "366"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/31/38/cd/olde-bangalore-hotel.jpg",
+                      "height": "366"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2011-11-14T02:53:27-0500",
+                "caption": "The Olde Bangalore Building",
+                "id": "36780237",
+                "helpful_votes": "2",
+                "published_date": "2011-11-14T02:54:25-0500",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "other",
+                   "name": "Specialty Lodging"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "206 Utopia",
+                "street2": "Tarabanahalli, Chikjala po, Near Bangalore International Airport",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "562157"
+             },
+             "address": "206 Utopia Tarabanahalli, Chikjala po, Near Bangalore International Airport, Bengaluru 562157 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 109 reviews"
+          },
+          "review_snippet": {
+             "snippet": "other than that I would recommend to at least habe a stay here in Olde Bangalore",
+             "spans": [
+                {
+                   "start_index": 71,
+                   "end_index": 80
+                }
+             ],
+             "review_id": "741947690"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "3913104",
+             "name": "Bangalore Aquarium",
+             "latitude": "12.97477",
+             "longitude": "77.59659",
+             "num_reviews": "79",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/6b/66/49/bangalore-aquarium.jpg",
+                      "height": "141"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/6b/66/49/bangalore-aquarium.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "2000",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/6b/66/49/bangalore-aquarium.jpg",
+                      "height": "1125"
+                   },
+                   "large": {
+                      "width": "1024",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/10/6b/66/49/bangalore-aquarium.jpg",
+                      "height": "576"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/6b/66/49/bangalore-aquarium.jpg",
+                      "height": "309"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2017-08-25T09:25:23-0400",
+                "caption": "Bangalore Aquarium",
+                "id": "275473993",
+                "helpful_votes": "1",
+                "published_date": "2017-08-25T09:25:23-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "none",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "3.0",
+             "is_closed": false,
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "48",
+                   "name": "Zoos & Aquariums"
+                },
+                {
+                   "key": "57",
+                   "name": "Nature & Parks"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Cubbon Park, Kasturba Road",
+                "street2": null,
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": null
+             },
+             "address": "Cubbon Park, Kasturba Road, Bengaluru India",
+             "is_candidate_for_contact_info_suppression": false,
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 17 reviews"
+          },
+          "review_snippet": {
+             "snippet": "This time I explore bangalore aquirium with family and it is a good place",
+             "spans": [
+                {
+                   "start_index": 20,
+                   "end_index": 29
+                }
+             ],
+             "review_id": "604817337"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "lodging",
+          "result_object": {
+             "location_id": "2443500",
+             "name": "Citrus Bangalore",
+             "latitude": "12.923299",
+             "longitude": "77.67157",
+             "num_reviews": "533",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/02/d2/84/2b/citrus-bangalore.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/02/d2/84/2b/citrus-bangalore.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/d2/84/2b/citrus-bangalore.jpg",
+                      "height": "377"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/d2/84/2b/citrus-bangalore.jpg",
+                      "height": "377"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/d2/84/2b/citrus-bangalore.jpg",
+                      "height": "377"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2012-09-04T03:31:30-0400",
+                "caption": "Deluxe Room",
+                "id": "47350827",
+                "helpful_votes": "0",
+                "published_date": "2012-09-04T03:31:30-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.5",
+             "is_closed": false,
+             "is_long_closed": false,
+             "special_offers": {
+                "desktop": [],
+                "mobile": []
+             },
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "hotel",
+                "name": "Hotel"
+             },
+             "subcategory": [
+                {
+                   "key": "hotel",
+                   "name": "Hotel"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "Sharjapur Outer Ring Road",
+                "street2": "Survey #80/2, Marathahalli, Near Bellandur Central Mall, Near Shell Petrol Pump, Bellandur",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560103"
+             },
+             "address": "Sharjapur Outer Ring Road Survey #80/2, Marathahalli, Near Bellandur Central Mall, Near Shell Petrol Pump, Bellandur, Bengaluru 560103 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "amenities": []
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 123 reviews"
+          },
+          "review_snippet": {
+             "snippet": "Good hotel to stay in bangalore.",
+             "spans": [
+                {
+                   "start_index": 22,
+                   "end_index": 32
+                }
+             ],
+             "review_id": "750815443"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "4325268",
+             "name": "Travspire Bangalore Tours",
+             "latitude": "12.972381",
+             "longitude": "77.63721",
+             "num_reviews": "105",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/04/87/c2/c3/getlstd-property-photo.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/04/87/c2/c3/getlstd-property-photo.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1600",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/04/87/c2/c3/getlstd-property-photo.jpg",
+                      "height": "830"
+                   },
+                   "large": {
+                      "width": "1600",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/04/87/c2/c3/getlstd-property-photo.jpg",
+                      "height": "830"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/04/87/c2/c3/getlstd-property-photo.jpg",
+                      "height": "285"
+                   }
+                },
+                "is_blessed": true,
+                "uploaded_date": "2013-09-13T22:24:35-0400",
+                "caption": "getlstd_property_photo",
+                "id": "76006083",
+                "helpful_votes": "4",
+                "published_date": "2013-09-13T22:24:35-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "tour_operator",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "5.0",
+             "is_closed": false,
+             "open_now_text": "Closed Now",
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "42",
+                   "name": "Tours"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": null,
+                "street2": null,
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560038"
+             },
+             "address": "Bengaluru 560038 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 67 reviews"
+          },
+          "review_snippet": {
+             "snippet": "You shouldn't come to Bangalore without hearing what he has to tell you",
+             "spans": [
+                {
+                   "start_index": 22,
+                   "end_index": 31
+                }
+             ],
+             "review_id": "636309631"
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "geos",
+          "result_object": {
+             "location_id": "12392962",
+             "name": "Bangalore Rural District",
+             "latitude": "13.270768",
+             "longitude": "77.599884",
+             "num_reviews": "2430",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bangalore Rural District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "960",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+                      "height": "625"
+                   },
+                   "large": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+                      "height": "358"
+                   },
+                   "medium": {
+                      "width": "250",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+                      "height": "163"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2017-07-24T09:30:41-0400",
+                "caption": "Sadahalli Quarry Temple",
+                "id": "268491195",
+                "helpful_votes": "0",
+                "published_date": "2017-07-24T09:30:41-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "doubleclick_zone": "as.india.karnataka",
+             "preferred_map_engine": "default",
+             "geo_type": "narrow",
+             "category_counts": {
+                "attractions": {
+                   "activities": "1",
+                   "attractions": "7",
+                   "nightlife": "0",
+                   "shopping": "0",
+                   "total": "8"
+                },
+                "restaurants": {
+                   "total": "43"
+                },
+                "accommodations": {
+                   "hotels": "10",
+                   "bbs_inns": "10",
+                   "others": "14",
+                   "total": "34"
+                },
+                "neighborhoods": "0",
+                "airports": "0"
+             },
+             "nearby_attractions": [],
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "geographic",
+                "name": "Geographic"
+             },
+             "subcategory": [
+                {
+                   "key": "district",
+                   "name": "District"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "has_restaurant_coverpage": false,
+             "has_attraction_coverpage": false,
+             "has_curated_shopping_list": false
+          },
+          "scope": "local"
+       },
+       {
+          "result_type": "things_to_do",
+          "result_object": {
+             "location_id": "10091799",
+             "name": "SMAAASH Bangalore",
+             "latitude": "12.973374",
+             "longitude": "77.620895",
+             "num_reviews": "48",
+             "timezone": "Asia/Kolkata",
+             "location_string": "Bengaluru, Bangalore District, Karnataka",
+             "photo": {
+                "images": {
+                   "small": {
+                      "width": "150",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/14/7e/6d/db/exclusive-vr-coasters.jpg",
+                      "height": "150"
+                   },
+                   "thumbnail": {
+                      "width": "50",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/14/7e/6d/db/exclusive-vr-coasters.jpg",
+                      "height": "50"
+                   },
+                   "original": {
+                      "width": "1280",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/7e/6d/db/exclusive-vr-coasters.jpg",
+                      "height": "850"
+                   },
+                   "large": {
+                      "width": "1024",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/14/7e/6d/db/exclusive-vr-coasters.jpg",
+                      "height": "680"
+                   },
+                   "medium": {
+                      "width": "550",
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/14/7e/6d/db/exclusive-vr-coasters.jpg",
+                      "height": "365"
+                   }
+                },
+                "is_blessed": false,
+                "uploaded_date": "2018-09-07T03:49:34-0400",
+                "caption": "Exclusive VR Coasters",
+                "id": "343829979",
+                "helpful_votes": "1",
+                "published_date": "2018-09-07T03:49:34-0400",
+                "user": {
+                   "user_id": null,
+                   "member_id": "0",
+                   "type": "user"
+                }
+             },
+             "awards": [],
+             "location_subtype": "none",
+             "preferred_map_engine": "default",
+             "distance": null,
+             "distance_string": null,
+             "bearing": null,
+             "rating": "4.0",
+             "is_closed": false,
+             "open_now_text": "Open Now",
+             "is_long_closed": false,
+             "description": "",
+             "web_url": "",
+             "ancestors": [
+                {
+                   "subcategory": [
+                      {
+                         "key": "city",
+                         "name": "City"
+                      }
+                   ],
+                   "name": "Bengaluru",
+                   "abbrv": null,
+                   "location_id": "297628"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "district",
+                         "name": "District"
+                      }
+                   ],
+                   "name": "Bangalore District",
+                   "abbrv": null,
+                   "location_id": "12392950"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "state",
+                         "name": "State"
+                      }
+                   ],
+                   "name": "Karnataka",
+                   "abbrv": null,
+                   "location_id": "297627"
+                },
+                {
+                   "subcategory": [
+                      {
+                         "key": "country",
+                         "name": "Country"
+                      }
+                   ],
+                   "name": "India",
+                   "abbrv": null,
+                   "location_id": "293860"
+                }
+             ],
+             "category": {
+                "key": "attraction",
+                "name": "Attraction"
+             },
+             "subcategory": [
+                {
+                   "key": "56",
+                   "name": "Fun & Games"
+                }
+             ],
+             "is_jfy_enabled": false,
+             "nearest_metro_station": [],
+             "address_obj": {
+                "street1": "MG Road",
+                "street2": "2nd Floor, 1MG-Lido Mall, Trinity Circle",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalcode": "560008"
+             },
+             "address": "MG Road 2nd Floor, 1MG-Lido Mall, Trinity Circle, Bengaluru 560008 India",
+             "is_candidate_for_contact_info_suppression": false,
+             "shopping_type": "none"
+          },
+          "search_explanations": {
+             "mentioned_by_travelers": "matches 6 reviews"
+          },
+          "review_snippet": {
+             "snippet": "https://www.tripadvisor.in/Attraction_Review-g297628-d10091799-Reviews-Smaaash-Bengaluru_Bangalore_District_Karnataka.html",
+             "spans": [
+                {
+                   "start_index": 0,
+                   "end_index": 122
+                }
+             ],
+             "review_id": "557569918"
+          },
+          "scope": "local"
+       }
+    ],
+    "metadata": {
+       "scope": "local"
+    },
+    "sort": [
+       {
+          "filter_key": "relevance",
+          "label": "Relevance",
+          "locale_independent_label": "relevance",
+          "selected": true
+       },
+       {
+          "filter_key": "distance",
+          "label": "Distance",
+          "locale_independent_label": "distance",
+          "selected": false
+       }
+    ],
+    "partial_content": false,
+    "tracking": {
+       "search_id": "9EF2852023556296623F699F08234D0F1590239469177"
+    },
+    "paging": {
+       "results": "30",
+       "total_results": "24641"
+    }
+ }

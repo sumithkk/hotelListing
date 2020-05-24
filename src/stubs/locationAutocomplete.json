@@ -1,0 +1,509 @@
+{
+  "data": [
+    {
+      "result_type": "geos",
+      "result_object": {
+        "location_id": "297628",
+        "name": "Bengaluru",
+        "latitude": "12.962484",
+        "longitude": "77.588455",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Bengaluru, India",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/d2/2f/7a/palace-from-the-outside.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/d2/2f/7a/palace-from-the-outside.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2000",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/7a/palace-from-the-outside.jpg",
+              "height": "1155"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg",
+              "height": "318"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/0c/d2/2f/7a/palace-from-the-outside.jpg",
+              "height": "144"
+            }
+          },
+          "is_blessed": false,
+          "uploaded_date": "2016-09-03T15:49:04-0400",
+          "caption": "Palace from the outside. View from the garden",
+          "id": "215101306",
+          "helpful_votes": "87",
+          "published_date": "2016-09-03T15:49:04-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "default_options": [
+          {
+            "key": "overview",
+            "name": "Bengaluru Overview"
+          },
+          {
+            "key": "restaurants",
+            "name": "Restaurants"
+          },
+          {
+            "key": "things_to_do",
+            "name": "Things to Do"
+          },
+          {
+            "key": "lodging",
+            "name": "Hotels"
+          },
+          {
+            "key": "vacation_rentals",
+            "name": "Vacation Rentals"
+          },
+          {
+            "key": "flights_to",
+            "name": "Flights"
+          },
+          {
+            "key": "neighborhoods",
+            "name": "Neighborhoods"
+          }
+        ],
+        "geo_type": "narrow",
+        "location_subtype": "none",
+        "has_restaurant_coverpage": true,
+        "has_attraction_coverpage": true,
+        "has_curated_shopping_list": false,
+        "show_address": false,
+        "preferred_map_engine": "default",
+        "description": "Known as both the \"Garden City\" and \"The Silicon Valley of India,\" Bangalore (officially \"Bengaluru\") is a techie’s paradise, boasting the highest concentration of IT companies in the country. When you’re done geeking out, there are plenty of gardens, museums, natural features, palaces and temples to fill your dance card. Visit Vidhana Soudha, Cubbon Park and the Ulsoor Lake of Bangalore, well known for its beautiful locales and boating facilities. Bangalore is also a major center of Indian classical music and dance, and of vivid, cutting-edge nightlife.",
+        "is_localized_description": true,
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "district",
+                "name": "District"
+              }
+            ],
+            "name": "Bangalore District",
+            "abbrv": null,
+            "location_id": "12392950"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "state",
+                "name": "State"
+              }
+            ],
+            "name": "Karnataka",
+            "abbrv": null,
+            "location_id": "297627"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "India",
+            "abbrv": null,
+            "location_id": "293860"
+          }
+        ],
+        "parent_display_name": "India",
+        "guide_count": "0"
+      },
+      "scope": "local"
+    },
+    {
+      "result_type": "geos",
+      "result_object": {
+        "location_id": "12392950",
+        "name": "Bangalore District",
+        "latitude": "12.960652",
+        "longitude": "77.604836",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Bangalore District, India",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2000",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "1215"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "334"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "152"
+            }
+          },
+          "is_blessed": false,
+          "uploaded_date": "2016-09-03T15:48:44-0400",
+          "caption": "Palace from the outside",
+          "id": "215101197",
+          "helpful_votes": "0",
+          "published_date": "2016-09-03T15:48:44-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "default_options": [
+          {
+            "key": "overview",
+            "name": "Bangalore District Overview"
+          },
+          {
+            "key": "restaurants",
+            "name": "Restaurants"
+          },
+          {
+            "key": "things_to_do",
+            "name": "Things to Do"
+          },
+          {
+            "key": "lodging",
+            "name": "Hotels"
+          },
+          {
+            "key": "vacation_rentals",
+            "name": "Vacation Rentals"
+          },
+          {
+            "key": "flights_to",
+            "name": "Flights"
+          }
+        ],
+        "geo_type": "narrow",
+        "location_subtype": "none",
+        "has_restaurant_coverpage": false,
+        "has_attraction_coverpage": true,
+        "has_curated_shopping_list": false,
+        "show_address": true,
+        "preferred_map_engine": "default",
+        "description": "",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "state",
+                "name": "State"
+              }
+            ],
+            "name": "Karnataka",
+            "abbrv": null,
+            "location_id": "297627"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "India",
+            "abbrv": null,
+            "location_id": "293860"
+          }
+        ],
+        "parent_display_name": "Karnataka, India",
+        "guide_count": "0"
+      },
+      "scope": "local"
+    },
+    {
+      "result_type": "geo_pages",
+      "result_object": {
+        "location_id": "12392950",
+        "name": "Bangalore District",
+        "latitude": "12.960652",
+        "longitude": "77.604836",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Bangalore District, India",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2000",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "1215"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "334"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/0c/d2/2f/0d/palace-from-the-outside.jpg",
+              "height": "152"
+            }
+          },
+          "is_blessed": false,
+          "uploaded_date": "2016-09-03T15:48:44-0400",
+          "caption": "Palace from the outside",
+          "id": "215101197",
+          "helpful_votes": "0",
+          "published_date": "2016-09-03T15:48:44-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "default_options": [
+          {
+            "key": "overview",
+            "name": "Bangalore District Overview"
+          },
+          {
+            "key": "restaurants",
+            "name": "Restaurants"
+          },
+          {
+            "key": "things_to_do",
+            "name": "Things to Do"
+          },
+          {
+            "key": "lodging",
+            "name": "Hotels"
+          },
+          {
+            "key": "vacation_rentals",
+            "name": "Vacation Rentals"
+          },
+          {
+            "key": "flights_to",
+            "name": "Flights"
+          }
+        ],
+        "geo_type": "narrow",
+        "location_subtype": "none",
+        "has_restaurant_coverpage": false,
+        "has_attraction_coverpage": true,
+        "has_curated_shopping_list": false,
+        "show_address": true,
+        "preferred_map_engine": "default",
+        "geo_page_type": "lodging",
+        "geo_page_name": "Hotels in Bangalore District",
+        "description": "",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "state",
+                "name": "State"
+              }
+            ],
+            "name": "Karnataka",
+            "abbrv": null,
+            "location_id": "297627"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "India",
+            "abbrv": null,
+            "location_id": "293860"
+          }
+        ],
+        "parent_display_name": "Karnataka, India",
+        "guide_count": "0"
+      },
+      "scope": "local"
+    },
+    {
+      "result_type": "geos",
+      "result_object": {
+        "location_id": "12392962",
+        "name": "Bangalore Rural District",
+        "latitude": "13.270768",
+        "longitude": "77.599884",
+        "timezone": "Asia/Kolkata",
+        "location_string": "Bangalore Rural District, India",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "960",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+              "height": "625"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+              "height": "358"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/10/00/d9/bb/sadahalli-quarry-temple.jpg",
+              "height": "163"
+            }
+          },
+          "is_blessed": false,
+          "uploaded_date": "2017-07-24T09:30:41-0400",
+          "caption": "Sadahalli Quarry Temple",
+          "id": "268491195",
+          "helpful_votes": "0",
+          "published_date": "2017-07-24T09:30:41-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "default_options": [
+          {
+            "key": "overview",
+            "name": "Bangalore Rural District Overview"
+          },
+          {
+            "key": "restaurants",
+            "name": "Restaurants"
+          },
+          {
+            "key": "things_to_do",
+            "name": "Things to Do"
+          },
+          {
+            "key": "lodging",
+            "name": "Hotels"
+          },
+          {
+            "key": "vacation_rentals",
+            "name": "Vacation Rentals"
+          },
+          {
+            "key": "flights_to",
+            "name": "Flights"
+          }
+        ],
+        "geo_type": "narrow",
+        "location_subtype": "none",
+        "has_restaurant_coverpage": false,
+        "has_attraction_coverpage": false,
+        "has_curated_shopping_list": false,
+        "show_address": true,
+        "preferred_map_engine": "default",
+        "description": "",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "state",
+                "name": "State"
+              }
+            ],
+            "name": "Karnataka",
+            "abbrv": null,
+            "location_id": "297627"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "India",
+            "abbrv": null,
+            "location_id": "293860"
+          }
+        ],
+        "parent_display_name": "Karnataka, India",
+        "guide_count": "0"
+      },
+      "scope": "local"
+    },
+    {
+      "result_type": "profiles",
+      "result_object": {
+        "userid": "F1DA5263EFD5146F1A60D7C86B967115",
+        "username": "@Travel-Bangalore07",
+        "display_name": "Traveller-Bangalore",
+        "is_verified": false,
+        "num_followers": "15",
+        "avatar": {
+          "url_small": "https://media-cdn.tripadvisor.com/media/photo-l/0a/01/89/38/nusrat-bangalore.jpg",
+          "url_medium": "https://media-cdn.tripadvisor.com/media/photo-f/0a/01/89/38/nusrat-bangalore.jpg",
+          "url_large": "https://media-cdn.tripadvisor.com/media/photo-s/0a/01/89/38/nusrat-bangalore.jpg",
+          "url_thumbnail": "https://media-cdn.tripadvisor.com/media/photo-t/0a/01/89/38/nusrat-bangalore.jpg",
+          "url_original": "https://media-cdn.tripadvisor.com/media/photo-o/0a/01/89/38/nusrat-bangalore.jpg"
+        },
+        "is_following": false
+      },
+      "scope": "local"
+    },
+    {
+      "result_type": "profiles",
+      "result_object": {
+        "userid": "BE0784BE52AAF777460F916F8EA2F1D9",
+        "username": "@Bangaloretraveller",
+        "display_name": "Bangaloretraveller",
+        "is_verified": false,
+        "num_followers": "4",
+        "avatar": {
+          "url_small": "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/f2/11/default-avatar-2020-23.jpg",
+          "url_medium": "https://media-cdn.tripadvisor.com/media/photo-f/1a/f6/f2/11/default-avatar-2020-23.jpg",
+          "url_large": "https://media-cdn.tripadvisor.com/media/photo-s/1a/f6/f2/11/default-avatar-2020-23.jpg",
+          "url_thumbnail": "https://media-cdn.tripadvisor.com/media/photo-t/1a/f6/f2/11/default-avatar-2020-23.jpg",
+          "url_original": "https://media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/11/default-avatar-2020-23.jpg"
+        },
+        "is_following": false
+      },
+      "scope": "local"
+    }
+  ],
+  "partial_content": false
+}

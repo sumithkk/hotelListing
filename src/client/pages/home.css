@@ -1,0 +1,9 @@
+.sectionTitle {
+    position: absolute;
+    font-size: 10rem;
+    bottom: 112px;
+    font-weight: bold;
+    color: #4444467d;
+    z-index: 1;
+    left: -250px;
+}

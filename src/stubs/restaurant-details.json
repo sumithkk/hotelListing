@@ -1,0 +1,196 @@
+{
+  "location_id": "7937981",
+  "name": "The Panda House",
+  "latitude": "12.95963",
+  "longitude": "77.58321",
+  "num_reviews": "1",
+  "timezone": "Asia/Kolkata",
+  "location_string": "Bengaluru, Bangalore District, Karnataka",
+  "awards": [],
+  "doubleclick_zone": "as.india.karnataka.bangalore",
+  "preferred_map_engine": "default",
+  "raw_ranking": "3.0366945266723633",
+  "ranking_geo": "Bengaluru",
+  "ranking_geo_id": "297628",
+  "ranking_position": "4317",
+  "ranking_denominator": "7863",
+  "ranking_category": "restaurant",
+  "ranking": "#4,317 of 11,747 places to eat in Bengaluru",
+  "distance": null,
+  "distance_string": null,
+  "bearing": null,
+  "rating": "5.0",
+  "is_closed": false,
+  "is_long_closed": false,
+  "price_level": "",
+  "neighborhood_info": [
+    {
+      "location_id": "13087462",
+      "name": "Cubbon Park"
+    }
+  ],
+  "description": "",
+  "web_url": "https://www.tripadvisor.com/Restaurant_Review-g297628-d7937981-Reviews-The_Panda_House-Bengaluru_Bangalore_District_Karnataka.html",
+  "write_review": "https://www.tripadvisor.com/UserReview-g297628-d7937981-The_Panda_House-Bengaluru_Bangalore_District_Karnataka.html",
+  "ancestors": [
+    {
+      "subcategory": [
+        {
+          "key": "city",
+          "name": "City"
+        }
+      ],
+      "name": "Bengaluru",
+      "abbrv": null,
+      "location_id": "297628"
+    },
+    {
+      "subcategory": [
+        {
+          "key": "district",
+          "name": "District"
+        }
+      ],
+      "name": "Bangalore District",
+      "abbrv": null,
+      "location_id": "12392950"
+    },
+    {
+      "subcategory": [
+        {
+          "key": "state",
+          "name": "State"
+        }
+      ],
+      "name": "Karnataka",
+      "abbrv": null,
+      "location_id": "297627"
+    },
+    {
+      "subcategory": [
+        {
+          "key": "country",
+          "name": "Country"
+        }
+      ],
+      "name": "India",
+      "abbrv": null,
+      "location_id": "293860"
+    }
+  ],
+  "category": {
+    "key": "restaurant",
+    "name": "Restaurant"
+  },
+  "subcategory": [],
+  "parent_display_name": "Bengaluru",
+  "is_jfy_enabled": false,
+  "nearest_metro_station": [
+    {
+      "name": "Krishna Rajendra Market",
+      "local_name": "Krishna Rajendra Market",
+      "address": "Kalasipalyam Main Road, Bengaluru 560078, India",
+      "local_address": "Kalasipalyam Main Road, 560078",
+      "lines": [
+        {
+          "line_name": "Green",
+          "line_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "system_name": "Namma Metro",
+          "system_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Metro",
+          "lineid": "bangalore-namma-metro-green"
+        }
+      ],
+      "latitude": 12.963636,
+      "longitude": 77.57739,
+      "distance": 0.48038772
+    },
+    {
+      "name": "National College",
+      "local_name": "National College",
+      "address": "Old Veterinary Hospital Road, Bengaluru 560004, India",
+      "local_address": "Old Veterinary Hospital Road, 560004",
+      "lines": [
+        {
+          "line_name": "Green",
+          "line_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "system_name": "Namma Metro",
+          "system_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Metro",
+          "lineid": "bangalore-namma-metro-green"
+        }
+      ],
+      "latitude": 12.950546,
+      "longitude": 77.57372,
+      "distance": 0.8967249
+    },
+    {
+      "name": "Lalbagh",
+      "local_name": "Lalbagh",
+      "address": "Rashtriya Vidyalaya Road, Bengaluru 560004, India",
+      "local_address": "Rashtriya Vidyalaya Road, 560004",
+      "lines": [
+        {
+          "line_name": "Green",
+          "line_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "system_name": "Namma Metro",
+          "system_symbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Metro",
+          "lineid": "bangalore-namma-metro-green"
+        }
+      ],
+      "latitude": 12.94635,
+      "longitude": 77.580025,
+      "distance": 0.94339657
+    }
+  ],
+  "reviews": [
+    {
+      "title": "Cubbon Park near !!",
+      "rating": "5",
+      "published_date": "2018-08-27T19:19:16-04:00",
+      "published_platform": null,
+      "summary": "Very good place for dining out. It was a family visit with kids, we loved the visit and enjoyed the taste/",
+      "author": "arunmanir",
+      "url": "http://www.tripadvisor.com/ShowUserReviews-g297628-d7937981-r611303086-The_Panda_House-Bengaluru_Bangalore_District_Karnataka.html#review611303086",
+      "review_id": "611303086",
+      "machine_translated": false
+    }
+  ],
+  "phone": "+91 80 2670 1494",
+  "address_obj": {
+    "street1": "Hotel Pai Viceroy, 6, 1st Cross, Near Car Craft, J C Road",
+    "street2": null,
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "postalcode": "560027"
+  },
+  "address": "Hotel Pai Viceroy, 6, 1st Cross, Near Car Craft, J C Road, Bengaluru 560027 India",
+  "local_name": "The Panda House",
+  "local_address": "Hotel Pai Viceroy, 6, 1st Cross, Near Car Craft, J C Road, 560027",
+  "local_lang_code": "en-IN",
+  "is_candidate_for_contact_info_suppression": false,
+  "cuisine": [],
+  "dietary_restrictions": [],
+  "establishment_category_ranking": "#3,924 of 10,965 Restaurants in Bengaluru",
+  "meal_types": [],
+  "establishment_types": [
+    {
+      "key": "10591",
+      "name": "Restaurants"
+    }
+  ],
+  "dishes": [],
+  "sub_cuisine": [],
+  "photo_count": "0",
+  "has_review_draft": false,
+  "has_panoramic_photos": false,
+  "rating_histogram": {
+    "count_1": "0",
+    "count_2": "0",
+    "count_3": "0",
+    "count_4": "0",
+    "count_5": "1"
+  }
+}

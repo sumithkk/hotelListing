@@ -1,39 +1,40 @@
 import axios from 'axios';
 import config from '../../../config';
 
+import RestaurantList from '../../stubs/attractionList.json';
+
 export const FETCH_ARTICLES = 'fetch_articles';
 
-export const fetchArticles = (source) => async (dispatch) => {
+export const fetchArticles = (data) => async (dispatch) => {
   // const res = await axios.get(url);
 
-  const config = {
-    method: 'GET',
-    url: 'https://hotels4.p.rapidapi.com/properties/list',
-    headers: {
-      'content-type': 'application/octet-stream',
-      'x-rapidapi-host': 'hotels4.p.rapidapi.com',
-      'x-rapidapi-key': '4c985af0e6mshe02508316d3d9d6p1b2493jsn1bb8a5f16ce8',
-      useQueryString: true,
-    },
-    params: {
-      currency: 'USD',
-      locale: 'en_US',
-      sortOrder: 'PRICE',
-      destinationId: '1506246',
-      pageNumber: '1',
-      checkIn: '2020-01-08',
-      checkOut: '2020-01-15',
-      pageSize: '25',
-      adults1: '1',
-    },
-  };
+  // const axios = require('axios');
+  let res = {};
 
-  // let res = await axios(config);
+  new Promise((resolve, reject) => {
+    //do something
+    if (data) {
+      resolve(RestaurantList);
+    }
+  })
+    .then((response) => {
+      console.log(response);
+      res = response.data;
+      dispatch({
+        type: FETCH_ARTICLES,
+        payload: res,
+      });
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+
+  // let res = await axios(data);
 
   // console.log(res.data);
 
-  dispatch({
-    type: FETCH_ARTICLES,
-    payload: config,
-  });
+  // dispatch({
+  //   type: FETCH_ARTICLES,
+  //   payload: res,
+  // });
 };
