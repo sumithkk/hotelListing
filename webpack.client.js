@@ -2,7 +2,7 @@ const path = require('path');
 const merge = require('webpack-merge');
 const baseConfig = require('./webpack.base');
 const webpack = require('webpack');
-
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
