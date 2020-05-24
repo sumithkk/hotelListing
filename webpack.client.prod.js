@@ -5,7 +5,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 // const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-var HtmlWebpackPlugin = require("html-webpack-plugin");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 const baseConfig = require('./webpack.base');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
@@ -29,8 +29,8 @@ const config = {
         loader: 'babel-loader',
         options: {
           presets: [
-            '@babel/preset-env',
-            '@babel/react',
+            '@babel/preset-react',
+            ['@babel/env', { targets: { browsers: ['last 2 versions'] } }],
             {
               plugins: ['@babel/plugin-proposal-class-properties'],
             },

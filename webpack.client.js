@@ -45,8 +45,8 @@ const config = {
         loader: 'babel-loader',
         options: {
           presets: [
-            '@babel/preset-env',
-            '@babel/react',
+            '@babel/preset-react',
+            ['@babel/env', { targets: { browsers: ['last 2 versions'] } }],
             {
               plugins: ['@babel/plugin-proposal-class-properties'],
             },
