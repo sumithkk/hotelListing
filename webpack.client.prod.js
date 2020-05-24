@@ -36,36 +36,26 @@ const config = {
           ],
         },
       },
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     ExtractCssChunks.loader,
-      //     {
-      //       loader: 'css-loader',
-      //       options: {
-      //         modules: true,
-      //         // localIdentName: '[hash:base64:5]',
-      //       },
-      //     },
-      //     {
-      //       loader: 'postcss-loader',
-      //       options: {
-      //         ident: 'postcss',
-      //       },
-      //     },
-      //   ],
-      // },
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          ExtractCssChunks.loader,
           {
             loader: 'css-loader',
             options: {
+              modules: true,
+              // localIdentName: '[name]__[local]--[hash:base64:5]',
               importLoaders: 1,
+              sourceMap: true,
             },
           },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true,
+              ident: 'postcss',
+            },
+          },
         ],
       },
       {
