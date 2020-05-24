@@ -380,8 +380,8 @@ const HomePage = () => {
   };
 
   const onImgOver = (e) => {
-    console.log(e);
-    designerImgRef.current.style.width = mouseX;
+    // console.log(e);
+    // designerImgRef.current.style.width = mouseX;
   };
 
   if (!componentMounted) {

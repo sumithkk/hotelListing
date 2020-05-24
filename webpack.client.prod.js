@@ -4,8 +4,7 @@ const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
-// const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const baseConfig = require('./webpack.base');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
@@ -29,8 +28,8 @@ const config = {
         loader: 'babel-loader',
         options: {
           presets: [
-            '@babel/preset-react',
-            ['@babel/env', { targets: { browsers: ['last 2 versions'] } }],
+            '@babel/preset-env',
+            '@babel/react',
             {
               plugins: ['@babel/plugin-proposal-class-properties'],
             },
@@ -60,7 +59,7 @@ const config = {
         ],
       },
       {
-        test: /\.(jpg|png|gif|woff|woff2|eot|ttf|jpf|otf)$/,
+        test: /\.(jpg|png|gif|woff|woff2|eot|ttf|otf)$/,
         use: [
           {
             loader: 'file-loader',
@@ -110,22 +109,22 @@ const config = {
   },
   devtool: 'inline-source-map',
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   favicon: './src/client/images/favicon.ico',
-    // }),
     new ExtractCssChunks({
       filename: '[name].[hash:8].css',
       chunkFilename: '[name].[hash:8].css',
     }),
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /\.css$/g,
+      cssProcessor: require('cssnano'),
+      cssProcessorOptions: { discardComments: { removeAll: true } },
+      canPrint: true,
+    }),
+    // new BundleAnalyzerPlugin(),
     new CompressionPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify('production'),
       },
-    }),
-    new UglifyJSPlugin({
-      cache: true,
-      parallel: true,
     }),
   ],
 };
