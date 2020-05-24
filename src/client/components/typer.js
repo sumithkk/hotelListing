@@ -1,15 +1,15 @@
 import React from 'react';
 
-class Typer extends React.Component {
-  constructor(Props) {
-    super(Props);
-    this.state = {
-      text: '',
-      isDeleting: false,
-      loopNum: 0,
-      typingSpeed: 150,
-    };
-  }
+class Typer extends React.PureComponent {
+  //   constructor(Props) {
+  //     super(Props);
+  state = {
+    text: '',
+    isDeleting: false,
+    loopNum: 0,
+    typingSpeed: 150,
+  };
+  //   }
 
   componentDidMount() {
     this.handleType();

@@ -1653,7 +1653,7 @@ input, textarea {
   width: 20px;
   height: 20px;
   position: absolute;
-  border: 8px solid orange;
+  border: 8px solid orangered;
   border-radius: 50%;
   opacity: .5;
   top: -1px;

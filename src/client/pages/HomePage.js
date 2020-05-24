@@ -148,6 +148,7 @@ const Nav = styled.div`
     text-decoration: none;
     font-family: 'rsb';
     font-size: 19px;
+    margin-top: 5px;
     margin-left: 15px;
     border: 2px solid transparent;
     &:hover {
@@ -292,9 +293,11 @@ function FadeInSection(props) {
   );
 }
 
-const HomePage = (props) => {
+const HomePage = () => {
   //For theme
   const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const [mouseX, setMouseX] = useState(0);
+  const [mouseY, setMouseY] = useState(0);
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
   const [open, setOpen] = useState(false);
   const [name, setName] = useState('');
@@ -303,6 +306,8 @@ const HomePage = (props) => {
   const [error, setError] = useState(false);
   const node = React.useRef();
   const submitBtnRef = useRef();
+  const designerImgRef = useRef();
+  const coderImgRef = useRef();
   let navRef = useRef(null);
   let homeRef = useRef(null);
   let protfolioRef = useRef(null);
@@ -370,8 +375,13 @@ const HomePage = (props) => {
   };
 
   const onMouseMove = (e) => {
-    console.log(e.offsetX);
-    console.log(e.offsetY);
+    setMouseX(e.offsetX);
+    setMouseY(e.offsetY);
+  };
+
+  const onImgOver = (e) => {
+    console.log(e);
+    designerImgRef.current.style.width = mouseX;
   };
 
   if (!componentMounted) {
@@ -422,7 +432,7 @@ const HomePage = (props) => {
         <div className="home" id="content container">
           <FadeInSection>
             <section id="section" className="face" ref={homeRef}>
-              <a href="/portfolio">
+              <a href="/portfolio" onMouseMove={(e) => onImgOver(e)}>
                 <div id="designer" className="designer" style={{ opacity: 1 }}>
                   <div id="designer-desc" className="description" style={{ opacity: 1 }}>
                     <h1>designer</h1>
@@ -452,11 +462,13 @@ const HomePage = (props) => {
               <div
                 id="designer-img"
                 className={`designer-img slide-in-left`}
+                ref={designerImgRef}
                 style={{ left: '100px', opacity: 1, width: '420px' }}
               ></div>
               <div
                 id="coder-img"
                 className={`coder-img slide-in-right`}
+                ref={coderImgRef}
                 style={{ right: '100px', opacity: 1, width: '420px' }}
               ></div>
               <img

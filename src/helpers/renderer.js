@@ -30,12 +30,12 @@ export default (req, store, context) => {
                 ${helmet.meta.toString()}
                 ${helmet.link.toString()}
                 <meta charset="utf-8">
-                <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
                 <meta name="theme-color" content="#f2f2f2">
                 <meta name="description" content="Sumith's Portfolio website" />
                 <link rel="apple-touch-icon" href="logo192.png" />
-                <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+                <link rel="manifest" href="/manifest.json" />
                 ${styles}
             </head>
             <body>
