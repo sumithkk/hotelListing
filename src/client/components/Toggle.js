@@ -21,7 +21,7 @@ const ToggleContainer = styled.button`
   outline: none;
   width: 132px;
   padding: 10px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'rm';
   padding-left: 40px;
   @media (max-width: 576px) {
     width: auto !important;

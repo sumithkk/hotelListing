@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
-import RajdhaniLite from '../fonts/Rajdhani-Light.ttf';
+// import RajdhaniLite from '../fonts/Rajdhani-Light.ttf';
 import Banner from '../client/images/sprite-sumith.png';
 // import RajdhaniReg from '../fonts/Rajdhani-Regular.ttf';
-// import RajdhaniMed from '../fonts/Rajdhani-Medium.ttf';
-// import RajdhaniSemiBold from '../fonts/Rajdhani-SemiBold.ttf';
-// import RajdhaniBold from '../fonts/Rajdhani-Bold.ttf';
+import RajdhaniMed from '../fonts/Rajdhani-Medium.ttf';
+import RajdhaniSemiBold from '../fonts/Rajdhani-SemiBold.ttf';
+import RajdhaniBold from '../fonts/Rajdhani-Bold.ttf';
 
 export const GlobalStyles = createGlobalStyle`
   *,
@@ -13,14 +13,30 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-
-// @font-face {
-//   font-family: 'rr';
-//   src: url(${RajdhaniLite}) format('truetype');
-//   font-weight: 300;
-//   font-style: normal;
-//   font-display: auto;
-// }
+@font-face {
+  font-family: 'rm';
+  src: url(${RajdhaniMed}) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  line-height:2;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'rsb';
+  src: url(${RajdhaniSemiBold}) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  line-height:1.2;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'rb';
+  src: url(${RajdhaniBold}) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  line-height:1.2;
+  font-display: auto;
+}
 
 
 #root {
@@ -32,6 +48,18 @@ export const GlobalStyles = createGlobalStyle`
 
 body{
   cursor: none;
+  font-family: 'rm';
+}
+
+h1 {
+  font-family: 'rb';
+  line-height: 1.4;
+}
+p {
+  line-height: 1.3;
+}
+input, textarea {
+  font-family: "rm";
 }
 
 #cursor {
@@ -59,7 +87,6 @@ body{
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     // min-height: 100vh;
-    font-weight: 500;
     padding: 0;
     margin: 0;
     // font-family: 'rr' !important;
@@ -542,7 +569,7 @@ body{
   .myName {
     border: none;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: "rb";
     align-self: flex-start;
   }
   .myName small {
@@ -632,6 +659,7 @@ body{
     top: 0;
     left: 0;
     height: 137px;
+    line-height: 1.2;
     margin: auto;
     width: 45%;
     z-index: 2;
@@ -639,13 +667,13 @@ body{
     justify-content: center;
     padding: 20px;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-family: "rm";
   }
   .inputBox {
     padding: 15px !important;
     font-size: 1rem;
     font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
+    font-family: "rsb";
     outline: none;
   }
   .btn {
@@ -864,7 +892,7 @@ body{
     width: 110px;
     width: 100px;
     font-size: 16px;
-    font-weight: bold;
+    font-family: "rsb"
   }
   /* @media screen and (min-width: 960px) { */
   .animated .slide-up {
@@ -1508,7 +1536,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-weight: bold;
+    font-family: "rb";
   } */
   .menuWrap {
     z-index: 2;
@@ -1544,13 +1572,12 @@ body{
   }
 
   .sectionTitle {
-    // position: absolute;
     font-size: 10rem;
+    font-family: "rb";
     font-weight: bold;
     color: #000;
     opacity: .1;
     line-height: .7;
-    // z-index: 1;
 }
 .skillSet {
   display: flex;

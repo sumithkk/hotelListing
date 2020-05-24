@@ -17,6 +17,7 @@ import Logo from '../components/svgComponents/logo';
 import HotelBg from '../components/svgComponents/HotelBg';
 import Contact from '../components/svgComponents/contact';
 import { connect } from 'react-redux';
+import Typer from '../components/typer';
 // import css from './index.css';
 
 import { ThemeProvider } from 'styled-components';
@@ -50,8 +51,7 @@ const Button = styled.button`
   background: orange;
   width: fit-content;
   align-self: flex-end;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: bold;
+  font-family: 'rsb';
   cursor: pointer;
   outline: none;
   margin-top: 30px;
@@ -146,7 +146,7 @@ const Nav = styled.div`
     cursor: pointer;
     margin-right: 5px;
     text-decoration: none;
-    font-weight: 500;
+    font-family: 'rsb';
     font-size: 19px;
     margin-left: 15px;
     border: 2px solid transparent;
@@ -176,7 +176,7 @@ const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
   div {
     padding: 15px;
-    font-weight: bold;
+    font-family: 'rb';
   }
   background: #000000b5;
   width: 100%;
@@ -191,7 +191,7 @@ const StyledMenu = styled.nav`
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
-    font-weight: bold;
+    font-family: 'rb';
     letter-spacing: 0.5rem;
     color: #0d0c1d;
     text-decoration: none;
@@ -254,57 +254,6 @@ const StyledBurger = styled.button`
   }
 `;
 
-class Typer extends React.Component {
-  constructor(Props) {
-    super(Props);
-    this.state = {
-      text: '',
-      isDeleting: false,
-      loopNum: 0,
-      typingSpeed: 150,
-    };
-  }
-
-  componentDidMount() {
-    this.handleType();
-  }
-
-  handleType = () => {
-    const { dataText } = this.props;
-    const { isDeleting, loopNum, text, typingSpeed } = this.state;
-    const i = loopNum % dataText.length;
-    const fullText = dataText[i];
-
-    this.setState({
-      text: isDeleting
-        ? fullText.substring(0, text.length - 1)
-        : fullText.substring(0, text.length + 1),
-      typingSpeed: isDeleting ? 30 : 150,
-    });
-
-    if (!isDeleting && text === fullText) {
-      setTimeout(() => this.setState({ isDeleting: true }), 500);
-    } else if (isDeleting && text === '') {
-      this.setState({
-        isDeleting: false,
-        loopNum: loopNum + 1,
-      });
-    }
-
-    setTimeout(this.handleType, typingSpeed);
-  };
-
-  render() {
-    return (
-      <h1 style={{ fontSize: '2.5rem', textAlign: 'left' }}>
-        I Design and <span className="underline">Develop</span>&nbsp;
-        <span>{this.state.text}</span>
-        <span id="cursor"></span>
-      </h1>
-    );
-  }
-}
-
 const Burger = ({ open, setOpen, theme }) => {
   return (
     <StyledBurger theme={theme} open={open} onClick={() => setOpen(!open)}>
@@ -363,14 +312,12 @@ const HomePage = (props) => {
   useEffect(() => {
     console.log('mounted');
     const cursor = document.querySelector('.cursor');
-
     document.addEventListener('mousemove', (e) => {
       cursor.setAttribute(
         'style',
         'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px;'
       );
     });
-
     document.addEventListener('click', () => {
       cursor.classList.add('expand');
 
@@ -420,9 +367,6 @@ const HomePage = (props) => {
       block: 'start',
       inline: 'start',
     });
-    // if (window.pageXOffset <= 600) {
-    //   setOpen(!setOpen);
-    // }
   };
 
   const onMouseMove = (e) => {
@@ -441,8 +385,6 @@ const HomePage = (props) => {
           <Portrait />
           <div>Please Rotate your phone</div>
         </div>
-        {/* {window !== undefined && <Cursor />} */}
-
         <Header theme={theme} className="header">
           <div ref={node} className="mobileNav">
             <Burger open={open} setOpen={setOpen} theme={theme} />
@@ -464,7 +406,6 @@ const HomePage = (props) => {
             <div onClick={() => handleAnchor(projectRef)}>PORTFOLIO</div>
             <div onClick={() => handleAnchor(contactRef)}>CONTACT</div>
           </Nav>
-
           <Social>
             <a href="https://www.facebook.com/sumithkk/">
               <Facebook theme={theme} />
@@ -710,13 +651,13 @@ const HomePage = (props) => {
               </div>
               <div className="skillSet">
                 <div className="coderSkills">
-                  <i class="fab fa-html5"></i>
+                  {/* <i class="fab fa-html5"></i>
                   <i class="fab fa-css3"></i>
                   <i class="fab fa-js"></i>
                   <i class="fab fa-react"></i>
                   <i class="fab fa-angular"></i>
                   <i class="fab fa-node"></i>
-                  <i class="fab fa-adobe"></i>
+                  <i class="fab fa-adobe"></i> */}
                 </div>
 
                 <div className="sectionTitle">SKILLS</div>

@@ -7,6 +7,7 @@ import serialize from 'serialize-javascript';
 import { Helmet } from 'react-helmet';
 import Routes from '../client/Routes';
 import { ServerStyleSheet } from 'styled-components';
+// import RajdhaniLite from '../fonts/Rajdhani-Light.ttf';
 
 export default (req, store, context) => {
   const sheet = new ServerStyleSheet(); // <-- creating out stylesheet
@@ -28,14 +29,13 @@ export default (req, store, context) => {
                 ${helmet.title.toString()}
                 ${helmet.meta.toString()}
                 ${helmet.link.toString()}
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <script src="https://kit.fontawesome.com/a68111132e.js" crossorigin="anonymous"></script>
-                <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-                <style>
-                  body {
-                    font-family: 'Rajdhani', sans-serif;
-                  }
-                </style>
+                <meta charset="utf-8">
+                <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
+                <meta name="theme-color" content="#f2f2f2">
+                <meta name="description" content="Sumith's Portfolio website" />
+                <link rel="apple-touch-icon" href="logo192.png" />
+                <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
                 ${styles}
             </head>
             <body>
