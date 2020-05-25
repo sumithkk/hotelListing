@@ -20,6 +20,16 @@ import { connect } from 'react-redux';
 import Typer from '../components/typer';
 // import css from './index.css';
 
+import Macbook from '../images/macbook.png';
+import TopLeft from '../images/topLeft.png';
+import TopRight from '../images/topRight.png';
+import BottomLeft from '../images/bottomLeft.png';
+import BottomRight from '../images/bottomRight.png';
+
+import Ipad from '../images/iPad.png';
+import Mac from '../images/mac.png';
+import Iphone from '../images/iPhone.png';
+
 import { ThemeProvider } from 'styled-components';
 import { useDarkMode } from '../../helpers/useDarkMode';
 import { lightTheme, darkTheme } from '../../helpers/theme';
@@ -323,6 +333,17 @@ const Feature = ({ title, desc, children }) => {
   );
 };
 
+const Bars = ({ title, perc }) => {
+  return (
+    <div className="bar flex">
+      <div className="bar fill">
+        <div className="tag bold flex-center">{title}</div>
+      </div>
+      <span>{perc}</span>
+    </div>
+  );
+};
+
 const HomePage = () => {
   //For theme
   const [theme, toggleTheme, componentMounted] = useDarkMode();
@@ -463,33 +484,27 @@ const HomePage = () => {
         <div className="home" id="content container">
           <FadeInSection>
             <section id="section" className="face" ref={homeRef}>
-              <a href="/portfolio" onMouseMove={(e) => onImgOver(e)}>
-                <div id="designer" className="designer" style={{ opacity: 1 }}>
-                  <div id="designer-desc" className="description" style={{ opacity: 1 }}>
-                    <h1>designer</h1>
-                    <p>
-                      UI/UX Designer with a passion for designing beautiful and functional user
-                      experiences.
-                    </p>
-                  </div>
+              <div id="designer" className="designer" style={{ opacity: 1 }}>
+                <div id="designer-desc" className="description" style={{ opacity: 1 }}>
+                  <h1>designer</h1>
+                  <p>
+                    UI/UX Designer with a passion for designing beautiful and functional user
+                    experiences.
+                  </p>
                 </div>
-              </a>
-              <a href="/about">
-                <div id="coder" className="coder" style={{ opacity: 1 }}>
-                  <div
-                    id="coder-desc"
-                    className="description"
-                    style={{ opacity: 1, textAlign: 'right' }}
-                  >
-                    <h1>&lt;coder&gt;</h1>
-                    <p>
-                      Front End Engineer who focuses on writing clean, elegant and efficient code.
-                    </p>
-                  </div>
+              </div>
+              <div id="coder" className="coder" style={{ opacity: 1 }}>
+                <div
+                  id="coder-desc"
+                  className="description"
+                  style={{ opacity: 1, textAlign: 'right' }}
+                >
+                  <h1>&lt;coder&gt;</h1>
+                  <p>
+                    Front End Engineer who focuses on writing clean, elegant and efficient code.
+                  </p>
                 </div>
-              </a>
-              {/* <img id="face-img" className="face-img" src={Face} alt="adham dannaway ui designer" /> */}
-
+              </div>
               <div
                 id="designer-img"
                 className={`designer-img slide-in-left`}
@@ -565,9 +580,6 @@ const HomePage = () => {
                       ]}
                     />
                   </div>
-                  {/* <h1 className="slide-up">
-                    I Build <span className="underline">Things</span> for Web !
-                  </h1> */}
                   <p className="fade-in" style={{ fontSize: '19px' }}>
                     I'm a Front-End Engineer from Kannur in Kerala. I have serious passion for UI
                     effects, animations and creating intuitive, dynamic user experiences. Let's make
@@ -590,86 +602,26 @@ const HomePage = () => {
             >
               <div className="technology">
                 <div style={{ display: 'block' }} className="flex flex-50-gt-sm bars-wrap">
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex">CSS</div>
-                    </div>
-                    <span>90%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">HTML</div>
-                    </div>
-                    <span>90%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">React</div>
-                    </div>
-                    <span>80%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">JavaScript</div>
-                    </div>
-                    <span>80%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">Angular</div>
-                    </div>
-                    <span>50%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">Node.js</div>
-                    </div>
-                    <span>65%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">MySql</div>
-                    </div>
-                    <span>40%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">UI Design</div>
-                    </div>
-                    <span>50%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">Photoshop</div>
-                    </div>
-                    <span>60%</span>
-                  </div>
-
-                  <div className="bar flex">
-                    <div className="bar fill">
-                      <div className="tag bold flex-center">Illustrator</div>
-                    </div>
-                    <span>50%</span>
-                  </div>
+                  <Bars title="CSS" perc="90%" />
+                  <Bars title="React" perc="90%" />
+                  <Bars title="JavaScript" perc="80%" />
+                  <Bars title="Angular" perc="80%" />
+                  <Bars title="Node.js" perc="65%" />
+                  <Bars title="MySql" perc="40%" />
+                  <Bars title="UI Design" perc="50%" />
+                  <Bars title="Photoshop" perc="60%" />
+                  <Bars title="Illustrator" perc="50%" />
                 </div>
               </div>
               <div className="skillSet">
                 <div className="coderSkills">
-                  {/* <i class="fab fa-html5"></i>
-                  <i class="fab fa-css3"></i>
-                  <i class="fab fa-js"></i>
-                  <i class="fab fa-react"></i>
-                  <i class="fab fa-angular"></i>
-                  <i class="fab fa-node"></i>
-                  <i class="fab fa-adobe"></i> */}
+                  <div className="ps-about-card">
+                    <img className="card" src={Macbook} alt="" />
+                    <img className="elements elements-top-left" src={TopLeft} alt="" />
+                    <img className="elements elements-top-right" src={TopRight} alt="" />
+                    <img className="elements elements-bottom-left" src={BottomLeft} alt="" />
+                    <img className="elements elements-bottom-right" src={BottomRight} alt="" />
+                  </div>
                 </div>
 
                 <div className="sectionTitle">SKILLS</div>
@@ -702,7 +654,12 @@ const HomePage = () => {
                 </div>
                 <div className="work-card fade-in-section">
                   <a href="/works/hotels">
-                    <HotelBg theme={theme} />
+                    {/* <HotelBg theme={theme} /> */}
+                    <div className="works">
+                      <img className="device" src={Ipad} alt="" />
+                      <img className="device" src={Mac} alt="" />
+                      <img className="device" src={Iphone} alt="" />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -760,9 +717,6 @@ const HomePage = () => {
                     name="message"
                     placeholder="Your message"
                   />
-                  {/* <Button type="button" onClick={(e) => handleSend(e)}>
-                  Submit
-                </Button> */}
                   {error && <div style={{ color: 'red' }}>Please fill the Fields</div>}
                   <Button
                     className="send"

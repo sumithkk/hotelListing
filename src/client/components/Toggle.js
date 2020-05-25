@@ -28,9 +28,9 @@ const ToggleContainer = styled.button`
     padding-left: 22px;
     height: 3rem;
   }
-  &:hover {
-    background: ${({ theme }) => theme.body};
-  }
+  // &:hover {
+  //   background: ${({ theme }) => theme.body};
+  // }
 
   svg {
     width: 1.5rem;

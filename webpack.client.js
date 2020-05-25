@@ -76,7 +76,7 @@ const config = {
         ],
       },
       {
-        test: /\.(jpg|svg|png|gif|woff|woff2|eot|ttf|otf)$/,
+        test: /\.(jpg|svg|png|gif|woff|woff2|eot|ttf|webp|otf)$/,
         use: [
           {
             loader: 'file-loader',
