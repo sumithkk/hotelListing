@@ -48,8 +48,8 @@ const Header = styled.div`
   left: 0;
   width: 100%;
   z-index: 100;
-  // background: ${(props) => (props.theme === 'light' ? '#d0d0d0' : '#2e2e2f')};
-  background: transparent;
+  background: ${(props) => (props.theme === 'light' ? '#d0d0d0' : '#2e2e2f')};
+  // background: transparent;
   transition: all 0.25s linear;
   @media (max-width: 600px) {
     padding: 0 15px;
@@ -104,6 +104,16 @@ const Button = styled.button`
     padding: 15px 80px;
     transition: 0.4s cubic-bezier(0.35, -0.77, 0.67, 1.88);
   }
+`;
+
+const ButtonOutline = styled.div`
+  border: 2px solid orange;
+  color: orange;
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: fit-content;
+  margin-top: 30px;
+  font-family: rb;
 `;
 
 const Footer = styled.div`
@@ -567,7 +577,10 @@ const HomePage = () => {
                 a Little <span className="underline">ABOUT</span> Me !
               </h1> */}
               <div className="aboutTech section">
-                <div style={{ width: '50%', position: 'relative' }}>
+                {/* <h1 className="contactTitleMob">
+                  Lets <span className="underline">Talk</span> !
+                </h1> */}
+                <div className="aboutInfo">
                   <div className="myName" style={{ border: 'none' }}>
                     Hi My Name is <span style={{ color: 'orange' }}>Sumith</span>
                     <Typer
@@ -585,7 +598,7 @@ const HomePage = () => {
                     effects, animations and creating intuitive, dynamic user experiences. Let's make
                     something special.
                   </p>
-                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '-60px' }}>
+                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '75px' }}>
                     ABOUT
                   </div>
                 </div>
@@ -597,7 +610,7 @@ const HomePage = () => {
           </FadeInSection>
           <FadeInSection>
             <section
-              className="section"
+              className="section skills"
               style={{ display: 'flex', justifyContent: 'space-between' }}
             >
               <div className="technology">
@@ -635,7 +648,14 @@ const HomePage = () => {
               </h1>
               <div className="projects">
                 <div style={{ alignSelf: 'flex-start' }}>
-                  <h2 style={{ alignSelf: 'flex-start', marginTop: '50px', fontSize: '2.2rem' }}>
+                  <h2
+                    style={{
+                      alignSelf: 'flex-start',
+                      marginTop: '50px',
+                      fontSize: '2.2rem',
+                      color: 'orange',
+                    }}
+                  >
                     Hotel Listing
                   </h2>
                   <p style={{ opacity: '0.5', fontSize: '1.2rem' }}>
@@ -647,20 +667,21 @@ const HomePage = () => {
                     elements are custom build [ No thirdparty libraries used ]. For data I used
                     Rapid api. This app is build with react, styled-components and postcss as
                     frontend; node and express as backend.
+                    <ButtonOutline>Explore</ButtonOutline>
                   </div>
-                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '0' }}>
+                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '-50px' }}>
                     WORKS
                   </div>
                 </div>
                 <div className="work-card fade-in-section">
-                  <a href="/works/hotels">
-                    {/* <HotelBg theme={theme} /> */}
-                    <div className="works">
-                      <img className="device" src={Ipad} alt="" />
-                      <img className="device" src={Mac} alt="" />
-                      <img className="device" src={Iphone} alt="" />
-                    </div>
-                  </a>
+                  {/* <a href="/works/hotels"> */}
+                  {/* <HotelBg theme={theme} /> */}
+                  <div className="works">
+                    <img className="device" src={Ipad} alt="" />
+                    <img className="device" src={Mac} alt="" />
+                    <img className="device" src={Iphone} alt="" />
+                  </div>
+                  {/* </a> */}
                 </div>
               </div>
             </section>

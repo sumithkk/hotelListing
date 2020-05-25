@@ -42,11 +42,11 @@ class Typer extends React.PureComponent {
 
   render() {
     return (
-      <h1 style={{ fontSize: '2.5rem', textAlign: 'left' }}>
+      <div className="typer">
         I Design and <span className="underline">Develop</span>&nbsp;
         <span>{this.state.text}</span>
         <span id="cursor"></span>
-      </h1>
+      </div>
     );
   }
 }

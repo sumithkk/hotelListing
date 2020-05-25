@@ -429,6 +429,15 @@ input, textarea {
 }
 
   @media only screen and (min-width: 1140px) {
+
+  .sectionTitle {
+    font-size: 10rem;
+    font-family: "rb";
+    font-weight: bold;
+    color: #000;
+    opacity: .1;
+    line-height: .7;
+}
     .mobileNav {
       display: none;
     }
@@ -563,6 +572,14 @@ input, textarea {
     transform-style: preserve-3d;
     opacity: 1;
     }
+    .aboutInfo {
+      width: 50%; 
+      position: relative
+      .typer {
+        font-size: 2.5rem;
+        text-align: left;
+      }
+    }
   }
   
   /* media ends for above 1120 */
@@ -607,6 +624,7 @@ input, textarea {
     display: flex;
     align-self: center;
     justify-content: center;
+    position: relative;
   }
   .aboutMe {
     text-align: center;
@@ -654,8 +672,6 @@ input, textarea {
   }
   .cardTitle {
     position: absolute;
-    background: #00000065;
-    color: #fff;
     bottom: 0;
     top: 0;
     left: 0;
@@ -664,9 +680,6 @@ input, textarea {
     margin: auto;
     width: 45%;
     z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
     font-size: 1.2rem;
     font-family: "rm";
   }
@@ -676,6 +689,7 @@ input, textarea {
     font-family: 'Rajdhani', sans-serif;
     font-family: "rsb";
     outline: none;
+    border-radius: 0;
   }
   .btn {
     transition: 1s all ease;
@@ -1004,17 +1018,16 @@ input, textarea {
     .hexagon {
       height: 80%;
     }
-    .hexagon svg {
-      margin-top: 15px;
-    }
+
     .iconWrap {
       font-size: 80%;
       width: 50%;
       height: 250px;
     }
     .aboutTech,
+    .skills,
     .projects {
-      flex-direction: column;
+      flex-direction: column-reverse !important;
     }
     .aboutMe,
     .technology {
@@ -1063,7 +1076,7 @@ input, textarea {
       animation: slideToLeft 1s ease both;
     }
     .projects {
-      margin-bottom: 100px;
+      margin-bottom: 35px;
     }
     .card {
       width: 100%;
@@ -1090,11 +1103,76 @@ input, textarea {
     }
     .inputBox {
       width: 100%;
+      border-radius: 0;
     }
     button.send {
       width: 100%;
     }
+    
+    .aboutInfo {
+      position: relative
+    }
+    .typer {
+      font-size: 1.3rem;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .skills {
+      border: none;
+    }
+    .skillSet {
+      padding: 20px 40px 50px;
+    }
+    .work-card{
+      width: 100%;
+      .works {
+        width: 100%;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+
+        .device:nth-child(1) {
+            width: 25%;
+            left: 76px;
+            bottom: 8px;
+            z-index: 3;
+        }
+        .device:nth-child(2) {
+          width: 80%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: 0 auto;
+        }
+        .device:nth-child(3) {
+          width: 15%;
+          right: 75px;
+          bottom: 10px;
+        }
+      }
+    }
+    .animated .device:nth-child(1) {
+      left: 0 !important;
+      bottom: 35px;
+    }
+    .animated .device:nth-child(3) {
+        right: 0 !important;
+        bottom: 52px;
+    }
+    .cardTitle {    
+      position: static;
+      height: auto;
+    }
+    .sectionTitle {
+      display: none;
+    }
   }
+  // .cursor {
+  //   display: none;
+  // }
+  }
+
+  //the above media query is conflicting
   
   /* Portrait */
   @media only screen and (min-device-width: 375px) and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -1179,17 +1257,15 @@ input, textarea {
     .hexagon {
       height: 80%;
     }
-    .hexagon svg {
-      margin-top: 15px;
-    }
     .iconWrap {
       font-size: 80%;
       width: 50%;
       height: 240px;
     }
     .aboutTech,
+    .skills,
     .projects {
-      flex-direction: column;
+      flex-direction: column-reverse !important;
     }
     .aboutMe,
     .technology {
@@ -1201,13 +1277,14 @@ input, textarea {
     }
     .contact form {
       width: 100%;
+      padding:0;
     }
     .section {
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: flex-start;
-      padding: 30px;
+      padding: 30px 15px;
     }
     .section h1 {
       font-size: 1.5rem;
@@ -1235,7 +1312,7 @@ input, textarea {
       animation: slideToLeft 1s ease both;
     }
     .projects {
-      margin-bottom: 100px;
+      margin-bottom: 35px;
     }
     .card {
       width: 100%;
@@ -1262,9 +1339,71 @@ input, textarea {
     }
     .inputBox {
       width: 100%;
+      border-radius: 0;
     }
     button.send {
       width: 100%;
+    }
+    
+    .aboutInfo {
+      position: relative
+    }
+    .typer {
+      font-size: 1.3rem;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .skills {
+      border: none;
+    }
+    .skillSet {
+      padding: 20px 40px 50px;
+    }
+    .work-card{
+      width: 100%;
+      .works {
+        width: 100%;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+
+        .device:nth-child(1) {
+            width: 25%;
+            left: 76px;
+            bottom: 8px;
+            z-index: 3;
+        }
+        .device:nth-child(2) {
+          width: 80%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: 0 auto;
+        }
+        .device:nth-child(3) {
+          width: 15%;
+          right: 75px;
+          bottom: 10px;
+        }
+      }
+    }
+    .animated .device:nth-child(1) {
+      left: 0 !important;
+      bottom: 35px;
+    }
+    .animated .device:nth-child(3) {
+        right: 0 !important;
+        bottom: 52px;
+    }
+    .cardTitle {    
+      position: static;
+      height: auto;
+    }
+    .sectionTitle {
+      display: none;
+    }
+    .cursor {
+      display: none;
     }
   }
   
@@ -1293,6 +1432,7 @@ input, textarea {
     }
     .contact form {
       width: 100%;
+      padding: 0;
     }
     .designer .description {
       margin-left: 15px;
@@ -1329,9 +1469,11 @@ input, textarea {
       width: 50%;
       height: 240px;
     }
+
     .aboutTech,
+    .skills,
     .projects {
-      flex-direction: column;
+      flex-direction: column-reverse !important;
     }
     .aboutMe,
     .technology {
@@ -1343,13 +1485,14 @@ input, textarea {
     }
     .contact form {
       width: 100%;
+      padding: 0;
     }
     .section {
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: flex-start;
-      padding: 30px;
+      padding: 30px 15px;
     }
     .section h1 {
       font-size: 1.5rem;
@@ -1410,7 +1553,7 @@ input, textarea {
     } */
   
     .projects {
-      margin-bottom: 100px;
+      margin-bottom: 35px;
     }
     .card {
       width: 100%;
@@ -1437,9 +1580,71 @@ input, textarea {
     }
     .inputBox {
       width: 100%;
+      border-radius: 0;
     }
     button.send {
       width: 100%;
+    }
+
+    .aboutInfo {
+      position: relative
+    }
+    .typer {
+      font-size: 1.3rem;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .skills {
+      border: none;
+    }
+    .skillSet {
+      padding: 20px 40px 50px;
+    }
+    .work-card{
+      width: 100%;
+      .works {
+        width: 100%;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+
+        .device:nth-child(1) {
+            width: 25%;
+            left: 76px;
+            bottom: 8px;
+            z-index: 3;
+        }
+        .device:nth-child(2) {
+          width: 80%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: 0 auto;
+        }
+        .device:nth-child(3) {
+          width: 15%;
+          right: 75px;
+          bottom: 10px;
+        }
+      }
+    }
+    .animated .device:nth-child(1) {
+      left: 0 !important;
+      bottom: 35px;
+    }
+    .animated .device:nth-child(3) {
+        right: 0 !important;
+        bottom: 52px;
+    }
+    .cardTitle {    
+      position: static;
+      height: auto;
+    }
+    .sectionTitle {
+      display: none;
+    }
+    .cursor {
+      display: none;
     }
   }
   
@@ -1488,6 +1693,8 @@ input, textarea {
   .showTilt {
     display: none;
   }
+
+  //Landscape mode
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     .showTilt {
       position: fixed;
@@ -1528,17 +1735,6 @@ input, textarea {
     transition-delay: 0.3s;
   }
   
-  /* .cardTitle {
-    position: absolute;
-    background: #000000b5;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    font-family: "rb";
-  } */
   .menuWrap {
     z-index: 2;
   }
@@ -1572,69 +1768,34 @@ input, textarea {
     }
   }
 
-  .sectionTitle {
-    font-size: 10rem;
-    font-family: "rb";
-    font-weight: bold;
-    color: #000;
-    opacity: .1;
-    line-height: .7;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .skillSet {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
 }
-.coderSkills {
-  .fab {
-    font-size: 4rem;
-    margin-right: 25px;
-  }
-}
+// .coderSkills {
+//   .fab {
+//     font-size: 4rem;
+//     margin-right: 25px;
+//   }
+// }
 
-
-/* Float Shadow */
-.hvr-float-shadow {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
-}
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-}
 
 //Cursor
 .cursor {
