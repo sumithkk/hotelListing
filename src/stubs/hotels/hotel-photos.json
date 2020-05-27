@@ -1,0 +1,1164 @@
+{
+  "hotelId": 898940032,
+  "hotelImages": [
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d09a5ae4_{size}.jpg",
+      "imageId": 92880578,
+      "mediaGUID": "d09a5ae4-0b95-41c7-9b95-2daa0094f4d2",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "heroaesthetics.v20190411-hsc.v20190223"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/a7442136_{size}.jpg",
+      "imageId": 92880449,
+      "mediaGUID": "a7442136-ee88-4d3e-91e1-f9d9ae245dde",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/1ace6ebb_{size}.jpg",
+      "imageId": 92880682,
+      "mediaGUID": "1ace6ebb-c04e-4618-a910-15af2220d28c",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/506c8adc_{size}.jpg",
+      "imageId": 57411718,
+      "mediaGUID": "506c8adc-c1dc-4db2-a051-b73a99a45594",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/3e5223d8_{size}.jpg",
+      "imageId": 92880752,
+      "mediaGUID": "3e5223d8-7003-4c21-a0ee-0f9fdc0a5472",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d52d3a45_{size}.jpg",
+      "imageId": 92880552,
+      "mediaGUID": "d52d3a45-6651-47ec-b63d-98f4351fc14a",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/0e883fe5_{size}.jpg",
+      "imageId": 92880729,
+      "mediaGUID": "0e883fe5-9cc0-429e-8890-24379ea46f3a",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/be5d6bcc_{size}.jpg",
+      "imageId": 92880704,
+      "mediaGUID": "be5d6bcc-4dcc-464e-958d-58df3a1e2651",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f839d6bb_{size}.jpg",
+      "imageId": 112044007,
+      "mediaGUID": "f839d6bb-668f-4e90-b583-1964bd3fe3ba",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/c77494da_{size}.jpg",
+      "imageId": 112044049,
+      "mediaGUID": "c77494da-425e-48ce-b809-46bcf3487fc6",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/e92b5a7a_{size}.jpg",
+      "imageId": 112043991,
+      "mediaGUID": "e92b5a7a-07f6-4802-8da0-eec29a5e67a4",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/2433063d_{size}.jpg",
+      "imageId": 112044248,
+      "mediaGUID": "2433063d-d1a7-48ab-8b59-bb64c9ecf74c",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/39c50a08_{size}.jpg",
+      "imageId": 112044114,
+      "mediaGUID": "39c50a08-733e-4f89-9bd6-37d680bb776c",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/b83bb4c0_{size}.jpg",
+      "imageId": 112044064,
+      "mediaGUID": "b83bb4c0-3811-429d-8f5b-0f9e3bdbed68",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f4adf20e_{size}.jpg",
+      "imageId": 112044067,
+      "mediaGUID": "f4adf20e-6eab-486b-bad7-77f591a6a565",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/be3989c2_{size}.jpg",
+      "imageId": 112044223,
+      "mediaGUID": "be3989c2-daf2-4422-8afc-8e94bcb8ad12",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/fa2c9c12_{size}.jpg",
+      "imageId": 57411717,
+      "mediaGUID": "fa2c9c12-e8ff-4a12-ae61-89077c3d7510",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/0bdeae7a_{size}.jpg",
+      "imageId": 92880519,
+      "mediaGUID": "0bdeae7a-1e39-44f6-9889-7af6362cd011",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f94767f5_{size}.jpg",
+      "imageId": 57411732,
+      "mediaGUID": "f94767f5-c6c4-4fe7-a34b-9546aec403b1",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/3a06ec08_{size}.jpg",
+      "imageId": 57411714,
+      "mediaGUID": "3a06ec08-f865-406a-8319-504b54e07d7c",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/7c8525cc_{size}.jpg",
+      "imageId": 92880634,
+      "mediaGUID": "7c8525cc-27c4-46ff-a9f2-2f0838874894",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/a40cc923_{size}.jpg",
+      "imageId": 92880549,
+      "mediaGUID": "a40cc923-b6d7-414b-884d-bfda1532af89",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/8b1560e0_{size}.jpg",
+      "imageId": 92880643,
+      "mediaGUID": "8b1560e0-868b-4a9a-b952-64762c5b30dc",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d33b848e_{size}.jpg",
+      "imageId": 92880632,
+      "mediaGUID": "d33b848e-33cf-49ab-ac94-d78c799ada52",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/85f8fff0_{size}.jpg",
+      "imageId": 57411728,
+      "mediaGUID": "85f8fff0-e1f2-4b85-84e0-df0d9e01f3be",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/87cd574c_{size}.jpg",
+      "imageId": 57411730,
+      "mediaGUID": "87cd574c-2d28-45b2-8e54-7e0fbab754b8",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/23f3dd71_{size}.jpg",
+      "imageId": 57411724,
+      "mediaGUID": "23f3dd71-f158-4e64-9e77-05f0f0cbf4ff",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/e3cda216_{size}.jpg",
+      "imageId": 57411716,
+      "mediaGUID": "e3cda216-a299-4fca-ad27-964cc366c50f",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f532bba0_{size}.jpg",
+      "imageId": 57411731,
+      "mediaGUID": "f532bba0-fa2a-4e5c-85d4-8af4c6ec3ac4",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/de87d2be_{size}.jpg",
+      "imageId": 57411722,
+      "mediaGUID": "de87d2be-d8dc-4807-84fd-a424a30a873d",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    },
+    {
+      "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/be657865_{size}.jpg",
+      "imageId": 92880522,
+      "mediaGUID": "be657865-1813-4322-91d1-8a6b4c295bad",
+      "sizes": [
+        { "type": 15, "suffix": "z" },
+        { "type": 17, "suffix": "w" },
+        { "type": 14, "suffix": "y" },
+        { "type": 3, "suffix": "b" },
+        { "type": 11, "suffix": "n" },
+        { "type": 13, "suffix": "d" },
+        { "type": 16, "suffix": "e" },
+        { "type": 12, "suffix": "g" },
+        { "type": 9, "suffix": "l" },
+        { "type": 2, "suffix": "s" },
+        { "type": 1, "suffix": "t" }
+      ],
+      "trackingDetails": {
+        "version": "20200504",
+        "namespace": "DataScience",
+        "algorithmName": "rankv2-v20180221.aesthetics"
+      }
+    }
+  ],
+  "roomImages": [
+    {
+      "roomId": 215116135,
+      "images": [
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/de87d2be_{size}.jpg",
+          "imageId": 57411722,
+          "mediaGUID": "de87d2be-d8dc-4807-84fd-a424a30a873d",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/23f3dd71_{size}.jpg",
+          "imageId": 57411724,
+          "mediaGUID": "23f3dd71-f158-4e64-9e77-05f0f0cbf4ff",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/506c8adc_{size}.jpg",
+          "imageId": 57411718,
+          "mediaGUID": "506c8adc-c1dc-4db2-a051-b73a99a45594",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/87cd574c_{size}.jpg",
+          "imageId": 57411730,
+          "mediaGUID": "87cd574c-2d28-45b2-8e54-7e0fbab754b8",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f94767f5_{size}.jpg",
+          "imageId": 57411732,
+          "mediaGUID": "f94767f5-c6c4-4fe7-a34b-9546aec403b1",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/f532bba0_{size}.jpg",
+          "imageId": 57411731,
+          "mediaGUID": "f532bba0-fa2a-4e5c-85d4-8af4c6ec3ac4",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 215130231,
+      "images": [
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/1ace6ebb_{size}.jpg",
+          "imageId": 92880682,
+          "mediaGUID": "1ace6ebb-c04e-4618-a910-15af2220d28c",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/3e5223d8_{size}.jpg",
+          "imageId": 92880752,
+          "mediaGUID": "3e5223d8-7003-4c21-a0ee-0f9fdc0a5472",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d09a5ae4_{size}.jpg",
+          "imageId": 92880578,
+          "mediaGUID": "d09a5ae4-0b95-41c7-9b95-2daa0094f4d2",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d52d3a45_{size}.jpg",
+          "imageId": 92880552,
+          "mediaGUID": "d52d3a45-6651-47ec-b63d-98f4351fc14a",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/a40cc923_{size}.jpg",
+          "imageId": 92880549,
+          "mediaGUID": "a40cc923-b6d7-414b-884d-bfda1532af89",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/be5d6bcc_{size}.jpg",
+          "imageId": 92880704,
+          "mediaGUID": "be5d6bcc-4dcc-464e-958d-58df3a1e2651",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 215130232,
+      "images": [
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/3a06ec08_{size}.jpg",
+          "imageId": 57411714,
+          "mediaGUID": "3a06ec08-f865-406a-8319-504b54e07d7c",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/85f8fff0_{size}.jpg",
+          "imageId": 57411728,
+          "mediaGUID": "85f8fff0-e1f2-4b85-84e0-df0d9e01f3be",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/e3cda216_{size}.jpg",
+          "imageId": 57411716,
+          "mediaGUID": "e3cda216-a299-4fca-ad27-964cc366c50f",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/fa2c9c12_{size}.jpg",
+          "imageId": 57411717,
+          "mediaGUID": "fa2c9c12-e8ff-4a12-ae61-89077c3d7510",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/8b1560e0_{size}.jpg",
+          "imageId": 92880643,
+          "mediaGUID": "8b1560e0-868b-4a9a-b952-64762c5b30dc",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": 215130233,
+      "images": [
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/0bdeae7a_{size}.jpg",
+          "imageId": 92880519,
+          "mediaGUID": "0bdeae7a-1e39-44f6-9889-7af6362cd011",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/7c8525cc_{size}.jpg",
+          "imageId": 92880634,
+          "mediaGUID": "7c8525cc-27c4-46ff-a9f2-2f0838874894",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/a7442136_{size}.jpg",
+          "imageId": 92880449,
+          "mediaGUID": "a7442136-ee88-4d3e-91e1-f9d9ae245dde",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d33b848e_{size}.jpg",
+          "imageId": 92880632,
+          "mediaGUID": "d33b848e-33cf-49ab-ac94-d78c799ada52",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/0e883fe5_{size}.jpg",
+          "imageId": 92880729,
+          "mediaGUID": "0e883fe5-9cc0-429e-8890-24379ea46f3a",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        },
+        {
+          "baseUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/8b1560e0_{size}.jpg",
+          "imageId": 92880643,
+          "mediaGUID": "8b1560e0-868b-4a9a-b952-64762c5b30dc",
+          "sizes": [
+            { "type": 15, "suffix": "z" },
+            { "type": 17, "suffix": "w" },
+            { "type": 14, "suffix": "y" },
+            { "type": 3, "suffix": "b" },
+            { "type": 11, "suffix": "n" },
+            { "type": 13, "suffix": "d" },
+            { "type": 16, "suffix": "e" },
+            { "type": 12, "suffix": "g" },
+            { "type": 9, "suffix": "l" },
+            { "type": 2, "suffix": "s" },
+            { "type": 1, "suffix": "t" }
+          ]
+        }
+      ]
+    }
+  ],
+  "featuredImageTrackingDetails": {
+    "version": "20200504",
+    "namespace": "DataScience",
+    "algorithmName": "heroaesthetics.v20190411-hsc.v20190223"
+  },
+  "propertyImageTrackingDetails": {
+    "version": "20200504",
+    "namespace": "DataScience",
+    "algorithmName": "rankv2-v20180221.aesthetics"
+  }
+}

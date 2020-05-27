@@ -50,6 +50,9 @@ body{
   cursor: none;
   font-family: 'rm';
 }
+.hotelHeader{
+  display: none;
+}
 
 h1 {
   font-family: 'rb';
@@ -108,7 +111,7 @@ input, textarea {
     display: block;
   }
 
-  a {
+  a, input, textarea {
     color: ${({ theme }) => theme.text};
   }
 
@@ -575,10 +578,17 @@ input, textarea {
     .aboutInfo {
       width: 50%; 
       position: relative
-      .typer {
-        font-size: 2.5rem;
-        text-align: left;
-      }
+    }
+    .typer {
+      font-size: 2.5rem;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .contact {
+      align-items: flex-start !important;
+    }
+    button.send {
+      margin-top: 60px;
     }
   }
   
@@ -684,9 +694,7 @@ input, textarea {
     font-family: "rm";
   }
   .inputBox {
-    padding: 15px !important;
     font-size: 1rem;
-    font-family: 'Rajdhani', sans-serif;
     font-family: "rsb";
     outline: none;
     border-radius: 0;
@@ -745,11 +753,11 @@ input, textarea {
     padding-left: 4%;
     margin: 0 auto;
   }
-  .contact input,
   .contact textarea {
-    border: 0;
     padding: 10px 12px;
-    margin-bottom: 5px;
+    border: none;
+    height: 200px;
+    max-height: 200px;
   }
   
   .hex-wrap {
@@ -812,9 +820,7 @@ input, textarea {
     align-items: center;
     justify-content: center;
   }
-  .bars-wrap {
-    width: calc(100% - 15px);
-  }
+
   .bar.fill {
     left: 0;
     position: absolute;

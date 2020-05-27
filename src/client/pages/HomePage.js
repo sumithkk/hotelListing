@@ -19,6 +19,7 @@ import Contact from '../components/svgComponents/contact';
 import { connect } from 'react-redux';
 import Typer from '../components/typer';
 // import css from './index.css';
+import Input from '../components/input';
 
 import Macbook from '../images/macbook.png';
 import TopLeft from '../images/topLeft.png';
@@ -598,7 +599,7 @@ const HomePage = () => {
                     effects, animations and creating intuitive, dynamic user experiences. Let's make
                     something special.
                   </p>
-                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '75px' }}>
+                  <div className="sectionTitle" style={{ position: 'absolute', bottom: '-35px' }}>
                     ABOUT
                   </div>
                 </div>
@@ -667,7 +668,9 @@ const HomePage = () => {
                     elements are custom build [ No thirdparty libraries used ]. For data I used
                     Rapid api. This app is build with react, styled-components and postcss as
                     frontend; node and express as backend.
-                    <ButtonOutline>Explore</ButtonOutline>
+                    <ButtonOutline>
+                      <a href="/hotels/new">Explore</a>
+                    </ButtonOutline>
                   </div>
                   <div className="sectionTitle" style={{ position: 'absolute', bottom: '-50px' }}>
                     WORKS
@@ -710,31 +713,29 @@ const HomePage = () => {
                   >
                     Lets <span className="underline">Talk</span> !
                   </h1>
-                  <Contact theme={theme} width="100%" height="100%" />
+                  <Contact theme={theme} width="75%" height="100%" />
                 </div>
                 <form>
-                  <input
-                    className="inputBox"
+                  <Input
                     type="text"
+                    name="name"
                     value={name}
                     onChange={(e) => handleInputChange(e)}
-                    name="name"
-                    placeholder="Name"
                   />
-                  <input
-                    className="inputBox"
-                    type="email"
+
+                  <Input
+                    type="text"
+                    name="email"
                     value={email}
                     onChange={(e) => handleInputChange(e)}
-                    name="email"
-                    placeholder="Email"
                   />
+
                   <textarea
                     className="inputBox"
                     type="text"
                     value={message}
                     onChange={(e) => handleInputChange(e)}
-                    style={{ height: '200px' }}
+                    style={{ background: `${theme === 'light' ? '#fff' : '#00000060'}` }}
                     name="message"
                     placeholder="Your message"
                   />
@@ -752,7 +753,7 @@ const HomePage = () => {
                   </Button>
                   <div
                     className="sectionTitle"
-                    style={{ position: 'absolute', bottom: '215px', right: '25px' }}
+                    style={{ position: 'absolute', bottom: '65px', right: '25px' }}
                   >
                     CONTACT
                   </div>

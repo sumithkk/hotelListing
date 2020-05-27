@@ -6,7 +6,7 @@ const Facebook = ({ theme }) => {
       id="e5dd2074-6f57-4137-8881-f8558dfe8bae"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      width="100%"
+      width="75%"
       height="100%"
       viewBox="0 0 1023.62274 795.00067"
     >
@@ -15,7 +15,7 @@ const Facebook = ({ theme }) => {
         cx="541.0001"
         cy="373.0001"
         r="373.0001"
-        fill={theme === "light" ? "#00000047" : "#ffffff2b"}
+        fill="#00000014"
       />
       <span></span>
       <path

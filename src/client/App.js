@@ -3,7 +3,7 @@ import { renderRoutes } from 'react-router-config';
 import PropTypes from 'prop-types';
 import ErrorBoundary from './components/ErrorBoundry';
 
-// import Header from './components/Header';
+import Header from './pages/HotelHeader';
 // import Footer from './components/Footer';
 
 const App = ({ route }) => {
@@ -13,7 +13,7 @@ const App = ({ route }) => {
     //   <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>
     // </ThemeProvider>
     <div>
-      {/* <Header /> */}
+      <Header />
       <div className="container">
         <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>
       </div>

@@ -6,9 +6,11 @@ import { Helmet } from 'react-helmet';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from 'prop-types';
 import ArticleDetailModal from '../components/ArticleDetailModal';
-import { fetchArticles } from '../actions';
+import { getPropertyList } from '../actions';
 import css from './work.css';
 import styled from 'styled-components';
+
+import HotelHeader from './HotelHeader';
 
 const Header = styled.div`
   height: 50px;
@@ -73,7 +75,7 @@ const ArticleListPage = (props) => {
     );
   };
 
-  const { fetchArticles: loadArticles } = props;
+  const { getPropertyList: loadArticles } = props;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -83,17 +85,14 @@ const ArticleListPage = (props) => {
       loadArticles();
     }
   }, [loadArticles, match.params.id]);
+
   return (
     <div>
       {head()}
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
+      <HotelHeader />
       <div className="row">
-        <div className="section">
-          <h1 className={css.new}>category</h1>
-        </div>
-        <Header />
-
-        <div className="divider" />
+        content
         <div className="section">
           <div className="row">{renderArticles()}</div>
         </div>
@@ -111,24 +110,24 @@ const mapStateToProps = (state) => {
 const loadData = (store, param) => {
   // For the connect tag we need Provider component but on the server at this moment app is not rendered yet
   // So we need to use store itself to load data
-  return store.dispatch(fetchArticles(param)); // Manually dispatch a network request
+  return store.dispatch(getPropertyList(param)); // Manually dispatch a network request
 };
 
 ArticleListPage.propTypes = {
   articles: PropTypes.arrayOf(PropTypes.any),
   location: PropTypes.objectOf(PropTypes.any),
   match: PropTypes.objectOf(PropTypes.any),
-  fetchArticles: PropTypes.func,
+  getPropertyList: PropTypes.func,
 };
 
 ArticleListPage.defaultProps = {
   articles: [],
   location: null,
   match: null,
-  fetchArticles: null,
+  getPropertyList: null,
 };
 
 export default {
-  component: connect(mapStateToProps, { fetchArticles })(ArticleListPage),
+  component: connect(mapStateToProps, { getPropertyList })(ArticleListPage),
   loadData,
 };

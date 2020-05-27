@@ -17,6 +17,7 @@ export default (req, store, context) => {
     sheet.collectStyles(
       <Provider store={store}>
         <StaticRouter location={req.path} context={context}>
+          <div>{req.path}</div>
           <div>{renderRoutes(Routes)}</div>
         </StaticRouter>
       </Provider>
@@ -25,6 +26,7 @@ export default (req, store, context) => {
   const helmet = Helmet.renderStatic();
 
   return `<!DOCTYPE html>
+            <html lang="en">
             <head>
                 ${helmet.title.toString()}
                 ${helmet.meta.toString()}

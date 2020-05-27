@@ -1,0 +1,1251 @@
+{
+  "result": "OK",
+  "data": {
+    "body": {
+      "header": "Bengaluru, Karnataka, India",
+      "query": {
+        "destination": {
+          "id": "678196",
+          "value": "Bengaluru, Karnataka, India",
+          "resolvedLocation": "CITY:678196:UNKNOWN:UNKNOWN"
+        }
+      },
+      "searchResults": {
+        "totalCount": 1461,
+        "results": [
+          {
+            "id": 1363339360,
+            "name": "SPOT ON 41554 Hotel Sri Thirumala Paradise",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/43000000/42580000/42573200/42573105/b0804c2a_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Tcm Royan Rd, Subhash Nagar, Sevashrama",
+              "extendedAddress": "",
+              "locality": "Bengaluru",
+              "postalCode": "560053",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "1.7 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "18 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$7", "exactCurrent": 6.6 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bangalore City Center",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13",
+            "coordinate": { "lat": 12.972454, "lon": 77.569018 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42573105,
+            "isAlternative": false
+          },
+          {
+            "id": 1363316736,
+            "name": "SPOT ON 47477 Hotel Maurya Paradise Inn",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/43000000/42580000/42572400/42572398/9e14faf0_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "7/1,Msr Engg College Rd,Gokula 1St Stage",
+              "extendedAddress": "Mathikere Ext, Devasandra Lyt",
+              "locality": "Bengaluru",
+              "postalCode": "560054",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "2.5 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "15 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$7", "exactCurrent": 6.6 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bengaluru",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 13.029629, "lon": 77.562349 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42572398,
+            "isAlternative": false
+          },
+          {
+            "id": 1363340704,
+            "name": "SPOT ON 62442 Sri Krishna Deluxe",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/43000000/42580000/42573200/42573147/23699416_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "3,Ima Complex,No 3,Bengaluru-Honnavar Rd",
+              "extendedAddress": "Town Hall Circle,Ward No. 18,Gandhi Ngr",
+              "locality": "Bengaluru",
+              "postalCode": "572101",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "2.5 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "16 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 7.94 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bengaluru",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.998766, "lon": 77.592107 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42573147,
+            "isAlternative": false
+          },
+          {
+            "id": 1342165728,
+            "name": "SPOT ON 48699 Hotel Pawan Sree Deluxe Lodge",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/42000000/41920000/41911500/41911429/7ecaed69_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "28, Opposite Kapali Theatre",
+              "extendedAddress": "Sc Road, Gandhi Nagar",
+              "locality": "Bengaluru",
+              "postalCode": "560009",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "1.8 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "17 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 7.94 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Majestic",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13",
+            "coordinate": { "lat": 12.97732, "lon": 77.57543 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 41911429,
+            "isAlternative": false
+          },
+          {
+            "id": 1342173984,
+            "name": "SPOT ON 60228 Hotel Shangrila",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/42000000/41920000/41911700/41911687/aa5af330_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "181, 2Nd Floor, Brigade Rd Shanthala",
+              "extendedAddress": "Nagar, Sampangi Rama Nagar",
+              "locality": "Bengaluru",
+              "postalCode": "560001",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "3.8 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "17 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 7.96 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Shanthala Nagar",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 12.972922, "lon": 77.606958 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 41911687,
+            "isAlternative": false
+          },
+          {
+            "id": 321698,
+            "name": "Hotel T.A.P Paradise",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/3000000/2670000/2661400/2661366/8fc05d42_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "# 104, Hospital Road, Avenue Road Cross",
+              "extendedAddress": "Parallel K.G.Road, Majestic",
+              "locality": "Bengaluru",
+              "postalCode": "560053",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "guestReviews": { "unformattedRating": 4.8, "rating": "4.8", "total": 8, "scale": 10 },
+            "landmarks": [
+              { "label": "City center", "distance": "2.3 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "18 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 7.99, "old": "$10" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Chickpet",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": { "lat": 12.971865, "lon": 77.580665 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 2661366,
+            "isAlternative": false
+          },
+          {
+            "id": 1208370848,
+            "name": "OYO 35963 Malnad Residency",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/38000000/37740000/37730400/37730339/e3f7dd4c_l.jpg",
+            "starRating": 0.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "359 Near Mocha Village",
+              "extendedAddress": "",
+              "locality": "Ramanagara",
+              "postalCode": "562109",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "18 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "35 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 8.17, "old": "$9" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Ramanagara",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.793408, "lon": 77.38026 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 37730339,
+            "isAlternative": false
+          },
+          {
+            "id": 782617888,
+            "name": "OYO 11915 Varcity Park",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/25000000/24430000/24425600/24425559/e28c8a5c_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "11 1st Main 1st A Cross Rd",
+              "extendedAddress": "",
+              "locality": "Bengaluru",
+              "postalCode": "560029",
+              "region": "KA",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "guestReviews": { "unformattedRating": 2.0, "rating": "2.0", "total": 1, "scale": 10 },
+            "landmarks": [
+              { "label": "City center", "distance": "6.2 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "20 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$8", "exactCurrent": 8.26, "old": "$9" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "BTM Layout",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.927007, "lon": 77.616062 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 24425559,
+            "isAlternative": false
+          },
+          {
+            "id": 633126720,
+            "name": "Sri Balaji Paradise",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/20000000/19760000/19754000/19753960/40d9cebc_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "#17, SC Road, RK Puram",
+              "extendedAddress": "Opp Kapali theatre, Mejestic",
+              "locality": "Bengaluru",
+              "postalCode": "560009",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "guestReviews": {
+              "unformattedRating": 6.0,
+              "rating": "6.0",
+              "total": 4,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Good"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "1.7 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "17 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$9", "exactCurrent": 8.56 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Gandhi Nagar",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": { "lat": 12.97797, "lon": 77.57556 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 19753960,
+            "isAlternative": false
+          },
+          {
+            "id": 898940032,
+            "name": "OYO 15270 Atithi Residency",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/29000000/28070000/28060700/28060626/d09a5ae4_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Chandra Tower, near Atibelle Toll",
+              "extendedAddress": "",
+              "locality": "Anekal",
+              "postalCode": "562107",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "21 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "30 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$9", "exactCurrent": 8.98 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Anekal",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|TESCO",
+            "coordinate": { "lat": 12.777348, "lon": 77.77562 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 28060626,
+            "isAlternative": false
+          },
+          {
+            "id": 1060268992,
+            "name": "OYO 10522 Varcity Emerald",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/34000000/33110000/33102200/33102156/e060274b_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "31 12Th Main Rd Keb Colony",
+              "extendedAddress": "Madiwala 1St Stage Btm Layout 1",
+              "locality": "Bengaluru",
+              "postalCode": "560029",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "6.3 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "21 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$9", "exactCurrent": 9.18 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "BTM Layout",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.917453, "lon": 77.607491 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 33102156,
+            "isAlternative": false
+          },
+          {
+            "id": 731793728,
+            "name": "OYO 10525 Varcity Abra Madiwala",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/23000000/22840000/22837400/22837304/b9884f42_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "45-42",
+              "extendedAddress": "2nd Cross Rd, Maruti Nagar, BTM Layout",
+              "locality": "Bengaluru",
+              "postalCode": "560029",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "6.1 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "20 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$9", "exactCurrent": 9.34 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bengaluru",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.926734, "lon": 77.614471 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 22837304,
+            "isAlternative": false
+          },
+          {
+            "id": 1013174848,
+            "name": "OYO 15695 Varcity Comforts",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/32000000/31640000/31630500/31630464/45b3c90e_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "101, Maruthi Nagar Main Rd., Zuzuvadi",
+              "extendedAddress": "Madiwala, 1st Stage, Btm Layout",
+              "locality": "Bengaluru",
+              "postalCode": "560029",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "6.2 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "20 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$9", "exactCurrent": 9.45 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "BTM Layout",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 12.925861, "lon": 77.615278 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 31630464,
+            "isAlternative": false
+          },
+          {
+            "id": 931961760,
+            "name": "OYO 15776 V R Residency",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/30000000/29100000/29092600/29092555/00ee562b_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "1640/582,Off Outer Ring Road,1st stage",
+              "extendedAddress": "4th block, HBR Layout, Bengaluru",
+              "locality": "Bengaluru",
+              "postalCode": "560043",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "5.8 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "12 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$10", "exactCurrent": 9.58, "old": "$11" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "HBR Layout",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 13.035103, "lon": 77.630145 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 29092555,
+            "isAlternative": false
+          },
+          {
+            "id": 931961536,
+            "name": "OYO 15269 Surya Inn",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/30000000/29100000/29092600/29092548/4a19e833_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "43416, Kadiganahalli Village",
+              "extendedAddress": "Chikkajala, Nr Airport Rd",
+              "locality": "Bengaluru",
+              "postalCode": "562157",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "13 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "4.5 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$10", "exactCurrent": 10.17 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bengaluru",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "TESCO",
+            "coordinate": { "lat": 13.166901, "lon": 77.632061 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 29092548,
+            "isAlternative": false
+          },
+          {
+            "id": 804851328,
+            "name": "OYO 12024 Sree Nandanam Residency",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/26000000/25130000/25120400/25120354/53c3c91f_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "11, mathikere 1st main road",
+              "extendedAddress": "gokula, near lic office, near pai intl",
+              "locality": "Bengaluru",
+              "postalCode": "560054",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "2.5 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "15 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.52 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Yeshwanthpur",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": { "lat": 13.029222, "lon": 77.559194 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 25120354,
+            "isAlternative": false
+          },
+          {
+            "id": 1412594976,
+            "name": "YC Grand By Omatra",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/45000000/44120000/44112400/44112343/292c542d_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "1st Cross Rd",
+              "extendedAddress": "",
+              "locality": "Bengaluru",
+              "postalCode": "560100",
+              "region": "KA",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "13 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "25 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.53, "old": "$26" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Electronics City",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 12.838405, "lon": 77.650689 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 44112343,
+            "isAlternative": false
+          },
+          {
+            "id": 1049762432,
+            "name": "OYO 12965 Archana Comforts",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/33000000/32780000/32773900/32773826/ed44fd15_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Jc Road, Union Bank Building",
+              "extendedAddress": "Jc Road Signal, Near Minerva Circle",
+              "locality": "Bengaluru",
+              "postalCode": "560002",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "3.1 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "18 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.57 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Bangalore City Center",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": { "lat": 12.957727, "lon": 77.582447 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 32773826,
+            "isAlternative": false
+          },
+          {
+            "id": 1177401664,
+            "name": "OYO 12737 JK Residency",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/37000000/36770000/36762600/36762552/f74a3488_l.jpg",
+            "starRating": 2.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "293,19Th Cross Rd, Ananth Nagr",
+              "extendedAddress": "Phase 1, Kammasandra, Electronic City",
+              "locality": "Anekal",
+              "postalCode": "560100",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "14 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "25 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.57 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Electronics City",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 12.836361, "lon": 77.690186 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 36762552,
+            "isAlternative": false
+          },
+          {
+            "id": 731759616,
+            "name": "OYO 10363 Sri Balaji Guest House",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/23000000/22840000/22836300/22836238/207a0b31_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "18 8th Main Rd, 4E Block",
+              "extendedAddress": "Vinayaka Nagar, Wilson Garden",
+              "locality": "Bengaluru",
+              "postalCode": "560027",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "guestReviews": {
+              "unformattedRating": 8.0,
+              "rating": "8.0",
+              "total": 1,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Very Good"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "4.1 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "19 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.57 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Wilson Garden",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.94956, "lon": 77.59633 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 22836238,
+            "isAlternative": false
+          },
+          {
+            "id": 931964576,
+            "name": "OYO 16475 Sai Vishram",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/30000000/29100000/29092700/29092643/7b12d14d_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "26/1,Sheshadri Road",
+              "extendedAddress": "Near Anandrao Circle, Gandhinagar",
+              "locality": "Bengaluru",
+              "postalCode": "560009",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "1.7 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "17 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.65 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Gandhi Nagar",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.98036, "lon": 77.57573 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 29092643,
+            "isAlternative": false
+          },
+          {
+            "id": 1347538176,
+            "name": "Sri Kumara Lodge",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/43000000/42080000/42079400/42079318/97702b04_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "#81, Hospital Road, Balepet",
+              "extendedAddress": "Near Upparpet Police Station",
+              "locality": "Bengaluru",
+              "postalCode": "560053",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "2.0 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "18 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.66, "old": "$12" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Chickpet",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 12.97375, "lon": 77.576263 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42079318,
+            "isAlternative": false
+          },
+          {
+            "id": 1146587904,
+            "name": "OYO 17373 Ssv Hotel",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/36000000/35800000/35799700/35799622/4f5f9b37_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "19 Near Fathima Schol",
+              "extendedAddress": "Santhe Gt, Hokote",
+              "locality": "Hoskote",
+              "postalCode": "562114",
+              "region": "Karnataka",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "17 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "12 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.7 },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Hoskote",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": { "lat": 13.077618, "lon": 77.799728 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 35799622,
+            "isAlternative": false
+          },
+          {
+            "id": 638045280,
+            "name": "Capital O 3740 Golden Sands",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/20000000/19910000/19907700/19907665/b7760f60_l.jpg",
+            "starRating": 3.0,
+            "urls": {},
+            "address": {
+              "streetAddress": "Plot No.2, 2nd Cross, Koramangala Indira",
+              "extendedAddress": "Nagar Intermediate Ring Rd, Srinivagalu",
+              "locality": "Bengaluru",
+              "postalCode": "560047",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "6.4 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "19 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.72, "old": "$12" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Ejipura",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": { "lat": 12.937989, "lon": 77.630907 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 19907665,
+            "isAlternative": false
+          },
+          {
+            "id": 877601056,
+            "name": "Golden Amulya",
+            "thumbnailUrl": "https://exp.cdn-hotels.com/hotels/28000000/27400000/27393800/27393783/259dc3ab_l.jpg",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Udayanagar Bagalur Cross,IAF Post",
+              "extendedAddress": "New International Airport Road,Yelahanka",
+              "locality": "Bengaluru",
+              "postalCode": "560064",
+              "region": "",
+              "countryName": "India",
+              "countryCode": "in"
+            },
+            "landmarks": [
+              { "label": "City center", "distance": "9.5 miles" },
+              { "label": "Bengaluru (BLR-Kempegowda Intl.)", "distance": "7.7 miles" }
+            ],
+            "ratePlan": {
+              "price": { "current": "$11", "exactCurrent": 10.99, "old": "$16" },
+              "features": { "paymentPreference": false, "noCCRequired": false }
+            },
+            "neighbourhood": "Yelahanka",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": { "lat": 13.12116, "lon": 77.61007 },
+            "providerType": "LOCAL",
+            "supplierHotelId": 27393783,
+            "isAlternative": false
+          }
+        ],
+        "pagination": {
+          "currentPage": 1,
+          "pageGroup": "EXPEDIA_IN_POLYGON",
+          "nextPageNumber": 2,
+          "nextPageGroup": "EXPEDIA_IN_POLYGON"
+        }
+      },
+      "sortResults": {
+        "options": [
+          {
+            "label": "Star rating",
+            "itemMeta": "star",
+            "choices": [
+              {
+                "label": "Stars (high to low)",
+                "value": "STAR_RATING_HIGHEST_FIRST",
+                "selected": false
+              },
+              {
+                "label": "Stars (low to high)",
+                "value": "STAR_RATING_LOWEST_FIRST",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Distance",
+            "itemMeta": "distance",
+            "choices": [
+              {
+                "label": "Distance to city center",
+                "value": "DISTANCE_FROM_LANDMARK",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": [
+              {
+                "label": "Landmarks",
+                "itemMeta": "landmarks",
+                "choices": [
+                  { "label": "City center", "id": 678196.0 },
+                  { "label": "Art of Living International Center", "id": 1.0629476e7 },
+                  { "label": "Bangalore International Exhibition Centre", "id": 1688933.0 },
+                  { "label": "Bangalore Palace", "id": 1682277.0 },
+                  { "label": "Bannerghatta Road", "id": 1805621.0 },
+                  { "label": "Brigade Road", "id": 1687486.0 },
+                  { "label": "Commercial Street", "id": 1691874.0 },
+                  { "label": "Hebbal lake", "id": 1.0630002e7 },
+                  { "label": "Lalbagh Botanical Gardens", "id": 1682255.0 },
+                  { "label": "M.G. Road", "id": 1687484.0 },
+                  { "label": "Manipal Hospital HAL Airport Road", "id": 1.1424149e7 },
+                  { "label": "Manpho Convention Center", "id": 1.0670145e7 },
+                  { "label": "Manyata Embassy Business Park", "id": 1788218.0 },
+                  { "label": "Manyata Tech Park", "id": 1.0660494e7 },
+                  { "label": "Nimhans Convention Center", "id": 1738317.0 },
+                  { "label": "Old Airport Road", "id": 1691547.0 },
+                  { "label": "Peenya", "id": 1788215.0 },
+                  { "label": "Race Course Road", "id": 1687485.0 },
+                  { "label": "UB City", "id": 1719988.0 },
+                  { "label": "Ulsoor Lake", "id": 1691875.0 }
+                ]
+              },
+              {
+                "label": "Stations",
+                "itemMeta": "stations",
+                "choices": [
+                  { "label": "Bengaluru Baiyappanahalli Station", "id": 1761883.0 },
+                  { "label": "Bengaluru Cantonment Station", "id": 1761877.0 },
+                  { "label": "Bengaluru East Station", "id": 1761879.0 },
+                  { "label": "Bengaluru Hebbal Station", "id": 1761889.0 },
+                  { "label": "Bengaluru Kengeri Station", "id": 1761894.0 },
+                  { "label": "Bengaluru Kodigehalli Station", "id": 1761918.0 },
+                  { "label": "Bengaluru Krishnarajapuram Station", "id": 1761895.0 },
+                  { "label": "Chikballapur Station", "id": 1761906.0 },
+                  { "label": "Doddaballapur Station", "id": 1761910.0 },
+                  { "label": "Krantivira Sangolli Rayanna", "id": 1761878.0 },
+                  { "label": "Magadi Road Station", "id": 1762058.0 },
+                  { "label": "Mahatma Gandhi Road Station", "id": 1764703.0 },
+                  { "label": "Malleswaram Station", "id": 1762132.0 },
+                  { "label": "Mysore Road Station", "id": 1762137.0 },
+                  { "label": "Rajajinagar Station", "id": 1762142.0 },
+                  { "label": "Ramanagaram Station", "id": 1761936.0 },
+                  { "label": "Swami Vivekananda Road Station", "id": 1762060.0 },
+                  { "label": "Vijaynagar Station", "id": 1762062.0 },
+                  { "label": "Yeshwantpur Station", "id": 1762161.0 },
+                  { "label": "Yesvantpur Junction Station", "id": 1761900.0 }
+                ]
+              },
+              {
+                "label": "Airports",
+                "itemMeta": "airports",
+                "choices": [{ "label": "Bengaluru (BLR-Kempegowda Intl.)", "id": 1647079.0 }]
+              }
+            ]
+          },
+          {
+            "label": "Guest rating",
+            "itemMeta": "rating",
+            "choices": [{ "label": "Guest rating", "value": "GUEST_RATING", "selected": false }],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Price",
+            "itemMeta": "price",
+            "selectedChoiceLabel": "Price (low to high)",
+            "choices": [
+              { "label": "Price (high to low)", "value": "PRICE_HIGHEST_FIRST", "selected": false },
+              { "label": "Price (low to high)", "value": "PRICE", "selected": true }
+            ],
+            "enhancedChoices": []
+          }
+        ],
+        "distanceOptionLandmarkId": 678196.0
+      },
+      "filters": {
+        "applied": false,
+        "name": {
+          "item": { "value": "" },
+          "autosuggest": {
+            "additionalUrlParams": {
+              "resolved-location": "CITY:678196:UNKNOWN:UNKNOWN",
+              "q-destination": "Bengaluru, Karnataka, India",
+              "destination-id": "678196"
+            }
+          }
+        },
+        "starRating": {
+          "applied": false,
+          "items": [{ "value": 5 }, { "value": 4 }, { "value": 3 }, { "value": 2 }, { "value": 1 }]
+        },
+        "guestRating": {
+          "range": { "min": { "defaultValue": 0.0 }, "max": { "defaultValue": 10.0 } }
+        },
+        "landmarks": {
+          "selectedOrder": [],
+          "items": [
+            { "label": "City center", "value": "678196" },
+            { "label": "Bengaluru (BLR-Kempegowda Intl.)", "value": "1647079" },
+            { "label": "M.G. Road", "value": "1687484" },
+            { "label": "Bangalore International Exhibition Centre", "value": "1688933" },
+            { "label": "Brigade Road", "value": "1687486" },
+            { "label": "Commercial Street", "value": "1691874" },
+            { "label": "Bannerghatta Road", "value": "1805621" },
+            { "label": "Bangalore Palace", "value": "1682277" },
+            { "label": "Race Course Road", "value": "1687485" },
+            { "label": "UB City", "value": "1719988" },
+            { "label": "Old Airport Road", "value": "1691547" },
+            { "label": "Manyata Tech Park", "value": "10660494" },
+            { "label": "Krantivira Sangolli Rayanna", "value": "1761878" },
+            { "label": "Art of Living International Center", "value": "10629476" },
+            { "label": "Manpho Convention Center", "value": "10670145" },
+            { "label": "Manipal Hospital HAL Airport Road", "value": "11424149" },
+            { "label": "Bengaluru Cantonment Station", "value": "1761877" },
+            { "label": "Peenya", "value": "1788215" },
+            { "label": "Yesvantpur Junction Station", "value": "1761900" },
+            { "label": "Ulsoor Lake", "value": "1691875" }
+          ],
+          "distance": []
+        },
+        "neighbourhood": {
+          "applied": false,
+          "items": [
+            { "label": "Bangalore City Center", "value": 10873807 },
+            { "label": "Whitefield", "value": 1740606 },
+            { "label": "Koramangala", "value": 1691542 },
+            { "label": "Electronics City", "value": 1691539 },
+            { "label": "Indiranagar", "value": 1692715 },
+            { "label": "Bellandur", "value": 10780665 },
+            { "label": "Marathahalli", "value": 1705012 },
+            { "label": "Jayanagar", "value": 1691544 },
+            { "label": "Yeshwanthpur", "value": 1701485 },
+            { "label": "Majestic", "value": 11423032 },
+            { "label": "HSR Layout", "value": 10780662 },
+            { "label": "JP Nagar", "value": 11129220 },
+            { "label": "Rajajinagar", "value": 1805623 },
+            { "label": "Yelahanka", "value": 1691541 },
+            { "label": "Malleshwaram", "value": 1691546 },
+            { "label": "Gandhi Nagar", "value": 1691543 },
+            { "label": "Madiwala", "value": 11424599 },
+            { "label": "Basavanagudi", "value": 1805656 },
+            { "label": "BTM Layout", "value": 10780663 },
+            { "label": "Kammanahalli", "value": 11424351 },
+            { "label": "RT Nagar", "value": 1725094 },
+            { "label": "Hennur", "value": 11422247 },
+            { "label": "Banashankari", "value": 11422579 },
+            { "label": "Koramangala 4th Block", "value": 11424118 },
+            { "label": "HBR Layout", "value": 11425781 },
+            { "label": "Shivaji Nagar", "value": 11425700 },
+            { "label": "Kalyan Nagar", "value": 11422610 },
+            { "label": "Chickpet", "value": 11425187 },
+            { "label": "Malleshwaram West", "value": 11422257 },
+            { "label": "Shanti Nagar", "value": 11422895 },
+            { "label": "Brookefield", "value": 10873806 },
+            { "label": "Kalasipalya", "value": 11422447 },
+            { "label": "Arekere", "value": 11426042 },
+            { "label": "5th Block", "value": 11423843 },
+            { "label": "Pulikeshi Nagar", "value": 11423675 },
+            { "label": "4th Block", "value": 11425246 },
+            { "label": "Spice Garden Layout", "value": 12543351 },
+            { "label": "Koramangala 3 Block", "value": 12504589 },
+            { "label": "Sahakar Nagar", "value": 12501630 },
+            { "label": "Shanthala Nagar", "value": 12538282 },
+            { "label": "Palm Meadows", "value": 12508962 },
+            { "label": "Banswadi", "value": 12532966 },
+            { "label": "Murgesh Pallya", "value": 12506500 },
+            { "label": "Koramangala 4-B Block", "value": 12522405 },
+            { "label": "RR Nagar", "value": 12531527 },
+            { "label": "Bommasandra", "value": 12506584 },
+            { "label": "Ulsoor", "value": 12532967 },
+            { "label": "Koramangala 1A Block", "value": 12518589 },
+            { "label": "Embassy Golf Links Business Park", "value": 12532988 },
+            { "label": "S R Layout", "value": 12531216 },
+            { "label": "Ejipura", "value": 12513636 },
+            { "label": "BTM 2nd Stage", "value": 12542527 },
+            { "label": "D Costa Layout", "value": 12549611 },
+            { "label": "Electronic City Phase II", "value": 12535086 },
+            { "label": "D Souza Layout", "value": 12549586 },
+            { "label": "Sheshadripuram", "value": 12511177 },
+            { "label": "Vignan Nagar", "value": 12515010 },
+            { "label": "Garden Layout", "value": 12548232 },
+            { "label": "Hoysala Nagar", "value": 12504685 },
+            { "label": "Krishnarajapura", "value": 12547360 },
+            { "label": "Kanaka Nagar", "value": 12504693 },
+            { "label": "Narayanappa Garden", "value": 12514143 },
+            { "label": "Langford Town", "value": 12538290 },
+            { "label": "Thigalarapalya", "value": 12539328 },
+            { "label": "Lakshminarayana Pura", "value": 12546324 },
+            { "label": "Panduranga Nagar", "value": 12509170 },
+            { "label": "Sector 2", "value": 12548060 },
+            { "label": "EPIP Zone", "value": 12544768 },
+            { "label": "Hebbal", "value": 12535085 },
+            { "label": "Stage 1", "value": 12528197 },
+            { "label": "Domlur", "value": 12511048 },
+            { "label": "Indira Nagar II Stage", "value": 12518343 },
+            { "label": "Vyalikaval HBCS Layout", "value": 12508864 },
+            { "label": "Bilekahalli", "value": 12514864 },
+            { "label": "Phase 2", "value": 12547986 },
+            { "label": "Kadubeesanahalli", "value": 12505322 },
+            { "label": "Craig Park Layout", "value": 12549507 },
+            { "label": "Vasanth Nagar", "value": 12520354 },
+            { "label": "Iblur Village", "value": 12514149 },
+            { "label": "Bommanahalli", "value": 12522850 },
+            { "label": "Wilson Garden", "value": 12544149 },
+            { "label": "Vijaya Bank Layout", "value": 12509561 },
+            { "label": "Bagalakunte", "value": 12531522 },
+            { "label": "Nagavara", "value": 12516506 },
+            { "label": "Hennur Gardens", "value": 12504872 }
+          ]
+        },
+        "accommodationType": {
+          "applied": false,
+          "items": [
+            { "label": "Apart-hotels", "value": "20" },
+            { "label": "Apartments", "value": "15" },
+            { "label": "B&Bs", "value": "5" },
+            { "label": "Cabins and lodges", "value": "9" },
+            { "label": "Guest houses", "value": "30" },
+            { "label": "Hostels", "value": "12" },
+            { "label": "Hotels", "value": "1" },
+            { "label": "Resorts", "value": "3" },
+            { "label": "Safari tents", "value": "28" },
+            { "label": "Vacation homes", "value": "4" },
+            { "label": "Villas", "value": "14" }
+          ]
+        },
+        "facilities": {
+          "applied": false,
+          "items": [
+            { "label": "24-hour front desk", "value": "2063" },
+            { "label": "Airport transfers", "value": "513" },
+            { "label": "Bar", "value": "515" },
+            { "label": "Bathtub in room", "value": "517" },
+            { "label": "Business facilities", "value": "519" },
+            { "label": "Car charging point", "value": "1073743315" },
+            { "label": "Childcare", "value": "521" },
+            { "label": "Connecting rooms available", "value": "523" },
+            { "label": "Cribs available", "value": "525" },
+            { "label": "Free Breakfast", "value": "2048" },
+            { "label": "Free Parking", "value": "134234112" },
+            { "label": "Free WiFi", "value": "527" },
+            { "label": "Gym", "value": "2" },
+            { "label": "Internet Access", "value": "8" },
+            { "label": "Kitchen", "value": "32" },
+            { "label": "Meeting Facilities", "value": "1" },
+            { "label": "Non-smoking", "value": "529" },
+            { "label": "Parking available", "value": "16384" },
+            { "label": "Pet Friendly", "value": "64" },
+            { "label": "Pool", "value": "128" },
+            { "label": "Restaurant", "value": "256" },
+            { "label": "Smoking areas", "value": "537" },
+            { "label": "Spa", "value": "539" }
+          ]
+        },
+        "accessibility": {
+          "applied": false,
+          "items": [
+            { "label": "Accessibility equipment for the deaf", "value": "2097152" },
+            { "label": "Accessible bathroom", "value": "131072" },
+            { "label": "Accessible parking", "value": "524288" },
+            { "label": "Accessible path of travel", "value": "65536" },
+            { "label": "Braille or raised signage", "value": "4194304" },
+            { "label": "In-room accessibility", "value": "1048576" },
+            { "label": "Roll-in shower", "value": "262144" },
+            { "label": "Wheelchair accessible rooms", "value": "541" }
+          ]
+        },
+        "themesAndTypes": {
+          "applied": false,
+          "items": [
+            { "label": "Beach", "value": "6" },
+            { "label": "Boutique", "value": "4" },
+            { "label": "Business", "value": "14" },
+            { "label": "Family-friendly", "value": "25" },
+            { "label": "Golf", "value": "26" },
+            { "label": "Historic", "value": "2" },
+            { "label": "Hot Springs", "value": "22" },
+            { "label": "Luxury", "value": "15" },
+            { "label": "Romantic", "value": "1" },
+            { "label": "Spa Hotel", "value": "27" }
+          ]
+        },
+        "price": {
+          "label": "Nightly Price",
+          "range": {
+            "min": { "defaultValue": 0 },
+            "max": { "defaultValue": 500 },
+            "increments": 5
+          },
+          "multiplier": 1
+        },
+        "paymentPreference": {
+          "items": [{ "label": "Pay with Hotels.com gift card", "value": "gc" }]
+        },
+        "welcomeRewards": {
+          "label": "Hotels.com® Rewards",
+          "items": [
+            { "label": "Collect stamps", "value": "collect" },
+            { "label": "Redeem reward* nights", "value": "redeem" }
+          ]
+        }
+      },
+      "pointOfSale": {
+        "currency": { "code": "USD", "symbol": "$", "separators": ",.", "format": "${0}" }
+      },
+      "miscellaneous": {
+        "pageViewBeaconUrl": "https://www.egadvertising.com/travelAds/v1/TravelAdPageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=678196&hotelIds=1363339360,1363316736,1363340704,1342165728,1342173984,321698,1208370848,782617888,633126720,898940032,1060268992,731793728,1013174848,931961760,931961536,804851328,1412594976,1049762432,1177401664,731759616,931964576,1347538176,1146587904,638045280,877601056&adults=1&userAgent=Hotels.com/Android%2052.5.1.1.release-52_5%20(52050434)&userGuid=d31edebb-c670-4e2d-9665-11ce13c7c8f2&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8847.0,8928.0,9008.0,8347.0,9004.0,8952.0,9376.0,7992.0,8915.0,9041.0&domain=www.hotels.com&tac=true&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1"
+      },
+      "pageInfo": { "pageType": "dateless" }
+    },
+    "common": {
+      "pointOfSale": { "numberSeparators": ",.", "brandName": "Hotels.com" },
+      "tracking": {
+        "omniture": {
+          "s.prop33": "D=v33",
+          "s.prop32": "D=v43",
+          "s.prop74": "search result without dates | ms not shown | NA",
+          "s.products": "LOCAL;42573105,LOCAL;42572398,LOCAL;42573147",
+          "s.eVar16": "Mob :: aApp",
+          "s.eVar40": "D=v0",
+          "s.eVar41": "USD",
+          "s.eVar63": "6a014109-e89f-4966-9008-a9fab8aa06f1",
+          "s.eVar42": "dateless",
+          "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+          "s.eVar2": "Bengaluru, Karnataka, India",
+          "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+          "s.eVar7": "",
+          "s.server": "www.hotels.com",
+          "s.eVar6": "678196",
+          "s.prop29": "D=v42",
+          "s.prop27": "d31edebb-c670-4e2d-9665-11ce13c7c8f2",
+          "s.eVar9": "Price - low to high",
+          "s.eVar69": "Mob :: aApp",
+          "s.currencyCode": "USD",
+          "s.eVar29": "Mob :: aApp",
+          "s.prop9": "1461",
+          "s.prop8": "0",
+          "s.eVar95": "Unknown",
+          "s.prop7": "1412",
+          "s.eVar31": "D=v0",
+          "s.eVar32": "D=v0",
+          "s.eVar33": "Mob :: aApp :: search result without dates",
+          "s.eVar34": "H277:017.002,H1423:009.099,H1871:007.002,H4516:001.000,H4517:001.000,H4518:003.000,H4519.0,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:019.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M6990:000.000,M7015.1,M7066:000.000,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362:000.000,M7552:023.001,M7561:000.000,M7870:000.000,M8258:000.000,M8336:000.000,M8347:000.000,M8434:000.000,M8692:000.000,M8698:000.000,M8714:000.000,M8718:000.000,M8847.0,M8915:000.000,M8928:000.000,M8952:000.000,M8992:000.000,M9004:000.000,M9035:000.000,M9065:000.000,M9066.1,M9220:000.000,M9297:000.000,M9351:000.000,M9376:000.000,M9431:000.000,M9469:000.000,M9215:001.000",
+          "s.eVar13": "389367",
+          "s.prop18": "D=v6",
+          "s.prop5": "389367",
+          "s.prop15": "",
+          "s.prop3": "Bengaluru, Karnataka, India",
+          "s.prop14": "D=v7",
+          "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar93": "aws.us-west-2.unknown",
+          "s.prop2": "Price - low to high"
+        }
+      }
+    }
+  }
+}

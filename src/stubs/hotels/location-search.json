@@ -1,0 +1,194 @@
+{
+  "term": "bangalore",
+  "moresuggestions": 1764,
+  "autoSuggestInstance": null,
+  "trackingID": "673af346-a17f-4654-8a1b-f9a9687fd64f",
+  "misspellingfallback": false,
+  "suggestions": [
+    {
+      "group": "CITY_GROUP",
+      "entities": [
+        {
+          "geoId": "1000000000000000622",
+          "destinationId": "678196",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "caption": "Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.993847,
+          "longitude": 77.555365,
+          "name": "Bengaluru"
+        },
+        {
+          "geoId": "1000000000006686277",
+          "destinationId": "10873807",
+          "landmarkCityDestinationId": null,
+          "type": "NEIGHBORHOOD",
+          "caption": "<span class='highlighted'>Bangalore</span> City Center, Bengaluru, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.969862,
+          "longitude": 77.601414,
+          "name": "Bangalore City Center"
+        },
+        {
+          "geoId": "1000000000006843619",
+          "destinationId": "12463915",
+          "landmarkCityDestinationId": null,
+          "type": "REGION",
+          "caption": "<span class='highlighted'>Bangalore</span> Urban District, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.950329,
+          "longitude": 77.596419,
+          "name": "Bangalore Urban District"
+        },
+        {
+          "geoId": "1000000000006851186",
+          "destinationId": "12471482",
+          "landmarkCityDestinationId": null,
+          "type": "REGION",
+          "caption": "<span class='highlighted'>Bangalore</span> Rural District, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 13.224819,
+          "longitude": 77.57564,
+          "name": "Bangalore Rural District"
+        },
+        {
+          "geoId": "1000000000006129111",
+          "destinationId": "1688643",
+          "landmarkCityDestinationId": null,
+          "type": "CITY",
+          "caption": "Devanahalli, India (<span class='highlighted'>Bangalore</span> Rural District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 13.248989,
+          "longitude": 77.701056,
+          "name": "Devanahalli"
+        },
+        {
+          "geoId": "1000000000006053315",
+          "destinationId": "1740606",
+          "landmarkCityDestinationId": null,
+          "type": "NEIGHBORHOOD",
+          "caption": "Whitefield, Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.975918,
+          "longitude": 77.729307,
+          "name": "Whitefield"
+        }
+      ]
+    },
+    {
+      "group": "LANDMARK_GROUP",
+      "entities": [
+        {
+          "geoId": "1000000000006104854",
+          "destinationId": "1682277",
+          "landmarkCityDestinationId": "678196",
+          "type": "LANDMARK",
+          "caption": "<span class='highlighted'>Bangalore</span> Palace, Bengaluru, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.998097,
+          "longitude": 77.592035,
+          "name": "Bangalore Palace"
+        },
+        {
+          "geoId": "1000000000006336104",
+          "destinationId": "1805621",
+          "landmarkCityDestinationId": "678196",
+          "type": "LANDMARK",
+          "caption": "Bannerghatta Road, Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.896422,
+          "longitude": 77.597602,
+          "name": "Bannerghatta Road"
+        },
+        {
+          "geoId": "1000000000006158077",
+          "destinationId": "1712805",
+          "landmarkCityDestinationId": "678196",
+          "type": "LANDMARK",
+          "caption": "Central Mall Bengaluru, Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.92559,
+          "longitude": 77.67562,
+          "name": "Central Mall Bengaluru"
+        }
+      ]
+    },
+    {
+      "group": "TRANSPORT_GROUP",
+      "entities": [
+        {
+          "geoId": "1000000000005393474",
+          "destinationId": "1647079",
+          "landmarkCityDestinationId": null,
+          "type": "AIRPORT",
+          "caption": "Bengaluru (BLR-Kempegowda Intl.), India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 13.204518,
+          "longitude": 77.687073,
+          "name": "Bengaluru (BLR-Kempegowda Intl.)"
+        },
+        {
+          "geoId": "1000000000006249779",
+          "destinationId": "1761879",
+          "landmarkCityDestinationId": null,
+          "type": "TRAIN_STATION",
+          "caption": "Bengaluru East Station, Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 13.001288,
+          "longitude": 77.618681,
+          "name": "Bengaluru East Station"
+        },
+        {
+          "geoId": "1000000000006249775",
+          "destinationId": "1761877",
+          "landmarkCityDestinationId": null,
+          "type": "TRAIN_STATION",
+          "caption": "Bengaluru Cantonment Station, Bengaluru, India (<span class='highlighted'>Bangalore</span> Urban District)",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.993403,
+          "longitude": 77.597819,
+          "name": "Bengaluru Cantonment Station"
+        }
+      ]
+    },
+    {
+      "group": "HOTEL_GROUP",
+      "entities": [
+        {
+          "geoId": "1100000000000253845",
+          "destinationId": "253845",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "caption": "<span class='highlighted'>Bangalore</span> International, Bengaluru, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.98498,
+          "longitude": 77.5792,
+          "name": "Bangalore International"
+        },
+        {
+          "geoId": "1100000000000198732",
+          "destinationId": "198732",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "caption": "The Leela Palace <span class='highlighted'>Bangalore</span>, Bengaluru, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 12.959831,
+          "longitude": 77.649109,
+          "name": "The Leela Palace Bangalore"
+        },
+        {
+          "geoId": "1100000000416915296",
+          "destinationId": "416915296",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "caption": "Taj <span class='highlighted'>Bangalore</span>, Devanahalli, India",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 13.196503,
+          "longitude": 77.709458,
+          "name": "Taj Bangalore"
+        }
+      ]
+    }
+  ]
+}

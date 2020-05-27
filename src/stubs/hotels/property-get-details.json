@@ -1,0 +1,251 @@
+{
+  "result": "OK",
+  "data": {
+    "body": {
+      "pdpHeader": {
+        "hotelId": "898940032",
+        "destinationId": "12478433",
+        "pointOfSaleId": "HCOM_US",
+        "currencyCode": "USD",
+        "occupancyKey": "A1",
+        "hotelLocation": {
+          "coordinates": { "latitude": 12.777348, "longitude": 77.77562 },
+          "resolvedLocation": "CITY:12478433:PROVIDED:PROVIDED",
+          "locationName": "Anekal"
+        }
+      },
+      "overview": {
+        "overviewSections": [
+          {
+            "title": "Main amenities",
+            "type": "HOTEL_FEATURE",
+            "content": [
+              "17 smoke-free guestrooms",
+              "Room service",
+              "Daily housekeeping",
+              "Free continental breakfast and free WiFi "
+            ],
+            "contentType": "LIST"
+          },
+          {
+            "title": "What’s around",
+            "type": "LOCATION_SECTION",
+            "content": [
+              "Murugan Temple - 5.5 mi / 8.8 km",
+              "Wind Flower - 14.2 mi / 22.8 km",
+              "Lalbagh Botanical Gardens - 18.7 mi / 30.1 km",
+              "Bannerghatta National Park - 15.9 mi / 25.6 km",
+              "Bannerghatta Road - 16.3 mi / 26.2 km",
+              "Cubbon Park - 19.9 mi / 32 km",
+              "M.G. Road - 19.9 mi / 32 km",
+              "Bangalore Palace - 22.9 mi / 36.9 km",
+              "UB City - 20 mi / 32.2 km",
+              "Eco Space Business Park - 20.1 mi / 32.4 km"
+            ],
+            "contentType": "LIST"
+          },
+          {
+            "type": "TAGLINE",
+            "content": ["<b>No-frills hotel in Anekal </b>"],
+            "contentType": "LIST"
+          },
+          {
+            "type": "HOTEL_FREEBIES",
+            "content": ["Free continental breakfast and free WiFi"],
+            "contentType": "LIST"
+          }
+        ]
+      },
+      "hotelWelcomeRewards": {
+        "applies": true,
+        "info": "You can collect Hotels.com® Rewards stamps here"
+      },
+      "propertyDescription": {
+        "clientToken": "KvWZUkqSnkPTn1Iwpt0MOXAjRTk.",
+        "address": {
+          "countryName": "India",
+          "cityName": "Anekal",
+          "postalCode": "562107",
+          "provinceName": "Karnataka",
+          "addressLine1": "Chandra Tower, near Atibelle Toll",
+          "countryCode": "IND",
+          "pattern": "AddressLine1,#AddressLine2,#CityName,#ProvinceName,#PostalCode,#CountryName",
+          "fullAddress": "Chandra Tower, near Atibelle Toll, Anekal, Karnataka, 562107, India"
+        },
+        "priceMatchEnabled": true,
+        "name": "OYO 15270 Atithi Residency",
+        "starRatingTitle": "2.5 stars",
+        "starRating": 2.5,
+        "featuredPrice": {
+          "beforePriceText": "Lowest price",
+          "afterPriceText": "",
+          "pricingAvailability": "available on 06/04/20",
+          "pricingTooltip": "Price may be available on other dates",
+          "currentPrice": { "formatted": "$9", "plain": 9.0 },
+          "taxInclusiveFormatting": false,
+          "bookNowButton": false
+        },
+        "mapWidget": {
+          "staticMapUrl": "https://maps-api-ssl.google.com/maps/api/staticmap?center=12.777348,77.77562&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=Q7XFwW15xrzuit2NgcOaX-8rGk4="
+        },
+        "roomTypeNames": [
+          "Double or Twin Room",
+          "Deluxe Double or Twin Room, 1 King Bed",
+          "Single Room, 1 Twin Bed",
+          "Double Room, 1 Double Bed"
+        ],
+        "tagline": ["<b>No-frills hotel in Anekal </b>"],
+        "freebies": ["Free continental breakfast and free WiFi"]
+      },
+      "guestReviews": { "trustYouReviews": [] },
+      "atAGlance": {
+        "keyFacts": {
+          "hotelSize": ["This hotel has 17 rooms"],
+          "arrivingLeaving": ["Check-in time noon-10 PM", "Check-out time is  11 AM"],
+          "specialCheckInInstructions": [
+            "There is no front desk at this property. Guests must contact the property for check-in instructions. To register at this property, guests who are Indian citizens must provide a valid photo identity card issued by the Government of India. PAN cards are not accepted. Guests who are foreign nationals must present a valid passport and visa."
+          ],
+          "requiredAtCheckIn": [
+            "Credit card, debit card, or cash deposit required for incidental charges",
+            "Government-issued photo ID may be required"
+          ]
+        },
+        "travellingOrInternet": {
+          "travelling": {
+            "children": ["No cribs (infant beds)"],
+            "pets": ["Pets not allowed"],
+            "extraPeople": []
+          },
+          "internet": ["<em>Free</em> WiFi in public areas", "<em>Free</em> WiFi in rooms"]
+        },
+        "transportAndOther": {
+          "transport": { "transfers": [], "parking": ["No parking"], "offsiteTransfer": [] },
+          "otherInformation": ["Smoke-free property"],
+          "otherInclusions": []
+        }
+      },
+      "amenities": [
+        {
+          "heading": "In the hotel",
+          "listItems": [
+            {
+              "heading": "Food and drink",
+              "listItems": ["Free continental breakfast daily", "Room service"]
+            },
+            { "heading": "Accessibility", "listItems": ["Accessible bathroom"] },
+            { "heading": "Languages Spoken", "listItems": ["English"] }
+          ]
+        },
+        {
+          "heading": "In the room",
+          "listItems": [
+            {
+              "heading": "Freshen up",
+              "listItems": ["Private bathroom", "Bathtub or shower", "Free toiletries"]
+            },
+            { "heading": "Stay connected", "listItems": ["Free WiFi"] },
+            { "heading": "More", "listItems": ["Daily housekeeping"] }
+          ]
+        }
+      ],
+      "smallPrint": {
+        "alternativeNames": [
+          "OYO 15270 Atithi Residency Hotel Anekal",
+          "Oyo 15270 Atithi Residency",
+          "OYO 15270 Atithi Residency Hotel",
+          "OYO 15270 Atithi Residency Anekal",
+          "OYO 15270 Atithi Residency Hotel Anekal",
+          "OYO 15270 Atithi Residency Hotel",
+          "OYO 15270 Atithi Residency Anekal",
+          "OYO 15270 Atithi Residency Hotel Anekal",
+          "OYO 15270 Atithi Residency Hotel",
+          "OYO 15270 Atithi Residency Anekal",
+          "Hotel OYO 15270 Atithi Residency Anekal",
+          "Anekal OYO 15270 Atithi Residency Hotel",
+          "Hotel OYO 15270 Atithi Residency"
+        ],
+        "mandatoryFees": [],
+        "optionalExtras": [],
+        "policies": [
+          "<p>Only registered guests are allowed in the guestrooms. </p> Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. "
+        ],
+        "mandatoryTaxesOrFees": false,
+        "display": true
+      },
+      "specialFeatures": { "sections": [] },
+      "miscellaneous": {
+        "pimmsAttributes": "DoubleStamps|TESCO",
+        "showLegalInfoForStrikethroughPrices": false
+      },
+      "pageInfo": {
+        "pageType": "dateless",
+        "errors": [
+          {
+            "fieldName": "arrivalDate",
+            "errorMessages": ["Specified arrival date is before today’s date."]
+          }
+        ],
+        "errorKeys": ["MALFORMED_DATEFUL_REQUEST"]
+      },
+      "trustYouReviewsCredit": true
+    },
+    "common": {
+      "pointOfSale": { "numberSeparators": ",.", "brandName": "Hotels.com" },
+      "tracking": {
+        "omniture": {
+          "s.prop34": "2020.05.8410",
+          "s.eVar69": "Mob :: aApp",
+          "s.currencyCode": "USD",
+          "s.eVar16": "Mob :: aApp",
+          "s.products": "LOCAL;28060626",
+          "s.eVar29": "Mob :: aApp",
+          "s.eVar40": "D=v0",
+          "s.eVar95": "Unknown",
+          "s.eVar41": "USD",
+          "s.eVar31": "D=v0",
+          "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+          "s.eVar32": "D=v0",
+          "s.eVar34": "H277:017.002,H1068:005.001,H1423:009.099,H1871:007.002,H4516:001.000,H4517:001.000,H4518:003.000,H4519.0,M4440.2,M4869:001.000,M4953:001.000,M5342:000.000,M5355:001.000,M5756:001.000,M5758:001.000,M5759:001.000,M5760:001.000,M6271:001.000,M6388:000.000,M6439:000.000,M6553:000.000,M6761:000.000,M6946:000.000,M7296:000.000,M7305:000.000,M7308:000.000,M7320:000.000,M7353:000.000,M7362:000.000,M7552:023.001,M7561:000.000,M7635:000.000,M7844:000.000,M7983:000.000,M7990:000.000,M8033:000.000,M8065:000.000,M8193:000.000,M8248:000.000,M8263:000.000,M8322:000.000,M8336:000.000,M8370:000.000,M8413:000.000,M8612:000.000,M8714:000.000,M8781:000.002,M8789:000.000,M8988:000.000,M9035:000.000,M9056:000.000,M9066.1,M9091:000.000,M9167:000.000,M9168:000.000,M9469:000.000,M9532:000.000,M9215:001.000",
+          "s.eVar13": "389367",
+          "s.server": "www.hotels.com",
+          "s.prop28": "0",
+          "s.prop27": "58800da8-5e6f-4fda-9152-f1d7507a5985",
+          "s.prop5": "389367",
+          "s.eVar80": "",
+          "s.prop48": "hotel details without dates description tab",
+          "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar93": "aws.us-west-2.unknown"
+        },
+        "pageViewBeaconUrl": "https://www.egadvertising.com/travelAds/v1/TravelAdPageView?deviceType=App-Phone&rooms=1&destRegionID=12478433&hotelIds=&adults=1&userAgent=PDE.3.1.576&userGuid=58800da8-5e6f-4fda-9152-f1d7507a5985&pageName=Hotel-IS&slots=HIS_Car_A,HIS_Car_B,HIS_Car_C,HIS_Car_D,HIS_Car_E,HIS_Car_F,HIS_Car_G,HIS_Car_H,HIS_Car_I,HIS_Car_J&children=0&culture=en_US&testVersionOverride=4200.0,7983.0,8065.0,7561.0,7990.0,8988.0,8434.0,9532.0,9493.0,9348.0&domain=www.hotels.com&tac=true&action=pageview&publisher=expedia&userIP=127.0.0.1&programId=1"
+      }
+    }
+  },
+  "transportation": {
+    "transportLocations": [
+      {
+        "category": "airport",
+        "locations": [
+          {
+            "name": "Bengaluru (BLR-Kempegowda Intl.) -",
+            "distance": "",
+            "distanceInTime": "108 min drive"
+          }
+        ]
+      },
+      {
+        "category": "train-station",
+        "locations": [
+          {
+            "name": "Bengaluru Heelalige Station -",
+            "distance": "",
+            "distanceInTime": "16 min drive"
+          },
+          { "name": "Devanagonthi Station -", "distance": "", "distanceInTime": "28 min drive" },
+          { "name": "Jayanagar -", "distance": "", "distanceInTime": "28 min drive" }
+        ]
+      }
+    ]
+  },
+  "neighborhood": { "neighborhoodName": "Bommasandra" }
+}
