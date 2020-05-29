@@ -3,9 +3,9 @@ import config from '../../../config';
 
 import LocationData from '../../stubs/hotels/location-search.json';
 import HotelListData from '../../stubs/hotels/property-list.json';
-import HotelDetailsData from '../../stubs/hotels/property-get-details.json';
+import HotelDetailsData from '../../stubs/hotels/property-get-details1.json';
 import HotelPhotosData from '../../stubs/hotels/hotel-photos.json';
-import { formatHotelData } from '../../helpers/transformers';
+import { formatHotelData, formatHotelDetailData } from '../../helpers/transformers';
 
 export const FETCH_LOCATION = 'fetch_locatioin';
 export const FETCH_HOTELS = 'fetch_hotels';
@@ -101,6 +101,7 @@ export const getPropertyList = (source) => async (dispatch) => {
   //   .catch((error) => {
   //     console.log(error);
   //   });
+
   dispatch({
     type: FETCHING_HOTELS,
     fetching: true,
@@ -154,6 +155,7 @@ export const getHotelDetails = (source) => async (dispatch) => {
   //   .catch((error) => {
   //     console.log(error);
   //   });
+
   dispatch({
     type: FETCHING_HOTELS,
     fetching: true,
@@ -163,7 +165,8 @@ export const getHotelDetails = (source) => async (dispatch) => {
       setTimeout(() => {
         // let formatedData = formatHotelData(HotelListData.data);
         // console.log(formatedData);
-        resolve(HotelDetailsData);
+        let data = formatHotelDetailData(HotelDetailsData);
+        resolve(data);
       }, 1000)
     );
   let res = await getHotelData();

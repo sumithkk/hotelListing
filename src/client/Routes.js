@@ -10,7 +10,7 @@ export default [
     ...App,
     routes: [
       {
-        ...HomePage,
+        ...HotelListing,
         path: '/',
         exact: true,
       },

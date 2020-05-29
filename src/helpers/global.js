@@ -47,28 +47,29 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body{
-  cursor: none;
+  // cursor: none;
   font-family: 'rm';
 }
-.hotelHeader{
-  display: none;
-}
+// .hotelHeader{
+//   display: none;
+// }
 
-h1 {
-  font-family: 'rb';
+h1, h2, h3 {
   line-height: 1.4;
+  font-weight: 400 !important;
 }
 p {
   line-height: 1.3;
+  font-weight: 100;
 }
 input, textarea {
   font-family: "rm";
 }
 
-#cursor {
-  border-left: .1em solid $font;
-  animation: blink .7s steps(1) infinite;
-}
+// #cursor {
+//   border-left: .1em solid $font;
+//   animation: blink .7s steps(1) infinite;
+// }
 
 @keyframes blink {
   50% {
@@ -1804,95 +1805,95 @@ input, textarea {
 
 
 //Cursor
-.cursor {
-  width: 20px;
-  height: 20px;
-  border: 1px solid orange;
-  border-radius: 50%;
-  position: absolute;
-  transition-duration: 100ms;
-  transition-timing-function: ease-out;
-  animation: cursorAnim .5s infinite alternate;
-  pointer-events: none;
-}
+// .cursor {
+//   width: 20px;
+//   height: 20px;
+//   border: 1px solid orange;
+//   border-radius: 50%;
+//   position: absolute;
+//   transition-duration: 100ms;
+//   transition-timing-function: ease-out;
+//   animation: cursorAnim .5s infinite alternate;
+//   pointer-events: none;
+// }
 
-.cursor::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  border: 8px solid orangered;
-  border-radius: 50%;
-  opacity: .5;
-  top: -1px;
-  left: -1px;
-  animation: cursorAnim2 .5s infinite alternate;
-}
+// .cursor::after {
+//   content: "";
+//   width: 20px;
+//   height: 20px;
+//   position: absolute;
+//   border: 8px solid orangered;
+//   border-radius: 50%;
+//   opacity: .5;
+//   top: -1px;
+//   left: -1px;
+//   animation: cursorAnim2 .5s infinite alternate;
+// }
 
-@keyframes cursorAnim {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.7);
-  }
-}
+// @keyframes cursorAnim {
+//   from {
+//       transform: scale(1);
+//   }
+//   to {
+//       transform: scale(.7);
+//   }
+// }
 
-@keyframes cursorAnim2 {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.4);
-  }
-}
+// @keyframes cursorAnim2 {
+//   from {
+//       transform: scale(1);
+//   }
+//   to {
+//       transform: scale(.4);
+//   }
+// }
 
-@keyframes cursorAnim3 {
-  0% {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(3);
-  }
-  100% {
-      transform: scale(1);
-      opacity: 0;
-  }
-}
+// @keyframes cursorAnim3 {
+//   0% {
+//       transform: scale(1);
+//   }
+//   50% {
+//       transform: scale(3);
+//   }
+//   100% {
+//       transform: scale(1);
+//       opacity: 0;
+//   }
+// }
 
-.expand {
-  animation: cursorAnim3 .5s forwards;
-  border: 1px solid red;
-}
-a:hover {
-  cursor: none;
-}
-//Agora
+// .expand {
+//   animation: cursorAnim3 .5s forwards;
+//   border: 1px solid red;
+// }
+// a:hover {
+//   cursor: none;
+// }
+// //Agora
 
-.ps-about-card {
-  max-width: 480px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative
-}
+// .ps-about-card {
+//   max-width: 480px;
+//   width: 100%;
+//   margin: 0 auto;
+//   position: relative
+// }
 
-.card {
-  position: relative;
-  z-index: 2
-}
+// .card {
+//   position: relative;
+//   z-index: 2
+// }
 
-@keyframes shuffle {
-  0% {
-      transform: translateX(-50px);
-  }
-  50% {
-      transform: scale(1);
-      z-index:20;
-  }
-  100% {
-      transform: translateX(50px);
-  }
-}
+// @keyframes shuffle {
+//   0% {
+//       transform: translateX(-50px);
+//   }
+//   50% {
+//       transform: scale(1);
+//       z-index:20;
+//   }
+//   100% {
+//       transform: translateX(50px);
+//   }
+// }
 
 .elements {
   width: 100%;

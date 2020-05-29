@@ -1,0 +1,425 @@
+{
+  "result": "OK",
+  "data": {
+    "body": {
+      "pdpHeader": {
+        "hotelId": "424023",
+        "destinationId": "1506246",
+        "pointOfSaleId": "HCOM_US",
+        "currencyCode": "USD",
+        "occupancyKey": "A1",
+        "hotelLocation": {
+          "coordinates": { "latitude": 40.752109, "longitude": -73.985461 },
+          "resolvedLocation": "CITY:1506246:PROVIDED:PROVIDED",
+          "locationName": "New York"
+        }
+      },
+      "overview": {
+        "overviewSections": [
+          {
+            "title": "Main amenities",
+            "type": "HOTEL_FEATURE",
+            "content": [
+              "197 smoke-free guestrooms",
+              "Restaurant and 2 bars/lounges",
+              "Rooftop terrace",
+              "Breakfast available",
+              "Fitness center",
+              "Valet parking",
+              "24-hour front desk",
+              "Air conditioning",
+              "Daily housekeeping",
+              "Front desk safe",
+              "ATM/banking services",
+              "Laundry service",
+              "Free WiFi "
+            ],
+            "contentType": "LIST"
+          },
+          {
+            "title": "What’s around",
+            "type": "LOCATION_SECTION",
+            "content": [
+              "In Midtown",
+              "5th Avenue - 2 min walk",
+              "Bryant Park - 3 min walk",
+              "Macy's - 4 min walk",
+              "Times Square - 6 min walk",
+              "Empire State Building - 7 min walk",
+              "Broadway - 9 min walk",
+              "Grand Central Terminal - 11 min walk",
+              "Madison Square Garden - 12 min walk",
+              "Radio City Music Hall - 13 min walk",
+              "Top of the Rock - 14 min walk"
+            ],
+            "contentType": "LIST"
+          },
+          {
+            "type": "TAGLINE",
+            "content": ["<b>Luxury hotel with 2 bars/lounges, near 5th Avenue </b>"],
+            "contentType": "LIST"
+          },
+          { "type": "HOTEL_FREEBIES", "content": ["Free WiFi"], "contentType": "LIST" }
+        ]
+      },
+      "hotelWelcomeRewards": {
+        "applies": true,
+        "info": "You can collect Hotels.com® Rewards stamps here"
+      },
+      "propertyDescription": {
+        "clientToken": "YWserT1-x65ZKXw1wzTKadCq6dU.",
+        "address": {
+          "countryName": "United States of America",
+          "cityName": "New York",
+          "postalCode": "10018",
+          "provinceName": "NY",
+          "addressLine1": "63 W 38th St",
+          "countryCode": "USA",
+          "pattern": "AddressLine1,#AddressLine2,#CityName,#ProvinceName,#PostalCode,#CountryName",
+          "fullAddress": "63 W 38th St, New York, NY, 10018, United States of America"
+        },
+        "priceMatchEnabled": true,
+        "name": "Refinery Hotel",
+        "starRatingTitle": "5 stars",
+        "starRating": 5.0,
+        "mapWidget": {
+          "staticMapUrl": "https://maps-api-ssl.google.com/maps/api/staticmap?center=40.752109,-73.985461&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=GpiEU_s2-8PlDC9L6ElFaD7JRbg="
+        },
+        "roomTypeNames": [
+          "Studio, 1 Queen Bed",
+          "Studio, 1 King Bed",
+          "Deluxe Room, 2 Queen Beds",
+          "Atelier Executive Suite"
+        ],
+        "tagline": ["<b>Luxury hotel with 2 bars/lounges, near 5th Avenue </b>"],
+        "freebies": ["Free WiFi"]
+      },
+      "guestReviews": {
+        "brands": {
+          "scale": 10.0,
+          "formattedScale": "10",
+          "rating": 9.2,
+          "formattedRating": "9.2",
+          "lowRating": false,
+          "badgeText": "Superb",
+          "total": 1237
+        },
+        "trustYouReviews": [
+          {
+            "categoryName": "Location",
+            "percentage": "97",
+            "text": "Great location",
+            "sentiment": "pos"
+          },
+          {
+            "categoryName": "Vibe",
+            "percentage": "94",
+            "text": "Awesome vibe",
+            "sentiment": "pos"
+          },
+          {
+            "categoryName": "Bar",
+            "percentage": "88",
+            "text": "Bar is awesome",
+            "sentiment": "pos"
+          },
+          { "categoryName": "Room", "percentage": "83", "text": "Great room", "sentiment": "pos" }
+        ]
+      },
+      "atAGlance": {
+        "keyFacts": {
+          "hotelSize": ["This hotel has 197 rooms", "This hotel is arranged over 12 floors"],
+          "arrivingLeaving": [
+            "Check-in time 3 PM-1 AM",
+            "Check-out time is  noon",
+            "Express check-in/out"
+          ],
+          "specialCheckInInstructions": [],
+          "requiredAtCheckIn": [
+            "Credit card, debit card, or cash deposit required for incidental charges",
+            "Government-issued photo ID may be required",
+            "Minimum check-in age is 21"
+          ]
+        },
+        "travellingOrInternet": {
+          "travelling": {
+            "children": [],
+            "pets": [
+              "Pets stay free (dogs and cats only)",
+              "Restrictions apply *",
+              "1 per room (up to 40 lbs)",
+              "Food and water bowls available"
+            ],
+            "extraPeople": []
+          },
+          "internet": ["<em>Free</em> WiFi in public areas", "<em>Free</em> WiFi in rooms"]
+        },
+        "transportAndOther": {
+          "transport": { "transfers": [], "parking": ["Valet parking *"], "offsiteTransfer": [] },
+          "otherInformation": ["Smoke-free property"],
+          "otherInclusions": []
+        }
+      },
+      "amenities": [
+        {
+          "heading": "In the hotel",
+          "listItems": [
+            {
+              "heading": "Food and drink",
+              "listItems": [
+                "Full breakfast daily (surcharge)",
+                "2 bars/lounges",
+                "Restaurant",
+                "Coffee shop/café",
+                "Room service (during limited hours)"
+              ]
+            },
+            { "heading": "Things to do", "listItems": ["Fitness facilities"] },
+            { "heading": "Working away", "listItems": ["One meeting room"] },
+            {
+              "heading": "Services",
+              "listItems": [
+                "24-hour front desk",
+                "Concierge services",
+                "Tours/ticket assistance",
+                "Dry cleaning/laundry service",
+                "Free newspapers in lobby",
+                "Luggage storage",
+                "Multilingual staff",
+                "Porter/bellhop"
+              ]
+            },
+            {
+              "heading": "Facilities",
+              "listItems": [
+                "Number of buildings/towers -  1",
+                "Year Built -  1912",
+                "Elevator",
+                "ATM/banking",
+                "Safe-deposit box at front desk",
+                "Rooftop terrace"
+              ]
+            },
+            {
+              "heading": "Accessibility",
+              "listItems": [
+                "Braille or raised signage",
+                "Accessible bathroom",
+                "In-room accessibility",
+                "Roll-in shower"
+              ]
+            },
+            {
+              "heading": "Languages Spoken",
+              "listItems": [
+                "Arabic",
+                "English",
+                "French",
+                "Italian",
+                "Polish",
+                "Portuguese",
+                "Russian",
+                "Spanish"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "In the room",
+          "listItems": [
+            {
+              "heading": "Home comforts",
+              "listItems": ["Air conditioning", "Minibar", "Bathrobes", "Iron/ironing board"]
+            },
+            {
+              "heading": "Sleep well",
+              "listItems": [
+                "Hypo-allergenic bedding available",
+                "Down comforter",
+                "Premium bedding"
+              ]
+            },
+            { "heading": "Things to enjoy", "listItems": ["In-room massage available"] },
+            {
+              "heading": "Freshen up",
+              "listItems": ["Private bathroom", "Shower only", "Designer toiletries", "Hair dryer"]
+            },
+            {
+              "heading": "Be entertained",
+              "listItems": [
+                "42-inch LCD TV",
+                "Pay movies",
+                "Premium TV channels",
+                "IPod docking station"
+              ]
+            },
+            {
+              "heading": "Stay connected",
+              "listItems": ["Desk", "Free newspaper", "Free WiFi", "Phone"]
+            },
+            { "heading": "Food and drink", "listItems": ["Refrigerator (on request)"] },
+            {
+              "heading": "More",
+              "listItems": [
+                "Daily housekeeping",
+                "In-room safe (laptop compatible)",
+                "Connecting/adjoining rooms available"
+              ]
+            }
+          ]
+        }
+      ],
+      "smallPrint": {
+        "alternativeNames": [
+          "Hotel Refinery",
+          "Refinery Hotel",
+          "Refinery Hotel New York",
+          "Refinery New York",
+          "Refinery",
+          "Refinery Hotel Hotel",
+          "Refinery Hotel New York",
+          "Refinery Hotel Hotel New York"
+        ],
+        "mandatoryFees": [
+          "<ul><li>Resort fee: USD 17.21 per accommodation, per night</li></ul><br/>\n<p>Resort fee inclusions: </p><ul><li>Health club access</li><li>Fitness center access</li><li>WiFi access (may be limited)</li></ul><p>Inclusions may be listed elsewhere on the page as free or for a surcharge. </p>"
+        ],
+        "optionalExtras": [
+          "<p><strong>Valet parking</strong> costs USD 72.00 per night</p>",
+          "<p><strong>Breakfast</strong> costs between USD 20 and USD 30 per person (approximately)</p>",
+          "<p><strong>Cribs/Infant beds</strong> are available for USD 20.00 per night</p>"
+        ],
+        "policies": [
+          "<p>The property has connecting/adjoining rooms, which are subject to availability and can be requested by contacting the property using the number on the booking confirmation. </p><p>For details on pet restrictions, contact the property at the number on the booking confirmation. </p><p>This property advises that enhanced cleaning and safety measures are currently in place.</p><p>Disinfectant is used to clean the property, and guests are provided with hand sanitizer.</p><p>Personal protective equipment, including masks and gloves, will be available to guests.</p><p>For traveler safety, the following measures are in place: social distancing measures are in place; contactless check-in and check-out are available; staff at the property wear personal protective equipment; an acrylic shield is in place between staff and guests in main contact areas.</p><p>Individually-wrapped food options are available for breakfast, lunch, and dinner, and also through room service.</p>"
+        ],
+        "mandatoryTaxesOrFees": true,
+        "display": true
+      },
+      "specialFeatures": {
+        "sections": [
+          {
+            "heading": "Dining",
+            "freeText": "<strong>Parker and Quinn</strong> - This restaurant specializes in American cuisine and serves breakfast, lunch, and dinner. Guests can enjoy drinks at the bar. <br/>\n<p></p><strong>Winnies</strong> - Onsite lobby lounge. Open daily. <br/>\n<p></p><strong>Rooftop Bar</strong> - This rooftop bar serves light fare only. Guests can enjoy alfresco dining (weather permitting). Open daily. ",
+            "listItems": [],
+            "subsections": []
+          }
+        ]
+      },
+      "miscellaneous": {
+        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+        "showLegalInfoForStrikethroughPrices": false
+      },
+      "pageInfo": {
+        "pageType": "dateless",
+        "errors": [
+          {
+            "fieldName": "arrivalDate",
+            "errorMessages": ["Specified arrival date is before today’s date."]
+          }
+        ],
+        "errorKeys": ["MALFORMED_DATEFUL_REQUEST"]
+      },
+      "trustYouReviewsCredit": true,
+      "hotelBadge": {
+        "type": "vipBasic",
+        "label": "VIP",
+        "tooltipTitle": "VIP properties",
+        "tooltipText": "VIP properties have been recognized for offering exceptional service to our customers."
+      }
+    },
+    "common": {
+      "pointOfSale": { "numberSeparators": ",.", "brandName": "Hotels.com" },
+      "tracking": {
+        "omniture": {
+          "s.prop34": "2020.05.8410",
+          "s.eVar69": "Mob :: aApp",
+          "s.currencyCode": "USD",
+          "s.eVar16": "Mob :: aApp",
+          "s.products": "LOCAL;5558022",
+          "s.eVar29": "Mob :: aApp",
+          "s.eVar40": "D=v0",
+          "s.eVar95": "Unknown",
+          "s.eVar41": "USD",
+          "s.eVar31": "D=v0",
+          "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+          "s.eVar32": "D=v0",
+          "s.eVar34": "H277:017.002,H1068:005.001,H1423:009.099,H1871:007.002,H4516:001.000,H4517:001.000,H4518:003.000,H4519.0,M4440.2,M4869:001.000,M4953:001.000,M5342:000.000,M5355:001.000,M5756:001.000,M5758:001.000,M5759:001.000,M5760:001.000,M6271:001.000,M6388:000.000,M6439:000.000,M6553:000.000,M6761:000.000,M6946:000.000,M7296:000.000,M7305:000.000,M7308:000.000,M7320:000.000,M7353:000.000,M7362:000.000,M7552:023.001,M7561:000.000,M7635:000.000,M7844:000.000,M7983:000.000,M7990:000.000,M8033:000.000,M8065:000.000,M8193:000.000,M8248:000.000,M8263:000.000,M8322:000.000,M8336:000.000,M8370:000.000,M8413:000.000,M8612:000.000,M8714:000.000,M8781:000.002,M8789:000.000,M8988:000.000,M9035:000.000,M9056:000.000,M9066.1,M9091:000.000,M9167:000.000,M9168:000.000,M9469:000.000,M9532:000.000,M9535:000.000,M9215:001.000",
+          "s.eVar13": "389367",
+          "s.server": "www.hotels.com",
+          "s.prop28": "0",
+          "s.prop27": "d4f9c7f2-b9b4-4792-b683-4a7f43a67611",
+          "s.prop5": "389367",
+          "s.eVar80": "",
+          "s.prop48": "hotel details without dates description tab",
+          "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar93": "aws.us-west-2.unknown"
+        },
+        "pageViewBeaconUrl": "https://www.egadvertising.com/travelAds/v1/TravelAdPageView?deviceType=App-Phone&rooms=1&destRegionID=1506246&hotelIds=&adults=1&userAgent=PDE.3.1.576&userGuid=d4f9c7f2-b9b4-4792-b683-4a7f43a67611&pageName=Hotel-IS&slots=HIS_Car_A,HIS_Car_B,HIS_Car_C,HIS_Car_D,HIS_Car_E,HIS_Car_F,HIS_Car_G,HIS_Car_H,HIS_Car_I,HIS_Car_J&children=0&culture=en_US&testVersionOverride=4200.0,7983.0,8065.0,7561.0,7990.0,8988.0,8434.0,9532.0,9493.0,9348.0&domain=www.hotels.com&tac=true&action=pageview&publisher=expedia&userIP=127.0.0.1&programId=1"
+      }
+    }
+  },
+  "transportation": {
+    "transportLocations": [
+      {
+        "category": "airport",
+        "locations": [
+          {
+            "name": "New York, NY (LGA-LaGuardia) -",
+            "distance": "",
+            "distanceInTime": "23 min drive"
+          },
+          {
+            "name": "New York, NY (JFK-John F. Kennedy Intl.) -",
+            "distance": "",
+            "distanceInTime": "39 min drive"
+          },
+          {
+            "name": "Newark, NJ (EWR-Liberty Intl.) -",
+            "distance": "",
+            "distanceInTime": "32 min drive"
+          },
+          {
+            "name": "New York, NY (NYS-Skyports Seaplane Base) -",
+            "distance": "",
+            "distanceInTime": "3 min drive"
+          },
+          { "name": "Teterboro, NJ (TEB) -", "distance": "", "distanceInTime": "15 min drive" },
+          { "name": "Linden, NJ (LDJ) -", "distance": "", "distanceInTime": "26 min drive" }
+        ]
+      },
+      {
+        "category": "train-station",
+        "locations": [
+          {
+            "name": "New York W 32nd St. Station -",
+            "distance": "",
+            "distanceInTime": "7 min walk"
+          },
+          {
+            "name": "Grand Central - 42 St. Station -",
+            "distance": "",
+            "distanceInTime": "11 min walk"
+          },
+          { "name": "New York Penn Station -", "distance": "", "distanceInTime": "14 min walk" }
+        ]
+      },
+      {
+        "category": "metro",
+        "locations": [
+          {
+            "name": "42 St. - Bryant Pk. Station -",
+            "distance": "",
+            "distanceInTime": "3 min walk"
+          },
+          {
+            "name": "34 St. Station (Herald Square) -",
+            "distance": "",
+            "distanceInTime": "5 min walk"
+          },
+          { "name": "Times Sq. - 42 St. Station -", "distance": "", "distanceInTime": "6 min walk" }
+        ]
+      }
+    ]
+  },
+  "neighborhood": { "neighborhoodName": "Manhattan" }
+}

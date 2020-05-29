@@ -2,6 +2,8 @@ import React from 'react';
 import { renderRoutes } from 'react-router-config';
 import PropTypes from 'prop-types';
 import ErrorBoundary from './components/ErrorBoundry';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from '../helpers/global';
 
 import Header from './pages/HotelHeader';
 // import Footer from './components/Footer';
@@ -13,6 +15,7 @@ const App = ({ route }) => {
     //   <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>
     // </ThemeProvider>
     <div>
+      {/* <GlobalStyles /> */}
       <Header />
       <div className="container">
         <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>

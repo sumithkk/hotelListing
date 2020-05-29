@@ -10,14 +10,12 @@ import { ServerStyleSheet } from 'styled-components';
 // import RajdhaniLite from '../fonts/Rajdhani-Light.ttf';
 
 export default (req, store, context) => {
-  const sheet = new ServerStyleSheet(); // <-- creating out stylesheet
+  const sheet = new ServerStyleSheet();
   const styles = sheet.getStyleTags();
-  // console.log(context);
   const content = renderToString(
     sheet.collectStyles(
       <Provider store={store}>
         <StaticRouter location={req.path} context={context}>
-          <div>{req.path}</div>
           <div>{renderRoutes(Routes)}</div>
         </StaticRouter>
       </Provider>
@@ -36,9 +34,31 @@ export default (req, store, context) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
                 <meta name="theme-color" content="#f2f2f2">
                 <meta name="description" content="Sumith's Portfolio website" />
+                <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
                 <link rel="apple-touch-icon" href="logo192.png" />
                 <link rel="manifest" href="/manifest.json" />
+                <link rel="stylesheet" type="text/css" href="main.css">
                 ${styles}
+                <style>
+                body, input {
+                  margin:0;
+                  font-family: 'Ubuntu', sans-serif;
+                }
+                h1, h2, h3 {
+                  font-weight: 400;
+                }
+                ::-webkit-input-placeholder {
+                  color: rgb(188, 190, 192);
+                }
+              
+                :-ms-input-placeholder {
+                  color: rgb(188, 190, 192);
+                }
+              
+                ::placeholder {
+                  color: rgb(188, 190, 192);
+                }
+                </style>
             </head>
             <body>
                 <div id="root">${content}</div>

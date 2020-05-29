@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useReducer } from 'react';
 import styled from 'styled-components';
 import useDebounce from '../../helpers/customHooks';
 // import Hotel from './icons/hotelbg.svg';
 import Sort from './icons/sort.svg';
 import Filter from './icons/filter.svg';
 import Search from '../components/svgComponents/search';
-
+import User from '../components/svgComponents/user';
+import Location from '../components/svgComponents/location';
 import { locationSearch, getPropertyList } from '../actions';
+
+import { DateRangeInput } from '@datepicker-react/styled';
 
 import LocationData from '../../stubs/hotels/location-search.json';
 
@@ -15,7 +18,10 @@ const AppHeader = styled.div`
   width: 100%;
   background: #fff;
   z-index: 1;
-  height: 330px;
+  margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  background: #fff;
 `;
 
 const HeaderTitle = styled.div`
@@ -49,25 +55,40 @@ const BottomHeader = styled.div`
 `;
 
 const SearchBar = styled.div`
-  padding: 10px 15px;
+  padding: 15px 10px 15px;
   position: relative;
-  background: #dedede;
   width: 100%;
   display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  .brand {
+    margin-right: 30px;
+    font-size: 50px;
+    line-height: 0.8;
+    color: grey;
+  }
   .search {
     position: relative;
-    width: 53%;
-    input {
-      font-size: 1.2rem;
-      width: 100%;
-      border: 0;
-      padding: 15px;
-      padding-left: 58px;
-      outline: none;
-      font-family: 'Rajdhani', sans-serif;
+    width: 35%;
+    border-bottom: 1px solid #bcbec0;
+    &.selected {
+      border: 1px solid #bcbec0;
+      border-radius: 5px;
+      input {
+        border-radius: 5px;
+      }
     }
+    input {
+      font-size: 1rem;
+      border: 0;
+      padding: 12px;
+      padding-left: 45px;
+      outline: none;
+      width: -webkit-fill-available;
+    }
+
     svg {
       position: absolute;
       top: 10px;
@@ -76,17 +97,20 @@ const SearchBar = styled.div`
   }
   .dropdown {
     position: absolute;
-    top: 53px;
+    top: 43px;
     padding: 15px;
     background: #fff;
     left: 0;
-    width: 100%;
+    width: 95%;
+    -webkit-box-shadow: -1px 2px 6px 0px rgba(102, 102, 102, 1);
+    -moz-box-shadow: -1px 2px 6px 0px rgba(102, 102, 102, 1);
+    box-shadow: -1px 2px 6px 0px rgba(102, 102, 102, 1);
     .resultGroup {
       padding: 10px;
       background: #dedede;
     }
     .result {
-      padding: 5px;
+      padding: 10px;
       margin-left: 20px;
       &:hover {
         cursor: pointer;
@@ -174,24 +198,109 @@ const Loader = styled.div`
   }
 `;
 
-const HotelHeader = () => {
+const DateWrap = styled.div`
+  label,
+  input {
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  input {
+    padding: 0 50px;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+  }
+  button {
+    outline: none;
+  }
+`;
+
+const Adult = styled.div`
+  position: relative;
+  margin-left: 25px;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    fill: rgb(188, 190, 192);
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  input {
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    outline: none;
+  }
+`;
+
+const CTA = styled.button`
+  background: #ea4c89;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  margin-left: 20px;
+  width: 100px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+`;
+
+const initialState = {
+  startDate: null,
+  endDate: null,
+  focusedInput: null,
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case 'focusChange':
+      return { ...state, focusedInput: action.payload };
+    case 'dateChange':
+      return action.payload;
+    default:
+      throw new Error();
+  }
+}
+
+const HotelHeader = (props) => {
   // Handling Searchbar
   const [loading, setLoading] = useState(true);
-  const [landingItems, setLandingItems] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [isGettingResults, setGettingResults] = useState(false);
   const [showDrop, toggleDrop] = useState(false);
   const debouncedSearchTerm = useDebounce(searchTerm, 500);
   const [selection, setSelection] = useState({});
   const [searchResults, setSearchResults] = useState('');
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const [adult, setAdult] = useState(1);
+  const [editLocation, setEditLocation] = useState(false);
+
+  const handleChange = (e) => {
+    setEditLocation(true);
+    setSearchTerm(e.target.value);
+  };
 
   // Component did mount
-  useEffect(() => {
-    console.log('Header mounted');
-    window.localStorage.setItem('theme', 'light');
-  }, []);
+  // useEffect(() => {
+  //   console.log('Header mounted');
+  //   window.localStorage.setItem('theme', 'light');
+  //   // let location = JSON.parse(localStorage.getItem('location'));
+  //   // setSelection(location);
+  // }, []);
 
   const searchCharacters = (query) => {
     setIsSearching(false);
@@ -211,8 +320,10 @@ const HotelHeader = () => {
 
   // Handling Selection
   const handleSelection = (item) => {
-    setLandingItems('');
+    // window.localStorage.setItem('location', JSON.stringify(item));
+    setSearchTerm(item.name);
     setSelection(item);
+    setEditLocation(false);
     toggleDrop(false);
     setLoading(true);
     getPropertyList();
@@ -244,10 +355,15 @@ const HotelHeader = () => {
     // });
   };
 
-  useEffect(() => {
-    console.log('Search Selected');
-    //do something
-  }, [selection]);
+  const handleSearch = () => {
+    window.location.pathname = `hotels/${selection.destinationId}`;
+    console.log(selection);
+  };
+
+  // useEffect(() => {
+  //   console.log('Search Selected');
+  //   //do something
+  // }, [selection]);
 
   useEffect(() => {
     // var unirest = require("unirest");
@@ -277,52 +393,72 @@ const HotelHeader = () => {
 
   return (
     <AppHeader className="hotelHeader">
-      <HeaderTitle>
-        <h1>HOTEL</h1>
-        <p>Find Hotels around the World !</p>
-      </HeaderTitle>
-      {/* <Hotel /> */}
-      <BottomHeader>
-        <SearchBar>
-          <div className="search">
-            <input
-              placeholder="Search for Cities, Landmark, Hotels"
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            {isSearching ? <div className="bounceball" /> : <Search width="30px" height="30px" />}
-
-            {showDrop && (
-              <div className="dropdown">
-                {results.length > 0 &&
-                  results.map((result, i) => (
-                    <div key={i}>
-                      {/* <div className="resultGroup">{result.group}</div> */}
-                      {result.entities.map((e) => (
-                        <div className="result" onClick={() => handleSelection(e)}>
-                          {e.name}
-                        </div>
-                      ))}
-                    </div>
-                  ))}
-              </div>
-            )}
-          </div>
-          {searchResults !== '' && (
-            <React.Fragment>
-              <FilterButton>
-                <Sort />
-                Sort
-              </FilterButton>
-              <FilterButton>
-                <Filter />
-                Filter
-              </FilterButton>
-            </React.Fragment>
+      <SearchBar>
+        <div className="brand">HoTEL</div>
+        <div className={editLocation ? 'search' : 'search selected'}>
+          <input
+            placeholder="Search for Cities, Landmark, Hotels"
+            value={searchTerm}
+            onChange={(e) => handleChange(e)}
+          />
+          {isSearching ? (
+            <div className="bounceball" />
+          ) : editLocation ? (
+            <Search fill="rgb(188,190,192)" width="20px" height="20px" />
+          ) : (
+            <Location fill="rgb(188,190,192)" width="20px" height="20px" />
           )}
-        </SearchBar>
-      </BottomHeader>
+
+          {showDrop && (
+            <div className="dropdown">
+              {results.length > 0 &&
+                results.map((result, i) => (
+                  <div key={i}>
+                    {/* <div className="resultGroup">{result.group}</div> */}
+                    {result.entities.map((e) => (
+                      <div className="result" onClick={() => handleSelection(e)}>
+                        {e.name}
+                      </div>
+                    ))}
+                  </div>
+                ))}
+            </div>
+          )}
+        </div>
+        <DateWrap style={{ marginLeft: '30px' }}>
+          <DateRangeInput
+            onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
+            onFocusChange={(focusedInput) =>
+              dispatch({ type: 'focusChange', payload: focusedInput })
+            }
+            startDate={state.startDate} // Date or null
+            endDate={state.endDate} // Date or null
+            focusedInput={state.focusedInput} // START_DATE, END_DATE or null
+          />
+        </DateWrap>
+        <Adult>
+          <User />
+          <input type="number" value={adult} name="adult" onChange={() => setAdult()} />
+        </Adult>
+        <CTA type="button" name="search" onClick={() => handleSearch()}>
+          Search
+        </CTA>
+
+        {searchResults !== '' && (
+          <React.Fragment>
+            <FilterButton>
+              <Sort />
+              Sort
+            </FilterButton>
+            <FilterButton>
+              <Filter />
+              Filter
+            </FilterButton>
+          </React.Fragment>
+        )}
+      </SearchBar>
     </AppHeader>
   );
 };
 
-export default HotelHeader;
+export default React.memo(HotelHeader);

@@ -4,10 +4,18 @@ import HotelHeader from './HotelHeader';
 import { getHotelDetails, getHotelPhotos } from '../actions';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
+import HotelPhotosData from '../../stubs/hotels/hotel-photos.json';
+import Locaton from '../components/svgComponents/location';
+import CircleGraph from '../components/circleGraph';
+import Rating from '../components/starRating';
+import Land from '../components/svgComponents/land';
+import DoubleBed from '../components/svgComponents/doubleBed';
+import QueenBed from '../components/svgComponents/queenBed';
 
 const Carousel = styled.div`
-position: relative
-width: 50%;
+position: relative;
+width: 98%;
+border-radius: 10px;
 height: 500px;
 overflow: hidden;
 display: flex;
@@ -30,15 +38,15 @@ display: flex;
     justify-content: center;
     height: 100%;
     width: 100px;
-    background: #00000082;
+    // background: #00000082;
     color: #fff;
 }
 .leftArrow {
     left:0;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,255,85,0) 100%);}
+    // background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,255,85,0) 100%);}
 .rightArrow {
     right:0;
-    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6979166666666667) 60%, rgba(0,0,0,1) 100%);
+    // background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6979166666666667) 60%, rgba(0,0,0,1) 100%);
 }
 `;
 
@@ -47,18 +55,175 @@ const Content = styled.div`
   flex-wrap: wrap;
   max-width: 1600px;
   width: 1600px;
-  margin: 0 auto;
+  margin: 90px auto 0 auto;
+  font-weight: 400;
+
+  .rightSection {
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0;
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    li {
+      line-height: 2;
+      color: #666;
+    }
+  }
 `;
 
 const Section = styled.div`
   display: flex;
   justify-content: center;
+  width: 100%;
+  &.feature {
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    justify-content: start;
+  }
+`;
+
+const Divider = styled.div`
+  .divider {
+    position: relative;
+    height: 1px;
+  }
+  .div-transparent:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 5%;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #ea4c89, transparent);
+  }
+  .div-dot:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 18px;
+    background-color: #ea4c89;
+    border: 1px solid #ea4c89;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+  }
 `;
 
 const Details = styled.div`
-  width: 50%;
+  width: 100%;
   background: #fff;
-  padding: 15px;
+  padding: 15px 0;
+  .ratingSection {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  &.arrivalInfo {
+    display: flex;
+    margin-right: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 1px solid #f7aeb2;
+    div {
+      margin-right: 20px;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  &.description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    b {
+      font-weight: normal;
+    }
+    .map {
+      margin-right: 20px;
+      border-radius: 10px;
+      border: 1px solid #dedede;
+      min-width: 35%;
+      min-height: 250px;
+    }
+  }
+  &.instruction {
+    p {
+      font-size: 1rem;
+    }
+  }
+  &.transport {
+    h2 {
+      text-transform: capitalize;
+    }
+    div {
+      font-size: 1rem;
+    }
+  }
+  .roomTypes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+  }
+  .whatsAround {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    .item {
+      color: #666;
+      margin: 0 20px;
+      min-width: 28%;
+      line-height: 2.5;
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+`;
+
+const Feature = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 148px;
+  margin: 10px 0;
+  .feature-icon {
+    background: #f8e4e5;
+    background-image: url('./icons/location.svg');
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-txt {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+`;
+
+const FeatureIcon = styled.div`
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background: #dedede url(${Locaton});
 `;
 
 const Slider = () => {
@@ -81,7 +246,7 @@ const Slider = () => {
   };
 
   useEffect(() => {
-    // getPropertyImages();
+    getPropertyImages();
     // props.getHotelPhotos();
   }, []);
 
@@ -96,24 +261,34 @@ const Slider = () => {
     }
   };
 
-  // const getPropertyImages = (props) => {
-  //   // var unirest = require('unirest');
-  //   // var req = unirest('GET', 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos');
-  //   // req.query({
-  //   //   id: '782617888',
-  //   // });
-  //   // req.headers({
-  //   //   'x-rapidapi-host': 'hotels4.p.rapidapi.com',
-  //   //   'x-rapidapi-key': '4c985af0e6mshe02508316d3d9d6p1b2493jsn1bb8a5f16ce8',
-  //   //   useQueryString: true,
-  //   // });
-  //   // req.end(function (res) {
-  //   //   if (res.error) throw new Error(res.error);
-  //   //   let imageArray = stackImages(res.body.hotelImages);
-  //   //   setImages(imageArray);
-  //   // });
-  //   props.getHotelPhotos();
-  // };
+  const getPropertyImages = async (props) => {
+    // var unirest = require('unirest');
+    // var req = unirest('GET', 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos');
+    // req.query({
+    //   id: '782617888',
+    // });
+    // req.headers({
+    //   'x-rapidapi-host': 'hotels4.p.rapidapi.com',
+    //   'x-rapidapi-key': '4c985af0e6mshe02508316d3d9d6p1b2493jsn1bb8a5f16ce8',
+    //   useQueryString: true,
+    // });
+    // req.end(function (res) {
+    //   if (res.error) throw new Error(res.error);
+    //   let imageArray = stackImages(res.body.hotelImages);
+    //   setImages(imageArray);
+    // });
+    const getHotelData = () =>
+      new Promise((resolve) =>
+        setTimeout(() => {
+          // let formatedData = formatHotelData(HotelListData.data);
+          // console.log(formatedData);
+          resolve(HotelPhotosData);
+        }, 1000)
+      );
+    let res = await getHotelData();
+    let imageArray = stackImages(res.hotelImages);
+    setImages(imageArray);
+  };
   console.log(images);
   return (
     <Carousel>
@@ -122,10 +297,10 @@ const Slider = () => {
       </div>
       <div className="carouselInner" ref={carouselRef}>
         {images !== '' &&
-          images.big.map((img) => (
-            <div className="slide">
-              <img style={{ maxWidth: '90%' }} src={img} alt="hotel" />
-            </div>
+          images.big.map((img, i) => (
+            // <div key={i} className="slide">
+            <img style={{ maxWidth: '90%' }} src={img} alt="hotel" />
+            // </div>
           ))}
       </div>
       <div className="rightArrow" onClick={() => handleScroll('right')}>
@@ -168,52 +343,78 @@ const HotelDetail = (props) => {
   console.log('==== Hotel Details ====');
   // console.log(data);
   //   console.log("==== Hotel Images ====");
-  //   console.log(images);
+  console.log(props.hotelDetails);
   let data = props.hotelDetails;
   return (
     <div className="pageContainer">
       {head()}
-      {/* <HotelHeader /> */}
       <Content>
-        {/* {loading && (
-          <div className="loading">
-            <svg
-              id="icon-drone"
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 510.604 510.604"
-              width="512"
-              height="512"
-            >
-              <g>
-                <path d="M503.104,110.855h-63.066V94.099c0-4.142-3.358-7.5-7.5-7.5c-4.142,0-7.5,3.358-7.5,7.5v16.755h-63.065   c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h63.065v16.45c-14.424,3.4-25.195,16.37-25.195,31.817v7.569H203.777   c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5h156.393l-7.811,30.002c-3.7,14.211-16.54,24.137-31.225,24.137h-35.836   c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h18.27v23.457h-96.533v-23.457h48.263c4.142,0,7.5-3.358,7.5-7.5s-3.358-7.5-7.5-7.5   h-65.83c-14.685,0-27.525-9.925-31.225-24.137l-7.811-30.002h23.344c4.142,0,7.5-3.358,7.5-7.5c0-4.142-3.358-7.5-7.5-7.5h-63.017   v-7.569c0-15.447-10.771-28.417-25.195-31.817v-16.45h63.065c4.142,0,7.5-3.358,7.5-7.5s-3.358-7.5-7.5-7.5H85.565V94.099   c0-4.142-3.358-7.5-7.5-7.5c-4.142,0-7.5,3.358-7.5,7.5v16.755H7.5c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h63.065v16.45   c-14.424,3.4-25.195,16.37-25.195,31.817v30.138c0,18.028,14.667,32.695,32.695,32.695s32.695-14.667,32.695-32.695v-7.569h24.173   l8.794,33.781c4.336,16.654,17.245,29.281,33.247,33.67l-7.011,4.591c-23.068,15.107-37.688,39.525-40.11,66.994l-7.064,80.118   c-0.364,4.126,2.687,7.766,6.813,8.13c0.224,0.02,0.446,0.029,0.668,0.029c3.844,0,7.118-2.94,7.462-6.842l7.064-80.118   c2.016-22.863,14.185-43.188,33.386-55.762l13.854-9.072v24.577c0,4.142,3.358,7.5,7.5,7.5h48.267v16.449h-22.165   c-10.854,0-19.683,8.83-19.683,19.683v29.659c0,10.853,8.829,19.683,19.683,19.683h61.051c10.854,0,19.683-8.83,19.683-19.683   v-29.659c0-10.853-8.83-19.683-19.683-19.683h-23.886v-16.449h48.267c4.142,0,7.5-3.358,7.5-7.5V272.21l13.854,9.072   c19.201,12.574,31.37,32.899,33.386,55.762l7.064,80.118c0.344,3.902,3.618,6.842,7.462,6.842c0.221,0,0.444-0.01,0.667-0.029   c4.126-0.364,7.176-4.004,6.813-8.13l-7.064-80.118c-2.422-27.468-17.042-51.887-40.11-66.994l-7.011-4.591   c16.003-4.388,28.911-17.015,33.247-33.67l8.795-33.781h24.172v7.569c0,18.028,14.667,32.695,32.695,32.695   c18.028,0,32.695-14.667,32.695-32.695v-30.138c0-15.447-10.771-28.417-25.195-31.817v-16.45h63.066c4.142,0,7.5-3.358,7.5-7.5   S507.246,110.855,503.104,110.855z M95.761,204.26c0,9.757-7.938,17.695-17.695,17.695c-9.757,0-17.695-7.938-17.695-17.695   v-30.138c0-9.757,7.938-17.695,17.695-17.695c9.757,0,17.695,7.938,17.695,17.695V204.26z M291.371,340.418v29.659   c0,2.582-2.101,4.683-4.683,4.683h-61.051c-2.583,0-4.683-2.101-4.683-4.683v-29.659c0-2.582,2.1-4.683,4.683-4.683h61.051   C289.27,335.735,291.371,337.836,291.371,340.418z M450.233,174.122v30.138c0,9.757-7.938,17.695-17.695,17.695   c-9.757,0-17.695-7.938-17.695-17.695v-30.138c0-9.757,7.938-17.695,17.695-17.695   C442.296,156.427,450.233,164.365,450.233,174.122z" />
-                <path d="M243.588,355.247c0,6.933,5.641,12.574,12.574,12.574c6.933,0,12.574-5.641,12.574-12.574s-5.641-12.574-12.574-12.574   C249.229,342.674,243.588,348.314,243.588,355.247z" />
-              </g>
-            </svg>
-          </div>
-        )} */}
-        <Section>
-          {/* <Slider /> */}
-          <Details>
-            <div className="hotelDesc">
-              <h1>{data !== '' && data.data.body.propertyDescription.name}</h1>
-              <h2>
-                {/* {data !== "" && data.data.body.propertyDescription.starRating} */}
-                {data !== '' && data.data.body.propertyDescription.starRatingTitle}
-              </h2>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: data !== '' && data.data.body.propertyDescription.tagline[0],
-                }}
-              />
-
-              <p>{data !== '' && data.data.body.propertyDescription.address.fullAddress}</p>
-            </div>
+        <div className="LeftSection" style={{ width: '75%' }}>
+          <Section style={{ flexDirection: 'column' }}>
+            <Slider />
+            <Details style={{ display: 'flex' }}>
+              <div className="hotelDesc" style={{ width: '80%' }}>
+                <h1 style={{ marginTop: 0 }}>
+                  {data !== '' && data.data.body.propertyDescription.name}
+                </h1>
+                <p style={{ marginTop: '0', color: '#808080' }}>
+                  {data !== '' && data.data.body.propertyDescription.address.fullAddress}
+                </p>
+                <h2>{/* {data !== "" && data.data.body.propertyDescription.starRating} */}</h2>
+              </div>
+              <div className="ratingSection">
+                {data !== '' && (
+                  <Rating totalStars="5" selected={data.data.body.propertyDescription.starRating} />
+                )}
+              </div>
+            </Details>
+          </Section>
+          <Section className="feature">
             {data !== '' &&
-              data.data.body.atAGlance.keyFacts.arrivingLeaving.map((al) => <div>{al}</div>)}
-            {data !== '' && (
+              data.data.body.overview.overviewSections
+                .filter((o) => o.type == 'HOTEL_FEATURE')
+                .map((overview) =>
+                  overview.content.map((ov, i) => (
+                    <Feature name={ov} key={i}>
+                      {/* <FeatureIcon>{''}</FeatureIcon> */}
+                      <div className="feature-icon">
+                        <Locaton width="30px" fill="red" />
+                      </div>
+                      <div className="feature-txt">{ov}</div>
+                      {/* <IconText>{ov}</IconText> */}
+                    </Feature>
+                  ))
+                )}
+          </Section>
+          <Section>
+            <Details style={{ padding: 0 }} className="description">
+              <div>
+                <h2 style={{ margin: '0' }}>Description</h2>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: data !== '' && data.data.body.propertyDescription.tagline[0],
+                  }}
+                />
+              </div>
+              {data !== '' && (
+                <div
+                  className="map"
+                  // src={data.data.body.propertyDescription.mapWidget.staticMapUrl}
+                  style={{
+                    background:
+                      'url(https://maps-api-ssl.google.com/maps/api/staticmap?center=12.777348,77.77562&format=jpg&sensor=false&key=AIzaSyDaDqDNrxWrxcURixO2l6TbtV68X0Klf4U&zoom=16&size=834x443&scale&signature&signature=Q7XFwW15xrzuit2NgcOaX-8rGk4=)',
+                  }}
+                ></div>
+              )}
+            </Details>
+          </Section>
+          <Section>
+            <Details className="arrivalInfo">
+              {data !== '' &&
+                data.data.body.atAGlance.keyFacts.arrivingLeaving.map((al, i) => (
+                  <div key={i}>{al}</div>
+                ))}
+              {/* {data !== '' && (
               <React.Fragment>
                 <div>{data.data.body.propertyDescription.featuredPrice.beforePriceText}</div>
                 <div>
@@ -224,66 +425,160 @@ const HotelDetail = (props) => {
                   {data.data.body.propertyDescription.featuredPrice.pricingTooltip}
                 </div>
               </React.Fragment>
+            )} */}
+              {/* {data !== '' &&
+                data.data.body.propertyDescription.freebies.map((f, i) => <div key={i}>{f}</div>)} */}
+            </Details>
+          </Section>
+
+          <Section className="instructions">
+            {data !== '' &&
+              data.data.body.atAGlance.keyFacts.specialCheckInInstructions.length > 0 && (
+                <Details className="instruction">
+                  <h2>Special Instruction</h2>
+                  {data !== '' &&
+                    data.data.body.atAGlance.keyFacts.specialCheckInInstructions.map((al, i) => (
+                      <p key={i}>{al}</p>
+                    ))}
+                </Details>
+              )}
+
+            {data !== '' && data.data.body.atAGlance.keyFacts.hotelSize.length > 0 && (
+              <Details className="instruction">
+                <h2>Hotel Size</h2>
+                {data !== '' &&
+                  data.data.body.atAGlance.keyFacts.hotelSize.map((al, i) => <p key={i}>{al}</p>)}
+              </Details>
             )}
-            {data !== '' && data.data.body.propertyDescription.freebies.map((f) => <div>{f}</div>)}
-          </Details>
-        </Section>
-        <Section className="instructions">
-          <Details className="instruction">
-            <h2>Special Instruction</h2>
-            {data !== '' &&
-              data.data.body.atAGlance.keyFacts.specialCheckInInstructions.map((al) => (
-                <div>{al}</div>
-              ))}
-          </Details>
-          <Details className="instruction">
-            <h2>Hotel Size</h2>
-            {data !== '' &&
-              data.data.body.atAGlance.keyFacts.hotelSize.map((al) => <div>{al}</div>)}
-          </Details>
-          <Details>
-            <h2>Required at Check-In</h2>
-            {data !== '' &&
-              data.data.body.atAGlance.keyFacts.requiredAtCheckIn.map((al) => <div>{al}</div>)}
-          </Details>
-        </Section>
-        <Section>
-          <Details>
-            <h2>Features</h2>
-            <ul>
-              {data !== '' &&
-                data.data.body.overview.overviewSections.map((overview) =>
-                  overview.content.map((ov) => <li>{ov}</li>)
-                )}
-            </ul>
-          </Details>
-          <Details>
-            <h2>Map Location</h2>
-            {data !== '' && (
-              <div>
-                <img
-                  style={{ maxWidth: '100%' }}
-                  src={data.data.body.propertyDescription.mapWidget.staticMapUrl}
-                />
-              </div>
+
+            {data !== '' && data.data.body.atAGlance.keyFacts.requiredAtCheckIn.length > 0 && (
+              <Details className="instruction">
+                <h2>Required at Check-In</h2>
+                {data !== '' &&
+                  data.data.body.atAGlance.keyFacts.requiredAtCheckIn.map((al, i) => (
+                    <p key={i}>{al}</p>
+                  ))}
+              </Details>
             )}
-          </Details>
-        </Section>
-        <Section>
-          {data !== '' &&
-            data.transportation.transportLocations.map((tl) => (
-              <Details>
-                <div className="transport">
-                  <h2>{tl.category}</h2>
-                  {tl.locations.map((l) => (
-                    <div>
-                      {l.name} {l.distanceInTime}
+          </Section>
+          <Divider>
+            <div className="divider div-transparent div-dot"></div>
+          </Divider>
+          <Section>
+            <Details>
+              {/* <h2>Room Types</h2> */}
+              <div className="roomTypes">
+                {data !== '' &&
+                  data.data.body.propertyDescription.roomTypeNames.map((rt, i) => (
+                    <div key={i} style={{ textAlign: 'center' }}>
+                      <DoubleBed width="45px" height="45px" />
+                      <div>{rt}</div>
                     </div>
                   ))}
-                </div>
-              </Details>
-            ))}
-        </Section>
+              </div>
+            </Details>
+          </Section>
+          <Divider>
+            <div className="divider div-transparent div-dot"></div>
+          </Divider>
+          <Section>
+            <Details>
+              <h2>What’s Around</h2>
+              <div className="whatsAround">
+                {data !== '' &&
+                  data.data.body.overview.overviewSections
+                    .filter((o) => o.type == 'LOCATION_SECTION')
+                    .map((overview) =>
+                      overview.content.map((ov, i) => (
+                        <div className="item" key={i}>
+                          <Land width="18px" height="18px" /> {ov}
+                        </div>
+                      ))
+                    )}
+              </div>
+            </Details>
+          </Section>
+          <Divider>
+            <div className="divider div-transparent div-dot"></div>
+          </Divider>
+          <Section>
+            <Details>
+              <h2>Freebies</h2>
+              <ul>
+                {data !== '' &&
+                  data.data.body.overview.overviewSections
+                    .filter((o) => o.type == 'HOTEL_FREEBIES')
+                    .map((overview) => overview.content.map((ov, i) => <li key={i}>{ov}</li>))}
+              </ul>
+            </Details>
+          </Section>
+          <Divider>
+            <div className="divider div-transparent div-dot"></div>
+          </Divider>
+          <Section className="transportation">
+            {data !== '' &&
+              data.transportation.transportLocations.map((tl, i) => (
+                <Details key={i}>
+                  <div className="transport">
+                    <h2>{tl.category}</h2>
+                    <ul>
+                      {tl.locations.map((l, i) => (
+                        <li key={i}>
+                          {l.name} {l.distanceInTime}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </Details>
+              ))}
+          </Section>
+        </div>
+        <div className="rightSection" style={{ width: '22.5%' }}>
+          <h1>Guest Reviews</h1>
+          <div
+            style={{
+              background: '#fff',
+              padding: '15px',
+              minHeight: '200px',
+              borderRadius: '10px',
+            }}
+          >
+            <div>
+              {data !== '' &&
+                data.data.body.guestReviews.trustYouReviews.map((r, i) => (
+                  <CircleGraph
+                    box="50"
+                    percentage="50"
+                    className={r.categoryName}
+                    title={r.categoryName}
+                    subtitle={r.text}
+                  />
+                ))}
+            </div>
+          </div>
+          <h1>Ratings</h1>
+          <div
+            style={{
+              background: '#fff',
+              padding: '15px',
+              minHeight: '200px',
+              borderRadius: '10px',
+            }}
+          >
+            Ratings here
+          </div>
+          <h1>At a Glance</h1>
+          <div
+            style={{
+              background: '#fff',
+              padding: '15px',
+              minHeight: '200px',
+              borderRadius: '10px',
+            }}
+          >
+            Ratings here
+          </div>
+        </div>
       </Content>
     </div>
   );

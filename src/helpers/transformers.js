@@ -11,3 +11,18 @@ export const formatHotelData = (rawData) => {
   formatedData.filterOptions = data.filters;
   return formatedData;
 };
+
+export const formatHotelDetailData = (rawData) => {
+  let formatedData = {};
+  let data = rawData;
+  console.log(data);
+  // formatedData.Neighborhood = data.neighborhood;
+  // formatedData.transportation = data.transportation;
+  // formatedData.main = data.data.body;
+  // formatedData.main.amenities.forEach((a) => {
+  //   let amenities = [];
+  //   amenities.push(a.heading);
+  //   // amenities.items = a.listItems.forEach((li) => {});
+  // });
+  return rawData;
+};
