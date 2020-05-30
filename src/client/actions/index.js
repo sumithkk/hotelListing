@@ -7,6 +7,7 @@ import HotelDetailsData from '../../stubs/hotels/property-get-details1.json';
 import HotelPhotosData from '../../stubs/hotels/hotel-photos.json';
 import { formatHotelData, formatHotelDetailData } from '../../helpers/transformers';
 
+export const SET_HEADER = 'set_header';
 export const FETCH_LOCATION = 'fetch_locatioin';
 export const FETCH_HOTELS = 'fetch_hotels';
 export const FETCH_HOTEL_DETAILS = 'fetch_hotel_details';
@@ -64,19 +65,29 @@ export const locationSearch = (source) => async (dispatch) => {
   //     console.log(error);
   //   });
 
-  console.log(LocationData);
+  // console.log(LocationData);
   dispatch({
     type: FETCH_LOCATION,
     payload: LocationData,
   });
 };
 
-export const getPropertyList = (source) => async (dispatch) => {
+export const getPropertyList = (query) => async (dispatch) => {
+  console.log('============= Hotel List Query =============');
+  console.log(query);
+
+  dispatch({
+    type: SET_HEADER,
+    payload: query,
+  });
+  dispatch({
+    type: FETCHING_HOTELS,
+    fetching: true,
+  });
+
   // const axios = require('axios');
 
-  // axios({
-  //   method: 'GET',
-  //   url: 'https://hotels4.p.rapidapi.com/properties/list',
+  // let config = {
   //   headers: {
   //     'content-type': 'application/octet-stream',
   //     'x-rapidapi-host': 'hotels4.p.rapidapi.com',
@@ -86,39 +97,32 @@ export const getPropertyList = (source) => async (dispatch) => {
   //   params: {
   //     currency: 'USD',
   //     locale: 'en_US',
-  //     sortOrder: 'PRICE',
-  //     destinationId: '678196',
-  //     pageNumber: '1',
-  //     checkIn: '2020-01-08',
-  //     checkOut: '2020-01-15',
+  //     sortOrder: query.sortOrder,
+  //     destinationId: query.id,
+  //     pageNumber: query.page,
+  //     checkIn: query.checkIn,
+  //     checkOut: query.checkOut,
   //     pageSize: '25',
-  //     adults1: '1',
+  //     adults: query.adult,
   //   },
-  // })
-  //   .then((response) => {
-  //     console.log(response);
-  //   })
-  //   .catch((error) => {
-  //     console.log(error);
-  //   });
+  // };
 
-  dispatch({
-    type: FETCHING_HOTELS,
-    fetching: true,
-  });
+  // let url = 'https://hotels4.p.rapidapi.com/properties/list';
+
+  // let res = await axios.get(url, config);
+  // console.log(res);
+
+  // let formatedData = formatHotelData(res.data);
+
   const getData = () =>
     new Promise((resolve) =>
       setTimeout(() => {
         let formatedData = formatHotelData(HotelListData.data);
-        console.log(formatedData);
+        console.log(HotelListData);
         resolve(formatedData);
       }, 1000)
     );
   let res = await getData();
-  dispatch({
-    type: FETCHING_HOTELS,
-    fetching: false,
-  });
 
   dispatch({ type: 'FETCHING_IMAGES', fetching: false });
 
@@ -128,7 +132,10 @@ export const getPropertyList = (source) => async (dispatch) => {
   });
 };
 
-export const getHotelDetails = (source) => async (dispatch) => {
+export const getHotelDetails = (query) => async (dispatch) => {
+  console.log('============= Hotel List Query =============');
+  console.log(query);
+
   // const axios = require('axios');
 
   // axios({

@@ -18,7 +18,7 @@ function shouldCompress(req, res) {
 app.use(
   compression({
     level: 2, // set compression level from 1 to 9 (6 by default)
-    filter: shouldCompress // set predicate to determine whether to compress
+    filter: shouldCompress, // set predicate to determine whether to compress
   })
 );
 
@@ -29,7 +29,18 @@ app.use(express.static('public'));
 
 app.get('*', (req, res) => {
   const params = req.params[0].split('/');
-  const id = params[2];
+  // console.log('====================== request ====================');
+  // // console.log(req);
+  // console.log(params);
+  // const id = params[2];
+  let qparam = {
+    id: params[2],
+    sortOrder: params[3],
+    checkIn: params[4],
+    checkOut: params[5],
+    adult: params[6],
+    page: params[7],
+  };
   // We create store before rendering html
   const store = createStore();
   // We pass store to renderer
@@ -41,9 +52,9 @@ app.get('*', (req, res) => {
   // Even if we get an error while loading data, we will still attempt to render page.
   const promises = routes
     .map(({ route }) => {
-      return route.loadData ? route.loadData(store, id) : null;
+      return route.loadData ? route.loadData(store, qparam) : null;
     })
-    .map(promise => {
+    .map((promise) => {
       if (promise) {
         return new Promise((resolve, reject) => {
           promise.then(resolve).catch(resolve);

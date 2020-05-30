@@ -5,6 +5,7 @@ import { FETCH_HOTEL_PHOTOS } from '../actions/index';
 import { FETCHING_IMAGES } from '../actions/index';
 import { FETCHING_HOTELS } from '../actions/index';
 import { ADVANCE_PAGE } from '../actions/index';
+import { SET_HEADER } from '../actions/index';
 
 let initialState = {
   userLocation: {},
@@ -18,6 +19,11 @@ let initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case SET_HEADER:
+      return {
+        ...state,
+        headerData: action.payload,
+      };
     case FETCH_LOCATION:
       return {
         ...state,

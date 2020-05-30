@@ -75,7 +75,7 @@ const CircleGraph = ({ box, title, subtitle, percentage = '10' }) => {
     <Chart className="circle-chart-container">
       <svg
         className="circle-chart"
-        viewbox="0 0 33.83098862 33.83098862"
+        viewBox="0 0 33.83098862 33.83098862"
         xmlns="http://www.w3.org/2000/svg"
         width={box}
         height={box}

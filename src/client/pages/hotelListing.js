@@ -266,7 +266,6 @@ const HotelListing = (props) => {
   };
   useInfiniteScroll(bottomBoundaryRef, props.page);
 
-  console.log(props);
   return (
     <React.Fragment>
       {head()}
@@ -324,6 +323,8 @@ const mapStateToProps = (state) => {
 };
 
 const loadData = (store, param) => {
+  console.log('======params======');
+  console.log(param);
   return store.dispatch(getPropertyList(param));
 };
 

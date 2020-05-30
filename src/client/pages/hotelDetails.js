@@ -289,7 +289,6 @@ const Slider = () => {
     let imageArray = stackImages(res.hotelImages);
     setImages(imageArray);
   };
-  console.log(images);
   return (
     <Carousel>
       <div className="leftArrow" onClick={() => handleScroll('left')}>
@@ -299,7 +298,7 @@ const Slider = () => {
         {images !== '' &&
           images.big.map((img, i) => (
             // <div key={i} className="slide">
-            <img style={{ maxWidth: '90%' }} src={img} alt="hotel" />
+            <img key={i} style={{ maxWidth: '90%' }} src={img} alt="hotel" />
             // </div>
           ))}
       </div>
@@ -340,10 +339,6 @@ const HotelDetail = (props) => {
     window.localStorage.setItem('theme', 'light');
   }, []);
 
-  console.log('==== Hotel Details ====');
-  // console.log(data);
-  //   console.log("==== Hotel Images ====");
-  console.log(props.hotelDetails);
   let data = props.hotelDetails;
   return (
     <div className="pageContainer">
@@ -552,6 +547,7 @@ const HotelDetail = (props) => {
                     className={r.categoryName}
                     title={r.categoryName}
                     subtitle={r.text}
+                    key={i}
                   />
                 ))}
             </div>

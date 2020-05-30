@@ -8,10 +8,12 @@ import Search from '../components/svgComponents/search';
 import User from '../components/svgComponents/user';
 import Location from '../components/svgComponents/location';
 import { locationSearch, getPropertyList } from '../actions';
-
+import { Link } from 'react-router-dom';
 import { DateRangeInput } from '@datepicker-react/styled';
+import { parseISO } from 'date-fns';
 
 import LocationData from '../../stubs/hotels/location-search.json';
+import { connect } from 'react-redux';
 
 const AppHeader = styled.div`
   position: relative;
@@ -283,8 +285,10 @@ const HotelHeader = (props) => {
   const [isSearching, setIsSearching] = useState(false);
   const [showDrop, toggleDrop] = useState(false);
   const debouncedSearchTerm = useDebounce(searchTerm, 500);
+
   const [selection, setSelection] = useState({});
   const [searchResults, setSearchResults] = useState('');
+
   const [state, dispatch] = useReducer(reducer, initialState);
   const [adult, setAdult] = useState(1);
   const [editLocation, setEditLocation] = useState(false);
@@ -293,14 +297,6 @@ const HotelHeader = (props) => {
     setEditLocation(true);
     setSearchTerm(e.target.value);
   };
-
-  // Component did mount
-  // useEffect(() => {
-  //   console.log('Header mounted');
-  //   window.localStorage.setItem('theme', 'light');
-  //   // let location = JSON.parse(localStorage.getItem('location'));
-  //   // setSelection(location);
-  // }, []);
 
   const searchCharacters = (query) => {
     setIsSearching(false);
@@ -355,9 +351,20 @@ const HotelHeader = (props) => {
     // });
   };
 
+  const formatDate = (date) => {
+    var d = new Date(date),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+    return [year, month, day].join('-');
+  };
+
   const handleSearch = () => {
-    window.location.pathname = `hotels/${selection.destinationId}`;
-    console.log(selection);
+    window.location.pathname = `/hotels/${selection.destinationId}/${`PRICE`}/${
+      state.startDate !== null ? formatDate(state.startDate) : formatDate(new Date())
+    }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${props.page + 1}/`;
   };
 
   // useEffect(() => {
@@ -390,6 +397,7 @@ const HotelHeader = (props) => {
     //   setLoading(false);
     // });
   }, []);
+  console.log(props);
 
   return (
     <AppHeader className="hotelHeader">
@@ -415,8 +423,8 @@ const HotelHeader = (props) => {
                 results.map((result, i) => (
                   <div key={i}>
                     {/* <div className="resultGroup">{result.group}</div> */}
-                    {result.entities.map((e) => (
-                      <div className="result" onClick={() => handleSelection(e)}>
+                    {result.entities.map((e, idx) => (
+                      <div key={idx} className="result" onClick={() => handleSelection(e)}>
                         {e.name}
                       </div>
                     ))}
@@ -443,7 +451,24 @@ const HotelHeader = (props) => {
         <CTA type="button" name="search" onClick={() => handleSearch()}>
           Search
         </CTA>
-
+        {/* ${selection.destinationId}?currency=${`USD`}&locale=${`en_US`}&sortOrder=${`PRICE`}
+        &checkIn=${state.startDate !== null ? formatDate(state.startDate) : ''}&checkOut=$
+        {state.endDate !== null ? formatDate(state.endDate) : ''}&adults=${adult}&page=$
+        {props.page + 1} */}
+        <Link
+          to={{
+            pathname: `/hotels/${selection.destinationId}/${`USD`}/${`en_US`}/${`PRICE`}/${
+              state.startDate !== null ? formatDate(state.startDate) : ''
+            }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${
+              props.page + 1
+            }`,
+            state: {
+              fromNotifications: true,
+            },
+          }}
+        >
+          Search
+        </Link>
         {searchResults !== '' && (
           <React.Fragment>
             <FilterButton>
@@ -461,4 +486,15 @@ const HotelHeader = (props) => {
   );
 };
 
-export default React.memo(HotelHeader);
+const mapStateToProps = (state) => {
+  return {
+    data: state.hotel.headerData,
+    page: state.hotel.page,
+  };
+};
+
+// export default {
+//   component: connect(mapStateToProps)(HotelHeader),
+// };
+
+export default React.memo(connect(mapStateToProps)(HotelHeader));
