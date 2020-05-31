@@ -14,6 +14,7 @@ export const FETCH_HOTEL_DETAILS = 'fetch_hotel_details';
 export const FETCH_HOTEL_PHOTOS = 'fetch_hotel_photos';
 export const FETCHING_HOTELS = 'fetching_hotels';
 export const ADVANCE_PAGE = 'advance_page';
+export const FETCHING_IMAGES = 'fetching_images';
 
 export const NextPage = () => (dispatch) => {
   dispatch({ type: ADVANCE_PAGE });

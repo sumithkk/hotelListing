@@ -1,19 +1,12 @@
 import React, { useEffect, useState, useReducer } from 'react';
 import styled from 'styled-components';
-import useDebounce from '../../helpers/customHooks';
-// import Hotel from './icons/hotelbg.svg';
 import Sort from './icons/sort.svg';
 import Filter from './icons/filter.svg';
-import Search from '../components/svgComponents/search';
 import User from '../components/svgComponents/user';
-import Location from '../components/svgComponents/location';
-import { locationSearch, getPropertyList } from '../actions';
-import { Link } from 'react-router-dom';
 import { DateRangeInput } from '@datepicker-react/styled';
-import { parseISO } from 'date-fns';
-
-import LocationData from '../../stubs/hotels/location-search.json';
+import Search from '../components/search';
 import { connect } from 'react-redux';
+import { useLocalStorage } from '../../helpers/customHooks';
 
 const AppHeader = styled.div`
   position: relative;
@@ -74,6 +67,7 @@ const SearchBar = styled.div`
   .search {
     position: relative;
     width: 35%;
+    border: 1px solid #fff;
     border-bottom: 1px solid #bcbec0;
     &.selected {
       border: 1px solid #bcbec0;
@@ -89,6 +83,7 @@ const SearchBar = styled.div`
       padding-left: 45px;
       outline: none;
       width: -webkit-fill-available;
+      transition: 1s all ease;
     }
 
     svg {
@@ -280,76 +275,11 @@ function reducer(state, action) {
 const HotelHeader = (props) => {
   // Handling Searchbar
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [results, setResults] = useState([]);
-  const [isSearching, setIsSearching] = useState(false);
-  const [showDrop, toggleDrop] = useState(false);
-  const debouncedSearchTerm = useDebounce(searchTerm, 500);
-
   const [selection, setSelection] = useState({});
   const [searchResults, setSearchResults] = useState('');
-
   const [state, dispatch] = useReducer(reducer, initialState);
   const [adult, setAdult] = useState(1);
-  const [editLocation, setEditLocation] = useState(false);
-
-  const handleChange = (e) => {
-    setEditLocation(true);
-    setSearchTerm(e.target.value);
-  };
-
-  const searchCharacters = (query) => {
-    setIsSearching(false);
-    toggleDrop(true);
-    console.log(LocationData.suggestions);
-    setResults(LocationData.suggestions);
-  };
-
-  useEffect(() => {
-    if (debouncedSearchTerm) {
-      setIsSearching(true);
-      searchCharacters(debouncedSearchTerm);
-    } else {
-      setResults([]);
-    }
-  }, [debouncedSearchTerm]);
-
-  // Handling Selection
-  const handleSelection = (item) => {
-    // window.localStorage.setItem('location', JSON.stringify(item));
-    setSearchTerm(item.name);
-    setSelection(item);
-    setEditLocation(false);
-    toggleDrop(false);
-    setLoading(true);
-    getPropertyList();
-
-    // var unirest = require("unirest");
-    // var req = unirest("GET", "https://hotels4.p.rapidapi.com/properties/list");
-    // req.query({
-    //   currency: "USD",
-    //   locale: "en_US",
-    //   sortOrder: "PRICE",
-    //   destinationId: item.destinationId,
-    //   pageNumber: "1",
-    //   checkIn: "2020-01-08",
-    //   checkOut: "2020-01-15",
-    //   pageSize: "24",
-    //   adults1: "1",
-    // });
-
-    // req.headers({
-    //   "x-rapidapi-host": "hotels4.p.rapidapi.com",
-    //   "x-rapidapi-key": "4c985af0e6mshe02508316d3d9d6p1b2493jsn1bb8a5f16ce8",
-    //   useQueryString: true,
-    // });
-
-    // req.end(function (res) {
-    //   if (res.error) throw new Error(res.error);
-    //   setSearchResults(res.body.data.body);
-    //   setLoading(false);
-    // });
-  };
+  const [date, setDate] = useLocalStorage('date', initialState);
 
   const formatDate = (date) => {
     var d = new Date(date),
@@ -361,81 +291,36 @@ const HotelHeader = (props) => {
     return [year, month, day].join('-');
   };
 
+  useEffect(() => {
+    window.localStorage.setItem('date', JSON.stringify(initialState));
+  },[]);
+
+  const setCalender = (data) => {
+    setDate(data);
+  };
+
+  const handleDatesChange = (data) => {
+    if (!data.focusedInput) {
+      setDate({ ...data, focusedInput: START_DATE });
+    } else {
+      setDate(data);
+    }
+  };
+
   const handleSearch = () => {
     window.location.pathname = `/hotels/${selection.destinationId}/${`PRICE`}/${
       state.startDate !== null ? formatDate(state.startDate) : formatDate(new Date())
     }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${props.page + 1}/`;
   };
 
-  // useEffect(() => {
-  //   console.log('Search Selected');
-  //   //do something
-  // }, [selection]);
-
-  useEffect(() => {
-    // var unirest = require("unirest");
-    // var req = unirest("GET", "https://hotels4.p.rapidapi.com/properties/list");
-    // req.query({
-    //   currency: "USD",
-    //   locale: "en_US",
-    //   sortOrder: "PRICE",
-    //   destinationId: "678196",
-    //   pageNumber: "1",
-    //   checkIn: "2020-01-08",
-    //   checkOut: "2020-01-15",
-    //   pageSize: "24",
-    //   adults1: "1",
-    // });
-    // req.headers({
-    //   "x-rapidapi-host": "hotels4.p.rapidapi.com",
-    //   "x-rapidapi-key": "4c985af0e6mshe02508316d3d9d6p1b2493jsn1bb8a5f16ce8",
-    //   useQueryString: true,
-    // });
-    // req.end(function (res) {
-    //   if (res.error) throw new Error(res.error);
-    //   setLandingItems(res.body.data.body);
-    //   setLoading(false);
-    // });
-  }, []);
-  console.log(props);
-
   return (
     <AppHeader className="hotelHeader">
       <SearchBar>
         <div className="brand">HoTEL</div>
-        <div className={editLocation ? 'search' : 'search selected'}>
-          <input
-            placeholder="Search for Cities, Landmark, Hotels"
-            value={searchTerm}
-            onChange={(e) => handleChange(e)}
-          />
-          {isSearching ? (
-            <div className="bounceball" />
-          ) : editLocation ? (
-            <Search fill="rgb(188,190,192)" width="20px" height="20px" />
-          ) : (
-            <Location fill="rgb(188,190,192)" width="20px" height="20px" />
-          )}
-
-          {showDrop && (
-            <div className="dropdown">
-              {results.length > 0 &&
-                results.map((result, i) => (
-                  <div key={i}>
-                    {/* <div className="resultGroup">{result.group}</div> */}
-                    {result.entities.map((e, idx) => (
-                      <div key={idx} className="result" onClick={() => handleSelection(e)}>
-                        {e.name}
-                      </div>
-                    ))}
-                  </div>
-                ))}
-            </div>
-          )}
-        </div>
+        <Search />
         <DateWrap style={{ marginLeft: '30px' }}>
           <DateRangeInput
-            onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
+            onDatesChange={(data) => handleDatesChange(data)}
             onFocusChange={(focusedInput) =>
               dispatch({ type: 'focusChange', payload: focusedInput })
             }
@@ -451,24 +336,6 @@ const HotelHeader = (props) => {
         <CTA type="button" name="search" onClick={() => handleSearch()}>
           Search
         </CTA>
-        {/* ${selection.destinationId}?currency=${`USD`}&locale=${`en_US`}&sortOrder=${`PRICE`}
-        &checkIn=${state.startDate !== null ? formatDate(state.startDate) : ''}&checkOut=$
-        {state.endDate !== null ? formatDate(state.endDate) : ''}&adults=${adult}&page=$
-        {props.page + 1} */}
-        <Link
-          to={{
-            pathname: `/hotels/${selection.destinationId}/${`USD`}/${`en_US`}/${`PRICE`}/${
-              state.startDate !== null ? formatDate(state.startDate) : ''
-            }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${
-              props.page + 1
-            }`,
-            state: {
-              fromNotifications: true,
-            },
-          }}
-        >
-          Search
-        </Link>
         {searchResults !== '' && (
           <React.Fragment>
             <FilterButton>

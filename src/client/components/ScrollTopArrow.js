@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './scrollTop.css';
+// import './scrollTop.css';
 import Arrow from '../images/up-arrow.svg';
 
 const ScrollTopArrow = () => {

@@ -7,10 +7,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from 'prop-types';
 import ArticleDetailModal from '../components/ArticleDetailModal';
 import { getPropertyList } from '../actions';
-import css from './work.css';
+// import css from './work.css';
 import styled from 'styled-components';
-
-import HotelHeader from './HotelHeader';
 
 const Header = styled.div`
   height: 50px;
@@ -90,7 +88,6 @@ const ArticleListPage = (props) => {
     <div>
       {head()}
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
-      <HotelHeader />
       <div className="row">
         content
         <div className="section">

@@ -18,7 +18,6 @@ import HotelBg from '../components/svgComponents/HotelBg';
 import Contact from '../components/svgComponents/contact';
 import { connect } from 'react-redux';
 import Typer from '../components/typer';
-// import css from './index.css';
 import Input from '../components/input';
 
 import Macbook from '../images/macbook.png';
