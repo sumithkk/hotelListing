@@ -84,21 +84,7 @@ const config = {
       },
     ],
   },
-  optimization: {
-    minimizer: [
-      // we specify a custom UglifyJsPlugin here to get source maps in production
-      new UglifyJSPlugin({
-        cache: true,
-        parallel: true,
-        uglifyOptions: {
-          compress: false,
-          ecma: 6,
-          mangle: true,
-        },
-        sourceMap: false,
-      }),
-    ],
-  },
+
   // Tell webpack to root file of our server app
   entry: './src/client/client.js',
 

@@ -279,7 +279,6 @@ const HotelHeader = (props) => {
   const [searchResults, setSearchResults] = useState('');
   const [state, dispatch] = useReducer(reducer, initialState);
   const [adult, setAdult] = useState(1);
-  const [date, setDate] = useLocalStorage('date', initialState);
 
   const formatDate = (date) => {
     var d = new Date(date),
@@ -290,10 +289,6 @@ const HotelHeader = (props) => {
     if (day.length < 2) day = '0' + day;
     return [year, month, day].join('-');
   };
-
-  useEffect(() => {
-    window.localStorage.setItem('date', JSON.stringify(initialState));
-  },[]);
 
   const setCalender = (data) => {
     setDate(data);
@@ -312,7 +307,7 @@ const HotelHeader = (props) => {
       state.startDate !== null ? formatDate(state.startDate) : formatDate(new Date())
     }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${props.page + 1}/`;
   };
-
+  console.log(state.startDate);
   return (
     <AppHeader className="hotelHeader">
       <SearchBar>
@@ -320,7 +315,7 @@ const HotelHeader = (props) => {
         <Search />
         <DateWrap style={{ marginLeft: '30px' }}>
           <DateRangeInput
-            onDatesChange={(data) => handleDatesChange(data)}
+            onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
             onFocusChange={(focusedInput) =>
               dispatch({ type: 'focusChange', payload: focusedInput })
             }

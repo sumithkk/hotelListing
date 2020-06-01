@@ -11,8 +11,9 @@ import Rating from '../components/starRating';
 import Land from '../components/svgComponents/land';
 import DoubleBed from '../components/svgComponents/doubleBed';
 import QueenBed from '../components/svgComponents/queenBed';
+import MyCarousel from '../components/carousel';
 
-const Carousel = styled.div`
+const CarouselWrap = styled.div`
 position: relative;
 width: 98%;
 border-radius: 10px;
@@ -132,7 +133,7 @@ const Details = styled.div`
   }
   &.arrivalInfo {
     display: flex;
-    margin-right: 20px;
+    margin: 30px;
     border-radius: 10px;
     justify-content: space-around;
     border: 1px solid #f7aeb2;
@@ -163,7 +164,7 @@ const Details = styled.div`
       font-size: 1rem;
     }
   }
-  &.transport {
+  .transport {
     h2 {
       text-transform: capitalize;
     }
@@ -219,11 +220,36 @@ const Feature = styled.div`
   }
 `;
 
-const FeatureIcon = styled.div`
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
-  background: #dedede url(${Locaton});
+const RippleLoader = styled.div`
+  position: relative;
+  width: 80px;
+  height: 80px;
+  div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
 `;
 
 const Slider = () => {
@@ -290,22 +316,22 @@ const Slider = () => {
     setImages(imageArray);
   };
   return (
-    <Carousel>
-      <div className="leftArrow" onClick={() => handleScroll('left')}>
-        Left
-      </div>
-      <div className="carouselInner" ref={carouselRef}>
-        {images !== '' &&
-          images.big.map((img, i) => (
+    <React.Fragment>
+      {images !== '' ? (
+        <MyCarousel>
+          {images.big.map((img, i) => (
             // <div key={i} className="slide">
-            <img key={i} style={{ maxWidth: '90%' }} src={img} alt="hotel" />
+            <img key={i} style={{ width: '100%' }} src={img} alt="hotel" />
             // </div>
           ))}
-      </div>
-      <div className="rightArrow" onClick={() => handleScroll('right')}>
-        Right
-      </div>
-    </Carousel>
+        </MyCarousel>
+      ) : (
+        <RippleLoader>
+          <div />
+          <div />
+        </RippleLoader>
+      )}
+    </React.Fragment>
   );
 };
 
@@ -345,8 +371,19 @@ const HotelDetail = (props) => {
       {head()}
       <Content>
         <div className="LeftSection" style={{ width: '75%' }}>
-          <Section style={{ flexDirection: 'column' }}>
+          <Section
+            style={{
+              flexDirection: 'column',
+              maxHeight: '500px',
+              minHeight: '500px',
+              overflow: 'hidden',
+              width: '98%',
+              borderRadius: '10px',
+            }}
+          >
             <Slider />
+          </Section>
+          <Section className="hotelDesc">
             <Details style={{ display: 'flex' }}>
               <div className="hotelDesc" style={{ width: '80%' }}>
                 <h1 style={{ marginTop: 0 }}>
