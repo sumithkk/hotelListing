@@ -29,10 +29,6 @@ import Vip from '../components/svgComponents/hotelIcons/Vip';
 import Time from '../components/svgComponents/hotelIcons/Time';
 import Location from '../components/svgComponents/hotelIcons/Location';
 
-import Train from '../components/svgComponents/hotelIcons/Train';
-import Flight from '../components/svgComponents/hotelIcons/Flight';
-import Metro from '../components/svgComponents/hotelIcons/Metro';
-
 const CarouselWrap = styled.div`
 position: relative;
 width: 98%;
@@ -89,16 +85,11 @@ const Content = styled.div`
     }
   }
   ul {
-    list-style-type: none;
-    padding-left: 0;
+    list-style-type: circle;
+    padding-left: 20px;
     li {
-      padding: 12px 0;
+      line-height: 2;
       color: #666;
-      display: flex;
-      align-items: center;
-      svg {
-        margin-right: 10px;
-      }
     }
   }
 `;
@@ -674,11 +665,6 @@ const HotelDetail = (props) => {
                     <ul>
                       {tl.locations.map((l, i) => (
                         <li key={i}>
-                          {tl.category === 'airport' && <Flight style={{ fontSize: '1.2rem' }} />}
-                          {tl.category === 'train-station' && (
-                            <Train style={{ fontSize: '1.2rem' }} />
-                          )}
-                          {tl.category === 'metro' && <Metro style={{ fontSize: '1.2rem' }} />}
                           {l.name} {l.distanceInTime}
                         </li>
                       ))}

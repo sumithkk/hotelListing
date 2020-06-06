@@ -1,12 +1,14 @@
 import React, { useEffect, useState, useReducer } from 'react';
 import styled from 'styled-components';
 import Sort from './icons/sort.svg';
-import Filter from './icons/filter.svg';
+// import Filter from './icons/filter.svg';
 import User from '../components/svgComponents/user';
 import { DateRangeInput } from '@datepicker-react/styled';
 import Search from '../components/search';
 import { connect } from 'react-redux';
 import { useLocalStorage } from '../../helpers/customHooks';
+import Banner from '../images/banner.jpg';
+import Filter from '../components/svgComponents/filter';
 
 const AppHeader = styled.div`
   position: relative;
@@ -17,6 +19,26 @@ const AppHeader = styled.div`
   position: fixed;
   top: 0;
   background: #fff;
+  &.homepage {
+    background: url(https://pix10.agoda.net/hotelImages/101/1015998/1015998_15120409390038243686.jpg?s=1024x768)
+      no-repeat;
+    height: 500px;
+    background-position: center;
+    .searchBar {
+      position: absolute;
+      bottom: -47px;
+      margin: 0 auto;
+      width: 70%;
+      left: 0;
+      right: 0;
+      border-radius: 10px;
+      background: #fff;
+      padding: 20px;
+      -webkit-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+      -moz-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+      box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
+    }
+  }
 `;
 
 const HeaderTitle = styled.div`
@@ -63,14 +85,15 @@ const SearchBar = styled.div`
     font-size: 50px;
     line-height: 0.8;
     color: grey;
+    text-decoration: none;
   }
   .search {
     position: relative;
     width: 35%;
     border: 1px solid #fff;
-    border-bottom: 1px solid #bcbec0;
+    border-bottom: 1px solid #dedede;
     &.selected {
-      border: 1px solid #bcbec0;
+      border: 1px solid #dedede;
       border-radius: 5px;
       input {
         border-radius: 5px;
@@ -84,6 +107,7 @@ const SearchBar = styled.div`
       outline: none;
       width: -webkit-fill-available;
       transition: 1s all ease;
+      color: #666;
     }
 
     svg {
@@ -202,9 +226,14 @@ const DateWrap = styled.div`
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: normal;
+    height: 48px;
+  }
+  label {
+    border: 1px solid #dedede;
   }
   input {
     padding: 0 50px;
+    color: #666;
   }
   svg {
     width: 20px;
@@ -219,7 +248,7 @@ const DateWrap = styled.div`
 const Adult = styled.div`
   position: relative;
   margin-left: 25px;
-  border: 1px solid #bcbec0;
+  border: 1px solid #dedede;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -233,11 +262,12 @@ const Adult = styled.div`
   input {
     border: none;
     padding: 15px;
-    width: 100px;
+    width: 60px;
     border-radius: 5px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     outline: none;
+    color: #666;
   }
 `;
 
@@ -279,6 +309,7 @@ const HotelHeader = (props) => {
   const [searchResults, setSearchResults] = useState('');
   const [state, dispatch] = useReducer(reducer, initialState);
   const [adult, setAdult] = useState(1);
+  const [sort, setSort] = useState('Price');
 
   const formatDate = (date) => {
     var d = new Date(date),
@@ -308,10 +339,13 @@ const HotelHeader = (props) => {
     }/${state.endDate !== null ? formatDate(state.endDate) : ''}/${adult}/${props.page + 1}/`;
   };
   console.log(state.startDate);
+  // if (!props) return <div />;
   return (
-    <AppHeader className="hotelHeader">
-      <SearchBar>
-        <div className="brand">HoTEL</div>
+    <AppHeader className="hotelHeader" style={{ width: '100%' }}>
+      <SearchBar className="searchBar">
+        <a href="/" className="brand">
+          HoTEL
+        </a>
         <Search />
         <DateWrap style={{ marginLeft: '30px' }}>
           <DateRangeInput
@@ -326,10 +360,20 @@ const HotelHeader = (props) => {
         </DateWrap>
         <Adult>
           <User />
-          <input type="number" value={adult} name="adult" onChange={() => setAdult()} />
+          <input
+            type="number"
+            style={{ width: '35px' }}
+            value={adult}
+            name="adult"
+            onChange={() => setAdult()}
+          />
+        </Adult>
+        <Adult>
+          <Filter />
+          <input type="text" value={sort} name="sort" onChange={() => setAdult()} />
         </Adult>
         <CTA type="button" name="search" onClick={() => handleSearch()}>
-          Search
+          SEARCH
         </CTA>
         {searchResults !== '' && (
           <React.Fragment>
@@ -338,7 +382,7 @@ const HotelHeader = (props) => {
               Sort
             </FilterButton>
             <FilterButton>
-              <Filter />
+              {/* <Filter /> */}
               Filter
             </FilterButton>
           </React.Fragment>
@@ -359,4 +403,7 @@ const mapStateToProps = (state) => {
 //   component: connect(mapStateToProps)(HotelHeader),
 // };
 
-export default React.memo(connect(mapStateToProps)(HotelHeader));
+// export default React.memo(connect(mapStateToProps)(HotelHeader));
+
+const MemoHotelHeader = React.memo(HotelHeader);
+export default connect(mapStateToProps)(MemoHotelHeader);

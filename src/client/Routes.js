@@ -1,5 +1,5 @@
 import NotFoundPage from './pages/NotFoundPage';
-import ArticleListPage from './pages/ArticleListPage';
+import Homepage from './pages/Homepage';
 import HotelListing from './pages/hotelListing';
 import App from './App';
 import hotelDetails from './pages/hotelDetails';
@@ -28,13 +28,9 @@ export default [
     ...App,
     routes: [
       {
-        ...ArticleListPage,
+        ...Homepage,
         path: '/',
         exact: true,
-      },
-      {
-        path: '/articles/:id',
-        ...ArticleListPage,
       },
       {
         path: '/hotels/:destinationId/:sortOrder/:checkIn/:checkOut/:adults/:page/',

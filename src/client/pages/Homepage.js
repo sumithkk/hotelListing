@@ -7,8 +7,19 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from 'prop-types';
 import ArticleDetailModal from '../components/ArticleDetailModal';
 import { getPropertyList } from '../actions';
-// import css from './work.css';
 import styled from 'styled-components';
+
+import Ahmedabad from '../components/svgComponents/Ahmedabad';
+import Bangalore from '../components/svgComponents/Bangalore';
+import Chennai from '../components/svgComponents/Chennai';
+import Delhi from '../components/svgComponents/Delhi';
+import Gujarat from '../components/svgComponents/Gujarat';
+import Hyderabad from '../components/svgComponents/Hyderabad';
+import Lucknow from '../components/svgComponents/Lucknow';
+import Mumbai from '../components/svgComponents/Mumbai';
+import Rajastan from '../components/svgComponents/Rajastan';
+import Kolkata from '../components/svgComponents/Kolkata';
+import BannerBg from '../components/svgComponents/BannerBg';
 
 const Header = styled.div`
   height: 50px;
@@ -19,6 +30,70 @@ const Header = styled.div`
 const List = styled.div`
   border: 1px solid #dedede;
   margin: 20px;
+`;
+
+const Banner = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-direction: column;
+  line-height: 2;
+  padding-top: 100px;
+
+  .leftTree {
+    transform: translate(0%, 40%);
+    opacity: 0.5;
+    path,
+    ellipse {
+      transform: scale(0.6);
+    }
+  }
+  .rightTree {
+    transform: translate(59%, 40%);
+    opacity: 0.5;
+    path,
+    ellipse {
+      transform: scale(0.6);
+    }
+  }
+`;
+
+const BannerTxt = styled.div`
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: grey;
+  div:first-child {
+    color: #ea4c89;
+    font-weight: 100;
+    font-size: 3.5rem;
+  }
+`;
+
+const CityWrap = styled.div`
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: rgb(242, 242, 242);
+  a {
+    text-decoration: none;
+    color: #666;
+  }
+  svg {
+    transition: 1s all ease;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 `;
 
 const ArticleListPage = (props) => {
@@ -89,7 +164,45 @@ const ArticleListPage = (props) => {
       {head()}
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
       <div className="row">
-        content
+        <Banner>
+          <BannerBg width="129vh" />
+          <BannerTxt>
+            <div>Search for Hotels around the world!</div>
+            <div>Choose Your City.</div>
+          </BannerTxt>
+        </Banner>
+        <CityWrap>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Ahmedabad height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Bangalore height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Chennai height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Delhi height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Gujarat height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Hyderabad height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Lucknow height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Mumbai height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Rajastan height="170px" />
+          </a>
+          <a href="/hotels/undefined/PRICE/2020-06-04/2020-07-02/1/1/">
+            <Kolkata height="170px" />
+          </a>
+        </CityWrap>
         <div className="section">
           <div className="row">{renderArticles()}</div>
         </div>

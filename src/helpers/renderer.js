@@ -37,7 +37,6 @@ export default (req, store, context) => {
                 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
                 <link rel="apple-touch-icon" href="logo192.png" />
                 <link rel="manifest" href="/manifest.json" />
-                <link rel="stylesheet" type="text/css" href="main.css">
                 ${styles}
                 <style>
                 body, input {

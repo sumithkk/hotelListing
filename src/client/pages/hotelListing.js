@@ -193,7 +193,7 @@ const HotelListing = (props) => {
 
   const renderHotels = () => {
     return props.hotelInfo.hotels.map((hotel, i) => (
-      <Card href={`/hotel-details/${hotel.id}`} key={i}>
+      <Card href={`/hotel-details/${hotel.id}/2020-06-04/2020-07-02/1/`} key={i}>
         <ImgWrap>
           <img src={hotel.thumbnailUrl} alt="hotel" />
           <div className="imgBottom">

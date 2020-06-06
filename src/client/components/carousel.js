@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import Arrow from './svgComponents/hotelIcons/Arrow';
 
 const CarouselWrapper = styled.div`
   position: relative;
@@ -14,10 +15,13 @@ const CarouselWrapper = styled.div`
     width: 100px;
     border: none;
     outline: none;
-    background: #ffffff47;
+    background: transparent;
     color: #fff;
     top: 0;
     z-index: 10;
+    svg {
+      font-size: 1.5rem;
+    }
   }
   .leftArrow {
     left: 0;
@@ -68,7 +72,7 @@ const MyCarousel = ({ children }) => {
           setCurrentSlide((currentSlide - 1 + activeSlide.length) % activeSlide.length);
         }}
       >
-        Left
+        <Arrow />
       </button>
       <SCarouselWrapper>
         <SCarouselSlides currentSlide={currentSlide}>{activeSlide}</SCarouselSlides>
@@ -80,7 +84,7 @@ const MyCarousel = ({ children }) => {
           setCurrentSlide((currentSlide + 1) % activeSlide.length);
         }}
       >
-        Right
+        <Arrow style={{ transform: 'rotate(180deg)' }} />
       </button>
     </CarouselWrapper>
   );

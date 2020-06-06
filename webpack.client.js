@@ -76,12 +76,25 @@ const config = {
         ],
       },
       {
-        test: /\.(jpg|svg|png|gif|woff|woff2|eot|ttf|webp|otf)$/,
+        test: /\.(jpg|png|gif|woff|woff2|eot|ttf|webp|otf)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
               name: 'fonts/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              noquotes: true,
+              stripdeclarations: true,
+              limit: 4000,
             },
           },
         ],
