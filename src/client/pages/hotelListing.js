@@ -160,6 +160,10 @@ const Card = styled.a`
 const ImgWrap = styled.div`
   position: relative;
   overflow: hidden;
+  min-height: 172px;
+  img {
+    transition: 0.5s all ease;
+  }
   .imgBottom {
     background: #00000057;
     padding: 5px;
@@ -215,6 +219,24 @@ const RightSection = styled.div`
   }
 `;
 
+const ImgPlaceholder = (
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+    <rect fill="#ddd" width="305" height="172" />
+    <text
+      fill="rgba(0,0,0,0.5)"
+      font-family="sans-serif"
+      font-size="30"
+      dy="10.5"
+      font-weight="bold"
+      x="50%"
+      y="50%"
+      text-anchor="middle"
+    >
+      Img
+    </text>
+  </svg>
+);
+
 const HotelListing = (props) => {
   const [loading, setLoading] = useState(true);
   const [landingItems, setLandingItems] = useState('');
@@ -224,7 +246,12 @@ const HotelListing = (props) => {
     return props.hotelInfo.hotels.map((hotel, i) => (
       <Card className="card" href={`/hotel-details/${hotel.id}/2020-06-04/2020-07-02/1/`} key={i}>
         <ImgWrap>
-          <img src={hotel.thumbnailUrl} alt="hotel" />
+          <img
+            className="card-img-top"
+            data-src={hotel.thumbnailUrl}
+            alt={`hotelimg`}
+            src={ImgPlaceholder}
+          />
           <div className="imgBottom">
             <Rating totalStars="5" selected={3} />
           </div>
@@ -293,8 +320,8 @@ const HotelListing = (props) => {
         new IntersectionObserver((entries) => {
           entries.forEach((en) => {
             if (en.intersectionRatio > 0) {
-              //   dispatch({ type: 'ADVANCE_PAGE' });
-              props.NextPage();
+              // dispatch({ type: 'ADVANCE_PAGE' });
+              NextPage();
             }
           });
         }).observe(node);
@@ -308,7 +335,42 @@ const HotelListing = (props) => {
       }
     }, [scrollObserver, scrollRef]);
   };
+
+  // lazy load images with intersection observer
+  const useLazyLoading = (imgSelector, items) => {
+    const imgObserver = useCallback((node) => {
+      const intObs = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          if (en.intersectionRatio > 0) {
+            const currentImg = en.target;
+            const newImgSrc = currentImg.dataset.src;
+
+            // only swap out the image source if the new url exists
+            if (!newImgSrc) {
+              console.error('Image source is invalid');
+            } else {
+              currentImg.src = newImgSrc;
+            }
+            intObs.unobserve(node);
+          }
+        });
+      });
+      intObs.observe(node);
+    }, []);
+
+    const imagesRef = useRef(null);
+
+    useEffect(() => {
+      imagesRef.current = document.querySelectorAll(imgSelector);
+
+      if (imagesRef.current) {
+        imagesRef.current.forEach((img) => imgObserver(img));
+      }
+    }, [imgObserver, imagesRef, imgSelector, items]);
+  };
+
   useInfiniteScroll(bottomBoundaryRef, props.page);
+  useLazyLoading('.card-img-top', props.hotelInfo.hotels);
 
   return (
     <React.Fragment>

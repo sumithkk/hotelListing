@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import styled from 'styled-components';
-import HotelHeader from './HotelHeader';
+import { useLazyLoading } from '../../helpers/customHooks';
 import { getHotelDetails, getHotelPhotos } from '../actions';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
@@ -32,6 +32,8 @@ import Location from '../components/svgComponents/hotelIcons/Location';
 import Train from '../components/svgComponents/hotelIcons/Train';
 import Flight from '../components/svgComponents/hotelIcons/Flight';
 import Metro from '../components/svgComponents/hotelIcons/Metro';
+import Placeholder from '../components/svgComponents/hotelIcons/placeholder.png';
+import CircularChart from '../components/CircularChart';
 
 const CarouselWrap = styled.div`
 position: relative;
@@ -327,6 +329,21 @@ const GuestRating = styled.div`
     margin: 10px 0;
   }
 `;
+const CircleRating = styled.div`
+  display: flex;
+  align-items: center;
+  h3 {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+    color: #808080;
+  }
+`;
 
 const Slider = () => {
   const [images, setImages] = useState('');
@@ -340,7 +357,7 @@ const Slider = () => {
     images.forEach((img) => {
       let baseurl = img.baseUrl;
       let small = baseurl.replace(/ *\{[^)]*\} */g, 'y');
-      let big = baseurl.replace(/ *\{[^)]*\} */g, 'w');
+      let big = baseurl.replace(/ *\{[^)]*\} */g, 'z');
       stackedImages.small.push(small);
       stackedImages.big.push(big);
     });
@@ -391,13 +408,23 @@ const Slider = () => {
     let imageArray = stackImages(res.hotelImages);
     setImages(imageArray);
   };
+
+  useLazyLoading('.carouselImg', images.big);
+
   return (
     <React.Fragment>
       {images !== '' ? (
         <MyCarousel>
           {images.big.map((img, i) => (
             // <div key={i} className="slide">
-            <img key={i} style={{ width: '100%' }} src={img} alt="hotel" />
+            <img
+              className="carouselImg"
+              key={i}
+              style={{ width: '100%' }}
+              data-src={img}
+              alt={`hotelimg`}
+              src={Placeholder}
+            />
             // </div>
           ))}
         </MyCarousel>
@@ -702,14 +729,23 @@ const HotelDetail = (props) => {
             <div>
               {data !== '' &&
                 data.data.body.guestReviews.trustYouReviews.map((r, i) => (
-                  <CircleGraph
-                    box="50"
-                    percentage="50"
-                    className={r.categoryName}
-                    title={r.categoryName}
-                    subtitle={r.text}
-                    key={i}
-                  />
+                  <CircleRating key={i}>
+                    <CircularChart
+                      style={{ fontSize: '4rem' }}
+                      color={
+                        Number(r.percentage) <= 30
+                          ? 'orange'
+                          : Number(r.percentage) > 30 || Number(r.percentage) <= 50
+                          ? '#00b500'
+                          : Number(r.percentage) > 50 && 'green'
+                      }
+                      percentage={r.percentage}
+                    />
+                    <div>
+                      <h3>{r.categoryName}</h3>
+                      <p>{r.text}</p>
+                    </div>
+                  </CircleRating>
                 ))}
             </div>
           </div>
