@@ -40,7 +40,7 @@ const Banner = styled.div`
   flex-direction: column;
   line-height: 2;
   padding-top: 100px;
-
+  background: #c0e3f3;
   .leftTree {
     transform: translate(0%, 40%);
     opacity: 0.5;
@@ -55,6 +55,12 @@ const Banner = styled.div`
     path,
     ellipse {
       transform: scale(0.6);
+    }
+  }
+  @media (max-width: 768px) {
+    .bannerBg {
+      width: 100% !important;
+      padding-top: 180px;
     }
   }
 `;
@@ -74,6 +80,12 @@ const BannerTxt = styled.div`
     font-weight: 100;
     font-size: 3.5rem;
   }
+  @media (max-width: 768px) {
+    div:first-child {
+      font-weight: 100;
+      font-size: 1rem;
+    }
+  }
 `;
 
 const CityWrap = styled.div`
@@ -82,7 +94,7 @@ const CityWrap = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   padding: 30px;
-  background: rgb(242, 242, 242);
+  background: #fff;
   a {
     text-decoration: none;
     color: #666;
@@ -136,14 +148,11 @@ const ArticleListPage = (props) => {
   const head = () => {
     return (
       <Helmet key={Math.random()}>
-        <title>{`Articles`}</title>
-        <meta property="og:title" content={`Articles List`} />
-        <meta
-          name="description"
-          content={`Latest articles, popular articles from most popular news websites of the world`}
-        />
+        <title>{`Hotels`}</title>
+        <meta property="og:title" content={`Search for hotels`} />
+        <meta name="description" content={`Search for hotels around the world`} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`https://react-ssr-ilker.herokuapp.com${location.pathname}`} />
+        <link rel="canonical" href={`https://hotelsapp.herokuapp.com${location.pathname}`} />
       </Helmet>
     );
   };
@@ -158,14 +167,14 @@ const ArticleListPage = (props) => {
       loadArticles();
     }
   }, [loadArticles, match.params.id]);
-
+  console.log(match);
   return (
     <div>
       {head()}
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
       <div className="row">
         <Banner>
-          <BannerBg width="129vh" />
+          <BannerBg className="bannerBg" width="129vh" />
           <BannerTxt>
             <div>Search for Hotels around the world!</div>
             <div>Choose Your City.</div>

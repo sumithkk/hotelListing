@@ -12,6 +12,7 @@ import Filter from '../components/svgComponents/filter';
 
 const AppHeader = styled.div`
   position: relative;
+  display: flex;
   width: 100%;
   background: #fff;
   z-index: 1;
@@ -19,6 +20,13 @@ const AppHeader = styled.div`
   position: fixed;
   top: 0;
   background: #fff;
+  @media (max-width: 768px) {
+    background: transparent;
+    .brand {
+      display: none;
+    }
+  }
+
   &.homepage {
     background: url(https://pix10.agoda.net/hotelImages/101/1015998/1015998_15120409390038243686.jpg?s=1024x768)
       no-repeat;
@@ -106,11 +114,11 @@ const SearchBar = styled.div`
       padding-left: 45px;
       outline: none;
       width: -webkit-fill-available;
-      transition: 1s all ease;
       color: #666;
     }
 
     svg {
+      transition: 1s all ease;
       position: absolute;
       top: 10px;
       left: 10px;
@@ -136,6 +144,27 @@ const SearchBar = styled.div`
       &:hover {
         cursor: pointer;
         background: #f2f2f2;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    // border: 1px solid #dedede;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+    .search {
+      width: 100%;
+      border: none;
+      border-radius: 0;
+    }
+    div[data-testid='DateRangeInputGrid'] {
+      grid-template-columns: 180px 44px 180px;
+      border-bottom: 1px solid #dedede;
+      label {
+        border: 0;
       }
     }
   }
@@ -220,6 +249,10 @@ const Loader = styled.div`
 `;
 
 const DateWrap = styled.div`
+  margin-left: 30px;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
   label,
   input {
     border-radius: 5px;
@@ -249,6 +282,7 @@ const Adult = styled.div`
   position: relative;
   margin-left: 25px;
   border: 1px solid #dedede;
+  background: #fff;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -269,6 +303,9 @@ const Adult = styled.div`
     outline: none;
     color: #666;
   }
+  @media (max-width: 768px) {
+    border: none;
+  }
 `;
 
 const CTA = styled.button`
@@ -283,6 +320,13 @@ const CTA = styled.button`
   font-weight: bold;
   cursor: pointer;
   outline: none;
+  @media (max-width: 768px) {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 `;
 
 const initialState = {
@@ -347,7 +391,7 @@ const HotelHeader = (props) => {
           HoTEL
         </a>
         <Search />
-        <DateWrap style={{ marginLeft: '30px' }}>
+        <DateWrap>
           <DateRangeInput
             onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
             onFocusChange={(focusedInput) =>

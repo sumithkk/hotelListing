@@ -411,18 +411,6 @@ const Slider = () => {
   );
 };
 
-const head = () => {
-  return (
-    <Helmet key={Math.random()}>
-      <title>{`hotel details`}</title>
-      <meta property="og:title" content={`hotel details`} />
-      <meta name="description" content={`Hotel details page`} />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={`/hotel-details/new`} />
-    </Helmet>
-  );
-};
-
 const HotelDetail = (props) => {
   // Handling Searchbar
   const [loading, setLoading] = useState(true);
@@ -434,6 +422,19 @@ const HotelDetail = (props) => {
   const [isGettingResults, setGettingResults] = useState(false);
   const [showDrop, toggleDrop] = useState(false);
   const [searchResults, setSearchResults] = useState('');
+
+  const { location, match } = props;
+  const head = () => {
+    return (
+      <Helmet key={Math.random()}>
+        <title>{`hotel details`}</title>
+        <meta property="og:title" content={`hotel details`} />
+        <meta name="description" content={`Hotel details page`} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://hotelsapp.herokuapp.com${location.pathname}`} />
+      </Helmet>
+    );
+  };
 
   // Component did mount
   useEffect(() => {

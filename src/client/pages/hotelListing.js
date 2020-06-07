@@ -232,6 +232,21 @@ const HotelListing = (props) => {
     ));
   };
 
+  const { location, match } = props;
+  // console.log(props);
+
+  const head = () => {
+    return (
+      <Helmet key={Math.random()}>
+        <title>{`hotel details`}</title>
+        <meta property="og:title" content={`hotel details`} />
+        <meta name="description" content={`Hotel details page`} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://hotelsapp.herokuapp.com${location.pathname}`} />
+      </Helmet>
+    );
+  };
+
   // Component did mount
   // useEffect(() => {
   //   console.log('Hotel mounted');
@@ -299,18 +314,6 @@ const HotelListing = (props) => {
         ref={bottomBoundaryRef}
       ></div>
     </React.Fragment>
-  );
-};
-
-const head = () => {
-  return (
-    <Helmet key={Math.random()}>
-      <title>{`hotel details`}</title>
-      <meta property="og:title" content={`hotel details`} />
-      <meta name="description" content={`Hotel details page`} />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={`/hotel-details/new`} />
-    </Helmet>
   );
 };
 
