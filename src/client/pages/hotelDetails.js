@@ -76,7 +76,7 @@ const Content = styled.div`
   flex-wrap: wrap;
   max-width: 1600px;
   width: 1600px;
-  margin: 90px auto 0 auto;
+  margin: 150px auto 0 auto;
   font-weight: 400;
 
   .rightSection {

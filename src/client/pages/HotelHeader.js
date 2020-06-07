@@ -1,14 +1,19 @@
 import React, { useEffect, useState, useReducer } from 'react';
 import styled from 'styled-components';
-import Sort from './icons/sort.svg';
-// import Filter from './icons/filter.svg';
-import User from '../components/svgComponents/user';
 import { DateRangeInput } from '@datepicker-react/styled';
 import Search from '../components/search';
 import { connect } from 'react-redux';
 import { useLocalStorage } from '../../helpers/customHooks';
-import Banner from '../images/banner.jpg';
-import Filter from '../components/svgComponents/filter';
+import Call from '../components/svgComponents/hotelIcons/Call';
+import Chat from '../components/svgComponents/hotelIcons/Chat';
+import FbLogo from '../components/svgComponents/hotelIcons/FbLogo';
+import TweetLogo from '../components/svgComponents/hotelIcons/TweetLogo';
+import InstaLogo from '../components/svgComponents/hotelIcons/InstaLogo';
+import Sort from '../components/svgComponents/hotelIcons/Sort';
+import User from '../components/svgComponents/hotelIcons/User';
+import Bed from '../components/svgComponents/hotelIcons/Bed';
+import Calender from '../components/svgComponents/hotelIcons/Calender';
+import Info from '../components/svgComponents/hotelIcons/Info';
 
 const AppHeader = styled.div`
   position: relative;
@@ -20,6 +25,8 @@ const AppHeader = styled.div`
   position: fixed;
   top: 0;
   background: #fff;
+
+  flex-direction: column;
   @media (max-width: 768px) {
     background: transparent;
     .brand {
@@ -49,22 +56,18 @@ const HeaderTitle = styled.div`
 
 const Content = styled.div`
   flex-wrap: wrap;
-  max-width: 1600px;
-  width: 1600px;
+  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 `;
 
-const BottomHeader = styled.div`
-  background: grey;
-`;
-
 const SearchBar = styled.div`
-  padding: 15px 10px 15px;
+  padding: 15px 0px 0px;
   position: relative;
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1440px;
   align-items: center;
   justify-content: space-between;
   .brand {
@@ -77,34 +80,39 @@ const SearchBar = styled.div`
   .search {
     position: relative;
     width: 35%;
-    border: 1px solid #fff;
-    border-bottom: 1px solid #dedede;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #f3f3f3;
     &.selected {
-      border: 1px solid #dedede;
-      border-radius: 5px;
+      transition: 1s all ease;
+      border: 2px solid #f3f3f3;
+      border-radius: 10px;
       input {
-        border-radius: 5px;
+        border-radius: 10px;
+        font-weight: 100;
       }
     }
     input {
-      font-size: 1rem;
+      font-size: 1.3rem;
       border: 0;
       padding: 12px;
       padding-left: 45px;
       outline: none;
       width: -webkit-fill-available;
-      color: #666;
+      color: #444;
+      font-weight: 100;
     }
 
     svg {
-      transition: 1s all ease;
       position: absolute;
-      top: 10px;
+      top: 12px;
       left: 10px;
+      font-size: 1.5rem;
+      fill: #444;
     }
   }
   .dropdown {
     position: absolute;
+    z-index: 2;
     top: 43px;
     padding: 15px;
     background: #fff;
@@ -115,7 +123,7 @@ const SearchBar = styled.div`
     box-shadow: -1px 2px 6px 0px rgba(102, 102, 102, 1);
     .resultGroup {
       padding: 10px;
-      background: #dedede;
+      background: #f3f3f3;
     }
     .result {
       padding: 10px;
@@ -127,7 +135,7 @@ const SearchBar = styled.div`
     }
   }
   @media (max-width: 768px) {
-    // border: 1px solid #dedede;
+    // border: 1px solid #f3f3f3;
     background: #fff;
     border-radius: 10px;
     width: 100%;
@@ -141,7 +149,7 @@ const SearchBar = styled.div`
     }
     div[data-testid='DateRangeInputGrid'] {
       grid-template-columns: 180px 44px 180px;
-      border-bottom: 1px solid #dedede;
+      border-bottom: 1px solid #f3f3f3;
       label {
         border: 0;
       }
@@ -228,59 +236,74 @@ const Loader = styled.div`
 `;
 
 const DateWrap = styled.div`
-  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f8e4e5;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 60px;
+  div[data-testid='DateRangeInputGrid'] {
+    grid-template-columns: 115px 39px 115px;
+    label {
+      border-radius: 10px;
+      border: none;
+      svg {
+        display: none;
+      }
+      input {
+        border-radius: 10px;
+        padding: 0 15px;
+      }
+    }
+    & + div {
+      left: -60px;
+    }
+  }
   @media (max-width: 768px) {
     margin: 0;
   }
   label,
   input {
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: normal;
-    height: 48px;
+    height: 46px;
   }
   label {
-    border: 1px solid #dedede;
+    border: 1px solid #f3f3f3;
   }
   input {
     padding: 0 50px;
-    color: #666;
+    color: #444;
   }
   svg {
     width: 20px;
     height: 20px;
-    margin-top: -3px;
   }
   button {
     outline: none;
   }
 `;
 
-const Adult = styled.div`
+const InputBox = styled.div`
   position: relative;
-  margin-left: 25px;
-  border: 1px solid #dedede;
+  border: 1px solid #f8e4e5;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  svg {
-    fill: rgb(188, 190, 192);
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
-  }
   input {
     border: none;
-    padding: 15px;
-    width: 60px;
-    border-radius: 5px;
+    padding: 14px;
+    padding-left: 60px;
+    width: 65px;
+    border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     outline: none;
-    color: #666;
+    color: #444;
   }
   @media (max-width: 768px) {
     border: none;
@@ -288,13 +311,12 @@ const Adult = styled.div`
 `;
 
 const CTA = styled.button`
-  background: #ea4c89;
+  background: #d84e51;
   border-radius: 5px;
   padding: 15px;
   color: #fff;
   border: none;
   margin-left: 20px;
-  width: 100px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -305,6 +327,75 @@ const CTA = styled.button`
     left: 0;
     right: 0;
     margin: 0 auto;
+  }
+`;
+
+const BottomHeader = styled.div`
+  display: flex;
+  padding: 15px 0;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  .icon {
+    background: #f8e4e5;
+    fill: #e0504f;
+    padding: 14px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    position: absolute;
+    left: -3px;
+    z-index: 2;
+  }
+`;
+
+const Contact = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  .title {
+    border: 2px solid #f3f3f3;
+    border-right: 2px solid #fff;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    color: #444;
+  }
+  svg {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1.5rem;
+    fill: #e0504f;
+  }
+  .fb {
+    fill: #2d88ff;
+    // border: 1.5px solid #2d88ff;
+    // transition: .2s all ease;
+    &:hover {
+      background: #2d88ff;
+      fill: #fff;
+    }
+  }
+  .insta {
+    fill: #ba00b4;
+    // border: 1.5px solid #FD0000;
+    // transition: .2s all ease-in-out;
+    &:hover {
+      background-image: linear-gradient(45deg, #fd0000, #ba00b4);
+      fill: #fff;
+    }
+  }
+  .twitter {
+    fill: rgba(29, 161, 242, 1);
+    // border: 1.5px solid rgba(29,161,242,1.00);
+    // transition: .2s all ease;
+    &:hover {
+      background: rgba(29, 161, 242, 1);
+      fill: #fff;
+    }
   }
 `;
 
@@ -367,11 +458,24 @@ const HotelHeader = (props) => {
     <React.Fragment>
       <AppHeader className="hotelHeader">
         <SearchBar className="searchBar">
-          <a href="/" className="brand">
-            HoTEL
-          </a>
           <Search />
+          <Contact>
+            <div className="title">Contact us :</div>
+            <Call />
+            <Chat />
+            <Info />
+          </Contact>
+          <Contact>
+            <div className="title">Follow us on :</div>
+            <FbLogo className="fb" />
+            <TweetLogo className="twitter" />
+            <InstaLogo className="insta" />
+          </Contact>
+        </SearchBar>
+        <BottomHeader>
+          <div>Filter your search : </div>
           <DateWrap>
+            <Calender className="icon" />
             <DateRangeInput
               onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
               onFocusChange={(focusedInput) =>
@@ -382,36 +486,45 @@ const HotelHeader = (props) => {
               focusedInput={state.focusedInput} // START_DATE, END_DATE or null
             />
           </DateWrap>
-          <Adult>
-            <User />
-            <input
-              type="number"
-              style={{ width: '35px' }}
-              value={adult}
-              name="adult"
-              onChange={() => setAdult()}
-            />
-          </Adult>
-          <Adult>
-            <Filter />
-            <input type="text" value={sort} name="sort" onChange={() => setAdult()} />
-          </Adult>
+          <InputBox>
+            <Bed className="icon" />
+            <label>
+              <input type="text" value={`Room - ${adult}`} name="bed" onChange={() => setAdult()} />
+            </label>
+          </InputBox>
+          <InputBox>
+            <User className="icon" />
+            <label>
+              <input
+                type="text"
+                value={`Adult - ${adult}`}
+                name="adult"
+                onChange={() => setAdult()}
+              />
+            </label>
+          </InputBox>
+          <InputBox>
+            <User className="icon" />
+            <label>
+              <input
+                type="text"
+                value={`Children - ${adult}`}
+                name="children"
+                style={{ width: '80px' }}
+                onChange={() => setAdult()}
+              />
+            </label>
+          </InputBox>
+          <InputBox>
+            <Sort className="icon" />
+            <label>
+              <input type="text" value={sort} name="sort" onChange={() => setAdult()} />
+            </label>
+          </InputBox>
           <CTA type="button" name="search" onClick={() => handleSearch()}>
-            SEARCH
+            Find Hotel
           </CTA>
-          {searchResults !== '' && (
-            <React.Fragment>
-              <FilterButton>
-                <Sort />
-                Sort
-              </FilterButton>
-              <FilterButton>
-                {/* <Filter /> */}
-                Filter
-              </FilterButton>
-            </React.Fragment>
-          )}
-        </SearchBar>
+        </BottomHeader>
       </AppHeader>
     </React.Fragment>
   );

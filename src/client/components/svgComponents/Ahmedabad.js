@@ -4,7 +4,7 @@ function Ahmedabad(props) {
   return (
     <div>
       <svg viewBox="0 0 100 100" {...props}>
-        <symbol id="prefix__a" viewBox="0 -24 360 24">
+        <symbol viewBox="0 -24 360 24">
           <path fill="#010101" fillOpacity={0} d="M0-24h360V0H0z" />
           <path fill="none" opacity={0.9} d="M312-21h40v16h-40z" />
           <path

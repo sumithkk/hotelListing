@@ -5,7 +5,6 @@ import '@babel/polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
@@ -21,7 +20,7 @@ const state = window.__PRELOADED_STATE__;
 const store = createStore(reducers, state, composeWithDevTools(applyMiddleware(thunk)));
 
 /* Make sure you call this before ReactDOM.hydrate! */
-consolidateStreamedStyles();
+// consolidateStreamedStyles();
 
 ReactDOM.hydrate(
   <Provider store={store}>

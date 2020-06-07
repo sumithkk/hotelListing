@@ -27,8 +27,8 @@ const ssr = asyncMiddleware(async (req, res) => {
 
   const apolloClient = createApolloClient();
   const routerContext = {};
-  const helmetContext = {};
 
+  const helmetContext = {};
   const app = (
     <ApolloProvider client={apolloClient}>
       <HelmetProvider context={helmetContext}>
@@ -42,43 +42,20 @@ const ssr = asyncMiddleware(async (req, res) => {
   // Styled components
   const sheet = new ServerStyleSheet();
   let jsx = sheet.collectStyles(app);
-  jsx = webExtractor.collectChunks(app);
-
-  // Apollo
-  await getDataFromTree(jsx);
-  const apolloState = apolloClient.extract();
-
-  // Handle React router status
-  if (routerContext.status) {
-    res.status(routerContext.status);
-  }
-
-  // Handle React Router redirection
-  if (routerContext.url) {
-    const status = routerContext.status === 301 ? 301 : 302;
-    res.redirect(status, routerContext.url);
-    return;
-  }
 
   const { helmet } = helmetContext;
   const stream = sheet.interleaveWithNodeStream(renderToNodeStream(jsx));
-
   const head = renderToString(<Head helmet={helmet} extractor={webExtractor} />);
   res.set('content-type', 'text/html');
   res.write(
-    `<!DOCTYPE html><html ${helmet.htmlAttributes}><head>${head}</head><body ${helmet.bodyAttributes}><div id="main">`
+    `<!DOCTYPE html><html ${helmet.htmlAttributes}><head>${head}</head><body ${helmet.bodyAttributes}><div id="root">`
   );
   stream.pipe(res, { end: false });
   stream.on('end', () => {
-    const body = renderToString(
-      <Body
-        config={getClientConfig()}
-        helmet={helmet}
-        extractor={webExtractor}
-        apolloState={apolloState}
-      />
-    );
-    res.end(`</div>${body}</body></html>`);
+    const body = renderToString(<Body helmet={helmet} />);
+    res.end(`</div>${body}</body><script>
+    window.__PRELOADED_STATE__ = ${serialize(store.getState()).replace(/</g, '\\u003c')}
+</script></html>`);
   });
 });
 

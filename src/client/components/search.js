@@ -5,6 +5,7 @@ import Location from '../components/svgComponents/location';
 import axios from 'axios';
 import styled from 'styled-components';
 import { useDebounce, useLocalStorage } from '../../helpers/customHooks';
+import Pin from '../components/svgComponents/hotelIcons/Pin';
 
 const BounceBall = styled.div`
   .bounceball {
@@ -93,18 +94,22 @@ const Search = () => {
   };
   return (
     <React.Fragment>
-      <div className={editLocation ? 'search' : 'search selected'}>
-        {editLocation ? (
-          <input
-            placeholder="Search for Cities, Landmark, Hotels"
-            //   value={searchTerm}
-            ref={inputRef}
-            onMouseLeave={() => toggleOnMouseLeave()}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
+      <div className={editLocation && location === '' ? 'search' : 'search selected'}>
+        {editLocation && location === '' ? (
+          <label>
+            <input
+              placeholder="Search for Cities, Landmark, Hotels"
+              //   value={searchTerm}
+              ref={inputRef}
+              onMouseLeave={() => toggleOnMouseLeave()}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </label>
         ) : (
           <div>
-            <input readOnly onMouseEnter={() => toggleEdit()} value={location} />
+            <label>
+              <input readOnly onMouseEnter={() => toggleEdit()} value={location} />
+            </label>
           </div>
         )}
 
@@ -115,7 +120,7 @@ const Search = () => {
         ) : editLocation ? (
           <SearchIcon fill="rgb(188,190,192)" width="20px" height="20px" />
         ) : (
-          <Location fill="rgb(188,190,192)" width="20px" height="20px" />
+          <Pin />
         )}
 
         {showDrop && (

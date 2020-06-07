@@ -12,11 +12,11 @@ import Rating from '../components/starRating';
 const Content = styled.div`
   display: flex;
   flex-wrap: wrap;
-  max-width: 1600px;
+  max-width: 1440px;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 150px;
 `;
 
 const LandingPage = styled.div`
@@ -73,16 +73,16 @@ const LandingPage = styled.div`
 
 const Card = styled.a`
   text-decoration: none;
-  width: 23%;
+  width: 29%;
   display: flex;
-  margin: 15px;
+  margin: 14px;
   flex-direction: column;
   position: relative;
-  border: 1px solid #dedede;
+  border: 8px solid #fff;
   background: #fff;
   animation: slideUp 1s ease both;
   animation-delay: 1s;
-  border-radius: 5px;
+  border-radius: 10px;
 
   .title {
     position: absolute;
@@ -101,7 +101,8 @@ const Card = styled.a`
 
   img {
     width: 100%;
-    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     transform: scale(1);
     transition: 2s all ease-in-out;
   }
@@ -186,6 +187,34 @@ const Loader = styled.div`
   align-items: center;
 `;
 
+const SectionWrap = styled.div`
+  display: flex;
+`;
+const LeftSection = styled.div`
+  width: 77%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background: #f4f4f6;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: flex-start;
+`;
+const RightSection = styled.div`
+  width: 23%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #f4f4f6;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  .card {
+    width: 95%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+`;
+
 const HotelListing = (props) => {
   const [loading, setLoading] = useState(true);
   const [landingItems, setLandingItems] = useState('');
@@ -193,7 +222,7 @@ const HotelListing = (props) => {
 
   const renderHotels = () => {
     return props.hotelInfo.hotels.map((hotel, i) => (
-      <Card href={`/hotel-details/${hotel.id}/2020-06-04/2020-07-02/1/`} key={i}>
+      <Card className="card" href={`/hotel-details/${hotel.id}/2020-06-04/2020-07-02/1/`} key={i}>
         <ImgWrap>
           <img src={hotel.thumbnailUrl} alt="hotel" />
           <div className="imgBottom">
@@ -305,7 +334,13 @@ const HotelListing = (props) => {
             </svg>
           </Loader>
         ) : (
-          <React.Fragment>{renderHotels()}</React.Fragment>
+          <SectionWrap>
+            <LeftSection>{renderHotels()}</LeftSection>
+            <RightSection>
+              <h2 style={{ marginTop: 0 }}>Best Deals</h2>
+              {renderHotels()}
+            </RightSection>
+          </SectionWrap>
         )}
       </Content>
       <div

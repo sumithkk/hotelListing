@@ -13,10 +13,8 @@ import { renderToNodeStream } from 'react-dom/server';
 export default async (req, res, store, context) => {
   const sheet = new ServerStyleSheet();
 
-  // const styles = sheet.getStyleTags();
-  console.log('================REQ=====================');
-  console.log(req);
-  res.write(`<!DOCTYPE html>
+  res.write(`
+  <!DOCTYPE html>
   <html lang="en">
   <head>
   <style>
@@ -40,13 +38,14 @@ export default async (req, res, store, context) => {
   }
   </style>
       <meta charset="utf-8">
+      <title>Hotels</title>
       <link rel="shortcut icon" href="/favicon.ico" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="theme-color" content="#f2f2f2">
       <meta name="description" content="Sumith's Portfolio website" />
       <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
       <link rel="apple-touch-icon" href="logo192.png" />
-      <link rel="manifest" href="/manifest.json" /></head><body><div id="root">`);
+      <link rel="manifest" href="/manifest.json" /></head><body><a class="skip-link" href="#root">Skip to main</a><div id="root">`);
 
   const content = sheet.collectStyles(
     <Provider store={store}>
@@ -67,56 +66,63 @@ export default async (req, res, store, context) => {
   // `);
 
   stream.pipe(res, { end: false });
-  stream.on('end', () => res.end('</div></body></html>'));
+  stream.on('end', () =>
+    res.end(`</div></body><div class="cursor"></div>
+  <script>
+      window.__PRELOADED_STATE__ = ${serialize(store.getState()).replace(/</g, '\\u003c')}
+  </script>
+  <script src="/bundle.js"></script></html>`)
+  );
+  return res;
 
-  return `<!DOCTYPE html>
-            <html lang="en">
-            <head>
-                ${helmet.title.toString()}
-                ${helmet.meta.toString()}
-                ${helmet.link.toString()}
-                <meta charset="utf-8">
-                <link rel="shortcut icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
-                <meta name="theme-color" content="#f2f2f2">
-                <meta name="description" content="Sumith's Portfolio website" />
-                <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-                <link rel="apple-touch-icon" href="logo192.png" />
-                <link rel="manifest" href="/manifest.json" />
-                ${stream}
-                <style>
-                body, input {
-                  margin:0;
-                  font-family: 'Ubuntu', sans-serif;
-                }
-                h1, h2, h3 {
-                  font-weight: 400;
-                }
-                ::-webkit-input-placeholder {
-                  color: rgb(188, 190, 192);
-                }
-              
-                :-ms-input-placeholder {
-                  color: rgb(188, 190, 192);
-                }
-              
-                ::placeholder {
-                  color: rgb(188, 190, 192);
-                }
-                </style>
-            </head>
-            <body>
-                <div id="root">${content}</div>
-                <div class="cursor"></div>
-                <script>
-                    window.__PRELOADED_STATE__ = ${serialize(store.getState()).replace(
-                      /</g,
-                      '\\u003c'
-                    )}
-                </script>
-                <script src="/bundle.js"></script>
-            </body>
-    </html>`;
+  // return `<!DOCTYPE html>
+  //           <html lang="en">
+  //           <head>
+  //               ${helmet.title.toString()}
+  //               ${helmet.meta.toString()}
+  //               ${helmet.link.toString()}
+  //               <meta charset="utf-8">
+  //               <link rel="shortcut icon" href="/favicon.ico" />
+  //               <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=0">
+  //               <meta name="theme-color" content="#f2f2f2">
+  //               <meta name="description" content="Sumith's Portfolio website" />
+  //               <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+  //               <link rel="apple-touch-icon" href="logo192.png" />
+  //               <link rel="manifest" href="/manifest.json" />
+  //               ${stream}
+  //               <style>
+  //               body, input {
+  //                 margin:0;
+  //                 font-family: 'Ubuntu', sans-serif;
+  //               }
+  //               h1, h2, h3 {
+  //                 font-weight: 400;
+  //               }
+  //               ::-webkit-input-placeholder {
+  //                 color: rgb(188, 190, 192);
+  //               }
+
+  //               :-ms-input-placeholder {
+  //                 color: rgb(188, 190, 192);
+  //               }
+
+  //               ::placeholder {
+  //                 color: rgb(188, 190, 192);
+  //               }
+  //               </style>
+  //           </head>
+  //           <body>
+  //               <div id="root">${content}</div>
+  //               <div class="cursor"></div>
+  //               <script>
+  //                   window.__PRELOADED_STATE__ = ${serialize(store.getState()).replace(
+  //                     /</g,
+  //                     '\\u003c'
+  //                   )}
+  //               </script>
+  //               <script src="/bundle.js"></script>
+  //           </body>
+  //   </html>`;
 };
 
 // const renderReactApp = (app, stylesheet, res) =>

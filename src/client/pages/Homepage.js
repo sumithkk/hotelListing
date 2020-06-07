@@ -39,7 +39,7 @@ const Banner = styled.div`
   font-size: 2rem;
   flex-direction: column;
   line-height: 2;
-  padding-top: 100px;
+  padding-top: 150px;
   background: #c0e3f3;
   .leftTree {
     transform: translate(0%, 40%);
@@ -174,7 +174,7 @@ const ArticleListPage = (props) => {
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
       <div className="row">
         <Banner>
-          <BannerBg className="bannerBg" width="129vh" />
+          <BannerBg className="bannerBg" width="120vh" />
           <BannerTxt>
             <div>Search for Hotels around the world!</div>
             <div>Choose Your City.</div>
@@ -226,11 +226,11 @@ const mapStateToProps = (state) => {
   };
 };
 
-const loadData = (store, param) => {
-  // For the connect tag we need Provider component but on the server at this moment app is not rendered yet
-  // So we need to use store itself to load data
-  return store.dispatch(getPropertyList(param)); // Manually dispatch a network request
-};
+// const loadData = (store, param) => {
+//   // For the connect tag we need Provider component but on the server at this moment app is not rendered yet
+//   // So we need to use store itself to load data
+//   return store.dispatch(getPropertyList(param)); // Manually dispatch a network request
+// };
 
 ArticleListPage.propTypes = {
   articles: PropTypes.arrayOf(PropTypes.any),
@@ -248,5 +248,4 @@ ArticleListPage.defaultProps = {
 
 export default {
   component: connect(mapStateToProps, { getPropertyList })(ArticleListPage),
-  loadData,
 };
