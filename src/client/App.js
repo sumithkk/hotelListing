@@ -8,13 +8,11 @@ import Header from './pages/HotelHeader';
 
 const App = ({ route }) => {
   return (
-    <div>
+    <React.Fragment>
       <Header />
-      <div className="container">
-        <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>
-      </div>
+      <ErrorBoundary>{renderRoutes(route.routes)}</ErrorBoundary>
       {/* <Footer /> */}
-    </div>
+    </React.Fragment>
   );
 };
 

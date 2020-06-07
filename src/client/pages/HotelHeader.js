@@ -26,27 +26,6 @@ const AppHeader = styled.div`
       display: none;
     }
   }
-
-  &.homepage {
-    background: url(https://pix10.agoda.net/hotelImages/101/1015998/1015998_15120409390038243686.jpg?s=1024x768)
-      no-repeat;
-    height: 500px;
-    background-position: center;
-    .searchBar {
-      position: absolute;
-      bottom: -47px;
-      margin: 0 auto;
-      width: 70%;
-      left: 0;
-      right: 0;
-      border-radius: 10px;
-      background: #fff;
-      padding: 20px;
-      -webkit-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
-      -moz-box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
-      box-shadow: 0px 1px 5px 0px rgba(102, 102, 102, 1);
-    }
-  }
 `;
 
 const HeaderTitle = styled.div`
@@ -385,54 +364,56 @@ const HotelHeader = (props) => {
   console.log(state.startDate);
   // if (!props) return <div />;
   return (
-    <AppHeader className="hotelHeader" style={{ width: '100%' }}>
-      <SearchBar className="searchBar">
-        <a href="/" className="brand">
-          HoTEL
-        </a>
-        <Search />
-        <DateWrap>
-          <DateRangeInput
-            onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
-            onFocusChange={(focusedInput) =>
-              dispatch({ type: 'focusChange', payload: focusedInput })
-            }
-            startDate={state.startDate} // Date or null
-            endDate={state.endDate} // Date or null
-            focusedInput={state.focusedInput} // START_DATE, END_DATE or null
-          />
-        </DateWrap>
-        <Adult>
-          <User />
-          <input
-            type="number"
-            style={{ width: '35px' }}
-            value={adult}
-            name="adult"
-            onChange={() => setAdult()}
-          />
-        </Adult>
-        <Adult>
-          <Filter />
-          <input type="text" value={sort} name="sort" onChange={() => setAdult()} />
-        </Adult>
-        <CTA type="button" name="search" onClick={() => handleSearch()}>
-          SEARCH
-        </CTA>
-        {searchResults !== '' && (
-          <React.Fragment>
-            <FilterButton>
-              <Sort />
-              Sort
-            </FilterButton>
-            <FilterButton>
-              {/* <Filter /> */}
-              Filter
-            </FilterButton>
-          </React.Fragment>
-        )}
-      </SearchBar>
-    </AppHeader>
+    <React.Fragment>
+      <AppHeader className="hotelHeader">
+        <SearchBar className="searchBar">
+          <a href="/" className="brand">
+            HoTEL
+          </a>
+          <Search />
+          <DateWrap>
+            <DateRangeInput
+              onDatesChange={(data) => dispatch({ type: 'dateChange', payload: data })}
+              onFocusChange={(focusedInput) =>
+                dispatch({ type: 'focusChange', payload: focusedInput })
+              }
+              startDate={state.startDate} // Date or null
+              endDate={state.endDate} // Date or null
+              focusedInput={state.focusedInput} // START_DATE, END_DATE or null
+            />
+          </DateWrap>
+          <Adult>
+            <User />
+            <input
+              type="number"
+              style={{ width: '35px' }}
+              value={adult}
+              name="adult"
+              onChange={() => setAdult()}
+            />
+          </Adult>
+          <Adult>
+            <Filter />
+            <input type="text" value={sort} name="sort" onChange={() => setAdult()} />
+          </Adult>
+          <CTA type="button" name="search" onClick={() => handleSearch()}>
+            SEARCH
+          </CTA>
+          {searchResults !== '' && (
+            <React.Fragment>
+              <FilterButton>
+                <Sort />
+                Sort
+              </FilterButton>
+              <FilterButton>
+                {/* <Filter /> */}
+                Filter
+              </FilterButton>
+            </React.Fragment>
+          )}
+        </SearchBar>
+      </AppHeader>
+    </React.Fragment>
   );
 };
 
@@ -447,7 +428,7 @@ const mapStateToProps = (state) => {
 //   component: connect(mapStateToProps)(HotelHeader),
 // };
 
-// export default React.memo(connect(mapStateToProps)(HotelHeader));
+export default connect(mapStateToProps)(HotelHeader);
 
-const MemoHotelHeader = React.memo(HotelHeader);
-export default connect(mapStateToProps)(MemoHotelHeader);
+// const MemoHotelHeader = React.memo(HotelHeader);
+// export default connect(mapStateToProps)(MemoHotelHeader);

@@ -44,6 +44,8 @@ app.get('*', (req, res) => {
   // We create store before rendering html
   const store = createStore();
   // We pass store to renderer
+  console.log('============= RES ==============');
+  console.log(res);
 
   // Checks the given path, matches with component and returns array of items about to be rendered
   const routes = matchRoutes(Routes, req.path);
@@ -66,7 +68,7 @@ app.get('*', (req, res) => {
   // Wait for all the loadData functions, if they are resolved, send the rendered html to browser.
   Promise.all(promises).then(() => {
     const context = {};
-    const content = renderer(req, store, context);
+    const content = renderer(req, res, store, context);
 
     if (context.notFound) {
       res.status(404);
